@@ -1,181 +1,11 @@
-<!DOCTYPE html>
-<html lang="es">
-<head>
-  <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width,initial-scale=1" />
-  <title>Repaso — Fundamentos y Arquitectura de Redes | CITEN</title>
-  <style>
-    :root {
-      --azul: #002855;
-      --blanco: #ffffff;
-      --ok: #2e7d32;
-      --bad: #c62828;
-      --bg: #f4f7fb;
-      --card: #fff;
-    }
-    body {
-      font-family: "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
-      background: var(--bg);
-      color: #222;
-      margin: 0;
-      padding: 0;
-    }
-    header {
-      background: var(--azul);
-      color: var(--blanco);
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-      text-align: center;
-      padding: 18px 10px 10px 10px;
-    }
-    header .top-row {
-      display:flex;
-      align-items:center;
-      gap:14px;
-      width:100%;
-      max-width:980px;
-      padding:0 14px;
-    }
-    header img {
-      width: 84px;
-      height: auto;
-      display:block;
-    }
-    header .titles {
-      flex:1;
-      text-align:left;
-      color:var(--blanco);
-    }
-    header h1 {
-      margin: 0;
-      font-size: 1.15rem;
-      font-weight: 700;
-      letter-spacing: 0.2px;
-    }
-    header h2 {
-      margin: 4px 0 0 0;
-      font-size: 0.98rem;
-      font-weight: 500;
-    }
-    header .creditos {
-      font-size: 0.85rem;
-      color: #d6e6ff;
-      margin-top:8px;
-    }
-
-    .contenedor {
-      max-width: 980px;
-      margin: 18px auto;
-      padding: 0 14px 40px 14px;
-    }
-    .controls {
-      display: flex;
-      flex-wrap: wrap;
-      gap: 10px;
-      align-items: center;
-      margin-bottom: 12px;
-    }
-    .controls label { font-weight:600; margin-right:6px }
-    select, button, input[type=number] {
-      padding: 8px 10px;
-      border-radius: 8px;
-      border: 1px solid #cfd8e6;
-      background: #fff;
-      font-size: 0.95rem;
-    }
-    .modeGroup { display:flex; gap:12px; align-items:center }
-    .modeGroup label { font-weight:500 }
-    .pregunta {
-      background: var(--card);
-      border-radius: 10px;
-      padding: 16px;
-      margin-bottom: 12px;
-      box-shadow: 0 2px 10px rgba(10, 20, 40, 0.04);
-    }
-    .pregunta h3 {
-      margin: 0 0 8px;
-      font-size: 1.05rem;
-      color: var(--azul);
-    }
-    .opcion {
-      display: block;
-      padding: 8px;
-      border-radius: 8px;
-      margin: 6px 0;
-      cursor: pointer;
-    }
-    .opcion.disabled { opacity: 0.7; pointer-events: none }
-    .feedback { font-weight: 700; margin-top: 10px }
-    .feedback.ok { color: var(--ok) }
-    .feedback.bad { color: var(--bad) }
-    .barra { height: 8px; background: #e6eefc; border-radius: 8px; overflow: hidden; margin: 12px 0 }
-    .barra > span { display:block; height:100%; background: linear-gradient(90deg,#42a5f5,#1e88e5); width:0% }
-    #resultado { background:#fff; padding:14px; border-radius:10px; box-shadow: 0 2px 8px rgba(0,0,0,0.05); font-size:1rem; margin-top:10px }
-    .notaError { color: var(--bad); font-weight:700; }
-    footer { text-align:center; font-size:0.85rem; color:#555; margin-top:20px }
-    @media (max-width:720px) {
-      header .top-row { flex-direction:column; align-items:center; text-align:center }
-      header .titles { text-align:center }
-      .controls { flex-direction:column; align-items:stretch }
-    }
-  </style>
-</head>
-<body>
-  <header>
-    <div class="top-row">
-      <img src="citen-escudo.gif" alt="Escudo CITEN" />
-      <div class="titles">
-        <h1>Centro de Instrucción Técnica y Entrenamiento Naval – CITEN</h1>
-        <h2>Repaso — Fundamentos y Arquitectura de Redes</h2>
-        <div class="creditos">Elaborado por José Carlos Sosa Villamonte — Instituto de Educación Superior Tecnológico Público Naval</div>
-      </div>
-    </div>
-  </header>
-
-  <div class="contenedor">
-    <div class="controls">
-      <label for="cantidadSelect">Cantidad (si no usa rango):</label>
-      <select id="cantidadSelect">
-        <option value="10">10 preguntas</option>
-        <option value="20" selected>20 preguntas</option>
-        <option value="50">50 preguntas</option>
-      </select>
-
-      <div style="display:flex;flex-direction:column;">
-        <label style="font-weight:600">Modo de estudio:</label>
-        <div class="modeGroup">
-          <label><input type="radio" name="mode" value="secuencial" checked> Secuencial</label>
-          <label><input type="radio" name="mode" value="aleatorio"> Aleatorio</label>
-        </div>
-      </div>
-
-      <div style="display:flex;gap:8px;align-items:center;">
-        <label for="startQ">Inicio (n°):</label>
-        <input id="startQ" type="number" min="1" placeholder="1" style="width:84px" />
-        <label for="endQ">Fin (n°):</label>
-        <input id="endQ" type="number" min="1" placeholder="10" style="width:84px" />
-      </div>
-
-      <button id="btnIniciar">Iniciar</button>
-      <button id="btnReiniciar" style="display:none">Reiniciar</button>
-    </div>
-
-    <div class="notaError" id="errorBox" style="display:none;margin-bottom:8px"></div>
-
-    <div class="barra"><span id="barraProgreso"></span></div>
-    <main id="main"></main>
-    <div id="resultado" style="display:none"></div>
-  </div>
-
-  <footer>&copy; 2025 — CITEN | Fundamentos y Arquitectura de Redes</footer>
-
 
 <script>
 /*
-  Versión extendida con subtítulo dinámico que muestra:
-  - rango de preguntas del banco (inicio–fin)
-  - o cantidad seleccionada + modo de estudio
+  Versión final CITEN ⚑
+  - Banner azul marino institucional (#002855)
+  - Ícono de bandera ⚑
+  - Indica rango o cantidad + modo (Secuencial/Aleatorio)
+  - Muestra número original del banco [#N]
 */
 
 const RUTA_JSON = "preguntas.json";
@@ -221,14 +51,33 @@ function crearVista() {
   const cont = document.getElementById("main");
   cont.innerHTML = "";
 
-  // Mostrar subtítulo dinámico antes de las preguntas
+  // ⚑ Banner azul marino institucional CITEN
   if (subtituloActual) {
-    const info = document.createElement("p");
-    info.style.fontWeight = "600";
-    info.style.color = "#1e3a8a";
-    info.style.margin = "8px 0 14px 0";
-    info.textContent = subtituloActual;
-    cont.appendChild(info);
+    const banner = document.createElement("div");
+    banner.style.background = "#002855";
+    banner.style.color = "white";
+    banner.style.fontWeight = "600";
+    banner.style.padding = "10px 14px";
+    banner.style.borderRadius = "8px";
+    banner.style.boxShadow = "0 2px 8px rgba(0,0,0,0.2)";
+    banner.style.marginBottom = "14px";
+    banner.style.display = "flex";
+    banner.style.alignItems = "center";
+    banner.style.gap = "10px";
+
+    const icono = document.createElement("span");
+    icono.textContent = "⚑";
+    icono.style.fontSize = "1.4rem";
+    icono.style.lineHeight = "1";
+    icono.style.display = "flex";
+    icono.style.alignItems = "center";
+
+    const texto = document.createElement("span");
+    texto.textContent = subtituloActual;
+
+    banner.appendChild(icono);
+    banner.appendChild(texto);
+    cont.appendChild(banner);
   }
 
   respuestasUsuario = Array(preguntasActivas.length).fill(null);
@@ -352,13 +201,8 @@ function iniciarSesion() {
       mostrarError(`Rango fuera de límites. El banco tiene ${preguntasAll.length} preguntas.`);
       return;
     }
-    try {
-      preguntasActivas = construirSesionDesdeRango(inicio, fin, modo);
-      subtituloActual = `Preguntas del banco: ${inicio} – ${fin}  (modo: ${modo.charAt(0).toUpperCase() + modo.slice(1)})`;
-    } catch (err) {
-      mostrarError(err.message);
-      return;
-    }
+    preguntasActivas = construirSesionDesdeRango(inicio, fin, modo);
+    subtituloActual = `Preguntas del banco: ${inicio} – ${fin}  (modo: ${modo.charAt(0).toUpperCase() + modo.slice(1)})`;
   } else {
     if (!Number.isInteger(cantidad) || cantidad < 1) {
       mostrarError("Selecciona una cantidad válida (10, 20, 50).");
@@ -401,8 +245,3 @@ document.getElementById("btnIniciar").addEventListener("click", iniciarSesion);
 document.getElementById("btnReiniciar").addEventListener("click", reiniciar);
 window.addEventListener("DOMContentLoaded", async () => { await cargarPreguntas(); });
 </script>
-
-
-
-</body>
-</html>
