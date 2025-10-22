@@ -1,4 +1,4 @@
-{"id":"10005","variant":"standard/chat_message","title":"README.md para repositorio del simulador"}
+
 # 🧠 Simulador de Práctica — Fundamentos y Arquitectura de Redes
 
 Este proyecto es un **simulador interactivo de evaluación** desarrollado para los estudiantes del  
