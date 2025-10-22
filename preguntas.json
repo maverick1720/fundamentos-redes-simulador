@@ -1,6 +1,6 @@
 [
     {
-        "id": 1,
+        
         "pregunta": "¿Qué es una red informática?",
         "opciones": [
             "Un grupo de usuarios conectados por teléfono",
@@ -8,7 +8,7 @@
             "Un software para procesar datos",
             "Un tipo de servidor"
         ],
-        "respuesta_correcta": 1,
+        "correcta": 1,
         "categoria": "Conceptos básicos de redes"
     },
     {
@@ -20,7 +20,7 @@
             "set console",
             "enable console"
         ],
-        "respuesta_correcta": 0,
+        "correcta": 0,
         "categoria": "Comandos de red"
     },
     {
@@ -32,7 +32,7 @@
             "Aumentar el tamaño del disco duro",
             "Reducir la memoria RAM"
         ],
-        "respuesta_correcta": 1,
+        "correcta": 1,
         "categoria": "Conceptos básicos de redes"
     },
     {
@@ -44,7 +44,7 @@
             "Microondas",
             "Infrarrojos"
         ],
-        "respuesta_correcta": 0,
+        "correcta": 0,
         "categoria": "Cableado y medios"
     },
     {
@@ -56,7 +56,7 @@
             "Firewall",
             "Módem"
         ],
-        "respuesta_correcta": 1,
+        "correcta": 1,
         "categoria": "Dispositivos de red"
     },
     {
@@ -68,7 +68,7 @@
             "password secure",
             "crypto password"
         ],
-        "respuesta_correcta": 1,
+        "correcta": 1,
         "categoria": "Comandos de red"
     },
     {
@@ -80,7 +80,7 @@
             "Un software de comunicación",
             "Un sistema operativo"
         ],
-        "respuesta_correcta": 1,
+        "correcta": 1,
         "categoria": "Conceptos básicos de redes"
     },
     {
@@ -92,7 +92,7 @@
             "Telecom International Association",
             "Technical Information Alliance"
         ],
-        "respuesta_correcta": 1,
+        "correcta": 1,
         "categoria": "Cableado y medios"
     },
     {
@@ -104,7 +104,7 @@
             "Diseñar conectores de fibra óptica",
             "Mejorar la velocidad del Internet"
         ],
-        "respuesta_correcta": 1,
+        "correcta": 1,
         "categoria": "Cableado y medios"
     },
     {
@@ -116,7 +116,7 @@
             "RJ45",
             "RJ11"
         ],
-        "respuesta_correcta": 2,
+        "correcta": 2,
         "categoria": "Cableado y medios"
     },
     {
@@ -128,7 +128,7 @@
             "90 m",
             "120 m"
         ],
-        "respuesta_correcta": 2,
+        "correcta": 2,
         "categoria": "Cableado y medios"
     },
     {
@@ -140,7 +140,7 @@
             "Caballo de Troya",
             "Spyware"
         ],
-        "respuesta_correcta": 2,
+        "correcta": 2,
         "categoria": "Seguridad informática"
     },
     {
@@ -152,7 +152,7 @@
             "Pulsos de luz",
             "Señales infrarrojas"
         ],
-        "respuesta_correcta": 2,
+        "correcta": 2,
         "categoria": "Cableado y medios"
     },
     {
@@ -164,7 +164,7 @@
             "Estrella",
             "Malla"
         ],
-        "respuesta_correcta": 2,
+        "correcta": 2,
         "categoria": "Topologías"
     },
     {
@@ -176,7 +176,7 @@
             "Man-in-the-middle",
             "Phishing"
         ],
-        "respuesta_correcta": 2,
+        "correcta": 2,
         "categoria": "Seguridad informática"
     },
     {
@@ -188,7 +188,7 @@
             "Un software antivirus",
             "Un tipo de malware"
         ],
-        "respuesta_correcta": 1,
+        "correcta": 1,
         "categoria": "Seguridad informática"
     },
     {
@@ -200,7 +200,7 @@
             "Módem",
             "Repetidor"
         ],
-        "respuesta_correcta": 1,
+        "correcta": 1,
         "categoria": "Dispositivos de red"
     },
     {
@@ -212,7 +212,7 @@
             "/all",
             "/flushdns"
         ],
-        "respuesta_correcta": 1,
+        "correcta": 1,
         "categoria": "Comandos de red"
     },
     {
@@ -224,7 +224,7 @@
             "Cables coaxiales y de audio",
             "Cables de alimentación eléctrica"
         ],
-        "respuesta_correcta": 0,
+        "correcta": 0,
         "categoria": "Cableado y medios"
     },
     {
@@ -236,7 +236,7 @@
             "Azul",
             "Marrón"
         ],
-        "respuesta_correcta": 1,
+        "correcta": 1,
         "categoria": "Cableado y medios"
     },
     {
@@ -248,7 +248,7 @@
             "Módem",
             "Repetidor"
         ],
-        "respuesta_correcta": 2,
+        "correcta": 2,
         "categoria": "Dispositivos de red"
     },
     {
@@ -260,7 +260,7 @@
             "Antivirus",
             "DMZ"
         ],
-        "respuesta_correcta": 1,
+        "correcta": 1,
         "categoria": "Seguridad informática"
     },
     {
@@ -272,7 +272,7 @@
             "Las redes deben usarse de manera responsable para maximizar sus beneficios",
             "El uso de redes no tiene impacto en la interacción social"
         ],
-        "respuesta_correcta": 2,
+        "correcta": 2,
         "categoria": "Conceptos básicos de redes"
     },
     {
@@ -284,7 +284,7 @@
             "LAN",
             "PAN"
         ],
-        "respuesta_correcta": 2,
+        "correcta": 2,
         "categoria": "Conceptos básicos de redes"
     },
     {
@@ -296,7 +296,7 @@
             "Long Area Network",
             "Linked Access Network"
         ],
-        "respuesta_correcta": 1,
+        "correcta": 1,
         "categoria": "Conceptos básicos de redes"
     },
     {
@@ -308,7 +308,7 @@
             "PAN",
             "LAN"
         ],
-        "respuesta_correcta": 2,
+        "correcta": 2,
         "categoria": "Conceptos básicos de redes"
     },
     {
@@ -320,7 +320,7 @@
             "PAN",
             "WAN"
         ],
-        "respuesta_correcta": 1,
+        "correcta": 1,
         "categoria": "Conceptos básicos de redes"
     },
     {
@@ -332,7 +332,7 @@
             "WAN",
             "WLAN"
         ],
-        "respuesta_correcta": 2,
+        "correcta": 2,
         "categoria": "Conceptos básicos de redes"
     },
     {
@@ -344,7 +344,7 @@
             "Netstat",
             "Nslookup"
         ],
-        "respuesta_correcta": 1,
+        "correcta": 1,
         "categoria": "Comandos de red"
     },
     {
@@ -356,7 +356,7 @@
             "tracert/traceroute",
             "nslookup"
         ],
-        "respuesta_correcta": 2,
+        "correcta": 2,
         "categoria": "Comandos de red"
     },
     {
@@ -368,7 +368,7 @@
             "HTTP",
             "DNS"
         ],
-        "respuesta_correcta": 2,
+        "correcta": 2,
         "categoria": "Protocolos y servicios"
     },
     {
@@ -380,7 +380,7 @@
             "APNIC administra la región EUROPA, ARIN administra AMÉRICA LATINA, LACNIC administra AMÉRICA DEL NORTE, RIPE NCC administra ÁFRICA",
             "APNIC administra la región AMÉRICA DEL NORTE, ARIN administra ASIA, LACNIC administra ÁFRICA, RIPE NCC administra EUROPA"
         ],
-        "respuesta_correcta": 1,
+        "correcta": 1,
         "categoria": "Direccionamiento IP"
     },
     {
@@ -392,7 +392,7 @@
             "Bajo rendimiento",
             "Congestión de red"
         ],
-        "respuesta_correcta": 1,
+        "correcta": 1,
         "categoria": "Direccionamiento IP"
     },
     {
@@ -404,7 +404,7 @@
             "Nslookup",
             "netstat"
         ],
-        "respuesta_correcta": 2,
+        "correcta": 2,
         "categoria": "Comandos de red"
     },
     {
@@ -416,7 +416,7 @@
             "Capa de red",
             "Capa de enlace de datos"
         ],
-        "respuesta_correcta": 1,
+        "correcta": 1,
         "categoria": "Modelo OSI"
     },
     {
@@ -428,7 +428,7 @@
             "FTP",
             "IP"
         ],
-        "respuesta_correcta": 1,
+        "correcta": 1,
         "categoria": "Protocolos y servicios"
     },
     {
@@ -440,7 +440,7 @@
             "Repetidor",
             "Módem"
         ],
-        "respuesta_correcta": 2,
+        "correcta": 2,
         "categoria": "Dispositivos de red"
     },
     {
@@ -452,7 +452,7 @@
             "Amplificar la señal",
             "Convertir señales analógicas a digitales"
         ],
-        "respuesta_correcta": 1,
+        "correcta": 1,
         "categoria": "Dispositivos de red"
     },
     {
@@ -464,7 +464,7 @@
             "Router",
             "Módem"
         ],
-        "respuesta_correcta": 2,
+        "correcta": 2,
         "categoria": "Dispositivos de red"
     },
     {
@@ -476,7 +476,7 @@
             "Interferencia de otras redes",
             "Falta de conectividad"
         ],
-        "respuesta_correcta": 1,
+        "correcta": 1,
         "categoria": "Conceptos básicos de redes"
     },
     {
@@ -488,7 +488,7 @@
             "Aumentar el costo de infraestructura",
             "Eliminar la seguridad de la red"
         ],
-        "respuesta_correcta": 1,
+        "correcta": 1,
         "categoria": "Computación en la nube"
     },
     {
@@ -500,7 +500,7 @@
             "Sistema como Servicio",
             "Servidor como Sistema"
         ],
-        "respuesta_correcta": 1,
+        "correcta": 1,
         "categoria": "Computación en la nube"
     },
     {
@@ -512,7 +512,7 @@
             "Switches",
             "Routers"
         ],
-        "respuesta_correcta": 1,
+        "correcta": 1,
         "categoria": "Dispositivos de red"
     },
     {
@@ -524,7 +524,7 @@
             "Capa física",
             "Capa de aplicación"
         ],
-        "respuesta_correcta": 2,
+        "correcta": 2,
         "categoria": "Modelo OSI"
     },
     {
@@ -536,7 +536,7 @@
             "128 bits",
             "16 bits"
         ],
-        "respuesta_correcta": 1,
+        "correcta": 1,
         "categoria": "Direccionamiento IP"
     },
     {
@@ -548,7 +548,7 @@
             "Clase C",
             "Clase D"
         ],
-        "respuesta_correcta": 2,
+        "correcta": 2,
         "categoria": "Direccionamiento IP"
     },
     {
@@ -560,7 +560,7 @@
             "DHCP",
             "HTTP"
         ],
-        "respuesta_correcta": 2,
+        "correcta": 2,
         "categoria": "Protocolos y servicios"
     },
     {
@@ -572,7 +572,7 @@
             "192.168.0.0",
             "169.254.0.0"
         ],
-        "respuesta_correcta": 2,
+        "correcta": 2,
         "categoria": "Direccionamiento IP"
     },
     {
@@ -584,7 +584,7 @@
             "RIR",
             "IEEE"
         ],
-        "respuesta_correcta": 1,
+        "correcta": 1,
         "categoria": "Direccionamiento IP"
     },
     {
@@ -596,7 +596,7 @@
             "255.255.255.0",
             "255.255.255.255"
         ],
-        "respuesta_correcta": 0,
+        "correcta": 0,
         "categoria": "Direccionamiento IP"
     },
     {
@@ -608,7 +608,7 @@
             "10.0.0.1",
             "172.16.0.1"
         ],
-        "respuesta_correcta": 1,
+        "correcta": 1,
         "categoria": "Direccionamiento IP"
     },
     {
@@ -620,7 +620,7 @@
             "Clase C",
             "Clase D"
         ],
-        "respuesta_correcta": 3,
+        "correcta": 3,
         "categoria": "Direccionamiento IP"
     },
     {
@@ -632,7 +632,7 @@
             "192 - 223",
             "224 - 239"
         ],
-        "respuesta_correcta": 1,
+        "correcta": 1,
         "categoria": "Direccionamiento IP"
     },
     {
@@ -644,7 +644,7 @@
             "3",
             "4"
         ],
-        "respuesta_correcta": 1,
+        "correcta": 1,
         "categoria": "Direccionamiento IP"
     },
     {
@@ -656,7 +656,7 @@
             "192.169.1.1",
             "10.0.0.1"
         ],
-        "respuesta_correcta": 3,
+        "correcta": 3,
         "categoria": "Direccionamiento IP"
     },
     {
@@ -668,7 +668,7 @@
             "El técnico local",
             "El programador"
         ],
-        "respuesta_correcta": 1,
+        "correcta": 1,
         "categoria": "Computación en la nube"
     },
     {
@@ -680,7 +680,7 @@
             "Un protocolo de correo electrónico",
             "Un tipo de cable de red"
         ],
-        "respuesta_correcta": 1,
+        "correcta": 1,
         "categoria": "Direccionamiento IP"
     },
     {
@@ -692,7 +692,7 @@
             "IaaS",
             "ITaaS"
         ],
-        "respuesta_correcta": 2,
+        "correcta": 2,
         "categoria": "Computación en la nube"
     },
     {
@@ -704,7 +704,7 @@
             "IP Estática",
             "IP Privada"
         ],
-        "respuesta_correcta": 2,
+        "correcta": 2,
         "categoria": "Direccionamiento IP"
     },
     {
@@ -716,7 +716,7 @@
             "DHCP",
             "FTP"
         ],
-        "respuesta_correcta": 2,
+        "correcta": 2,
         "categoria": "Protocolos y servicios"
     },
     {
@@ -728,7 +728,7 @@
             "Clase A",
             "Clase D"
         ],
-        "respuesta_correcta": 2,
+        "correcta": 2,
         "categoria": "Direccionamiento IP"
     },
     {
@@ -740,7 +740,7 @@
             "Subnet Mask",
             "DNS"
         ],
-        "respuesta_correcta": 1,
+        "correcta": 1,
         "categoria": "Direccionamiento IP"
     },
     {
@@ -752,7 +752,7 @@
             "Capa 3",
             "Capa 4"
         ],
-        "respuesta_correcta": 1,
+        "correcta": 1,
         "categoria": "Modelo OSI"
     },
     {
@@ -764,7 +764,7 @@
             "Automatic Public IP Addressing, 10.0.0.0/8",
             "Advanced Public IP Assignment, 172.16.0.0/12"
         ],
-        "respuesta_correcta": 0,
+        "correcta": 0,
         "categoria": "Direccionamiento IP"
     },
     {
@@ -776,7 +776,7 @@
             "0.0.0.0 a 127.255.255.255",
             "224.0.0.0 a 239.255.255.255"
         ],
-        "respuesta_correcta": 2,
+        "correcta": 2,
         "categoria": "Direccionamiento IP"
     },
     {
@@ -788,7 +788,7 @@
             "Clase C",
             "Clase D"
         ],
-        "respuesta_correcta": 1,
+        "correcta": 1,
         "categoria": "Direccionamiento IP"
     },
     {
@@ -800,7 +800,7 @@
             "Ondas de radio",
             "Señales magnéticas"
         ],
-        "respuesta_correcta": 1,
+        "correcta": 1,
         "categoria": "Cableado y medios"
     },
     {
@@ -812,7 +812,7 @@
             "Privada",
             "Híbrida"
         ],
-        "respuesta_correcta": 2,
+        "correcta": 2,
         "categoria": "Computación en la nube"
     },
     {
@@ -824,7 +824,7 @@
             "Transmisión de Comunicación por Internet",
             "Transferencia de Conexión de Protocolo"
         ],
-        "respuesta_correcta": 1,
+        "correcta": 1,
         "categoria": "Protocolos y servicios"
     },
     {
@@ -836,7 +836,7 @@
             "TCP",
             "DNS"
         ],
-        "respuesta_correcta": 2,
+        "correcta": 2,
         "categoria": "Protocolos y servicios"
     },
     {
@@ -848,7 +848,7 @@
             "UDP",
             "SMTP"
         ],
-        "respuesta_correcta": 2,
+        "correcta": 2,
         "categoria": "Protocolos y servicios"
     },
     {
@@ -860,7 +860,7 @@
             "FTP",
             "UDP"
         ],
-        "respuesta_correcta": 1,
+        "correcta": 1,
         "categoria": "Protocolos y servicios"
     },
     {
@@ -872,7 +872,7 @@
             "443",
             "53"
         ],
-        "respuesta_correcta": 1,
+        "correcta": 1,
         "categoria": "Protocolos y servicios"
     },
     {
@@ -884,7 +884,7 @@
             "21",
             "53"
         ],
-        "respuesta_correcta": 1,
+        "correcta": 1,
         "categoria": "Protocolos y servicios"
     },
     {
@@ -896,7 +896,7 @@
             "UDP",
             "FTP"
         ],
-        "respuesta_correcta": 2,
+        "correcta": 2,
         "categoria": "Protocolos y servicios"
     },
     {
@@ -908,7 +908,7 @@
             "DNS",
             "SMTP"
         ],
-        "respuesta_correcta": 1,
+        "correcta": 1,
         "categoria": "Protocolos y servicios"
     },
     {
@@ -920,7 +920,7 @@
             "La quinta capa",
             "La sexta capa"
         ],
-        "respuesta_correcta": 2,
+        "correcta": 2,
         "categoria": "Modelo OSI"
     },
     {
@@ -932,7 +932,7 @@
             "Una sesión",
             "Conexión física"
         ],
-        "respuesta_correcta": 2,
+        "correcta": 2,
         "categoria": "Modelo OSI"
     },
     {
@@ -944,7 +944,7 @@
             "Bluetooth",
             "Ethernet"
         ],
-        "respuesta_correcta": 2,
+        "correcta": 2,
         "categoria": "Cableado y medios"
     },
     {
@@ -956,7 +956,7 @@
             "HTTPS",
             "TFTP"
         ],
-        "respuesta_correcta": 2,
+        "correcta": 2,
         "categoria": "Protocolos y servicios"
     },
     {
@@ -968,7 +968,7 @@
             "Half-Duplex Mode (Two-Way Alternate -- TWA)",
             "Conexión de difusión"
         ],
-        "respuesta_correcta": 2,
+        "correcta": 2,
         "categoria": "Conceptos básicos de redes"
     },
     {
@@ -980,7 +980,7 @@
             "La Capa de Presentación",
             "La Capa de Aplicación"
         ],
-        "respuesta_correcta": 2,
+        "correcta": 2,
         "categoria": "Modelo OSI"
     },
     {
@@ -992,7 +992,7 @@
             "Categoría 5e",
             "Cable serial"
         ],
-        "respuesta_correcta": 2,
+        "correcta": 2,
         "categoria": "Cableado y medios"
     },
     {
@@ -1004,7 +1004,7 @@
             "SSID",
             "WAN"
         ],
-        "respuesta_correcta": 2,
+        "correcta": 2,
         "categoria": "Conceptos básicos de redes"
     },
     {
@@ -1016,7 +1016,7 @@
             "Fibra óptica",
             "Ethernet"
         ],
-        "respuesta_correcta": 1,
+        "correcta": 1,
         "categoria": "Cableado y medios"
     },
     {
@@ -1028,7 +1028,7 @@
             "Puerto Internet",
             "Puerto de consola"
         ],
-        "respuesta_correcta": 2,
+        "correcta": 2,
         "categoria": "Dispositivos de red"
     },
     {
@@ -1040,7 +1040,7 @@
             "Tener el mismo Nombre de la red (SSID)",
             "Configurar manualmente el Canal Estándar"
         ],
-        "respuesta_correcta": 2,
+        "correcta": 2,
         "categoria": "Conceptos básicos de redes"
     },
     {
@@ -1052,7 +1052,7 @@
             "IEEE 802.5",
             "IEEE 802.15"
         ],
-        "respuesta_correcta": 1,
+        "correcta": 1,
         "categoria": "Cableado y medios"
     },
     {
@@ -1064,7 +1064,7 @@
             "Troyano",
             "Spoofing"
         ],
-        "respuesta_correcta": 1,
+        "correcta": 1,
         "categoria": "Seguridad informática"
     },
     {
@@ -1076,7 +1076,7 @@
             "Realizar copias de seguridad periódicas",
             "Desactivar el firewall"
         ],
-        "respuesta_correcta": 2,
+        "correcta": 2,
         "categoria": "Seguridad informática"
     },
     {
@@ -1088,7 +1088,7 @@
             "Capa 7",
             "Capa 5"
         ],
-        "respuesta_correcta": 2,
+        "correcta": 2,
         "categoria": "Modelo OSI"
     },
     {
@@ -1100,7 +1100,7 @@
             "HTTP/HTTPS",
             "DNS"
         ],
-        "respuesta_correcta": 2,
+        "correcta": 2,
         "categoria": "Protocolos y servicios"
     },
     {
@@ -1112,7 +1112,7 @@
             "Confidencialidad",
             "Transparencia"
         ],
-        "respuesta_correcta": 2,
+        "correcta": 2,
         "categoria": "Seguridad informática"
     },
     {
@@ -1124,7 +1124,7 @@
             "Privacidad",
             "Seguridad"
         ],
-        "respuesta_correcta": 1,
+        "correcta": 1,
         "categoria": "Seguridad informática"
     },
     {
@@ -1136,7 +1136,7 @@
             "Asegurar que los datos transmitidos sean interpretables por el receptor",
             "Optimizar el uso de la Capa de Red"
         ],
-        "respuesta_correcta": 2,
+        "correcta": 2,
         "categoria": "Modelo OSI"
     },
     {
@@ -1148,7 +1148,7 @@
             "UTF-8",
             "Base64"
         ],
-        "respuesta_correcta": 2,
+        "correcta": 2,
         "categoria": "Protocolos y servicios"
     },
     {
@@ -1160,7 +1160,7 @@
             "MPEG",
             "TLS"
         ],
-        "respuesta_correcta": 1,
+        "correcta": 1,
         "categoria": "Modelo OSI"
     },
     {
@@ -1172,7 +1172,7 @@
             "Mejorar la estética del sistema",
             "Compartir archivos"
         ],
-        "respuesta_correcta": 1,
+        "correcta": 1,
         "categoria": "Seguridad informática"
     },
     {
@@ -1184,7 +1184,7 @@
             "Servir como almacenamiento de datos",
             "Crear copias de seguridad"
         ],
-        "respuesta_correcta": 1,
+        "correcta": 1,
         "categoria": "Seguridad informática"
     },
     {
@@ -1196,7 +1196,7 @@
             "set name",
             "routername"
         ],
-        "respuesta_correcta": 0,
+        "correcta": 0,
         "categoria": "Comandos de red"
     },
     {
@@ -1208,7 +1208,7 @@
             "Fibra óptica",
             "Telefonía IP"
         ],
-        "respuesta_correcta": 1,
+        "correcta": 1,
         "categoria": "Conceptos básicos de redes"
     },
     {
@@ -1220,7 +1220,7 @@
             "Dirigir tráfico dentro de la LAN",
             "Almacenar datos"
         ],
-        "respuesta_correcta": 1,
+        "correcta": 1,
         "categoria": "Seguridad informática"
     },
     {
@@ -1232,7 +1232,7 @@
             "La categoría de velocidad",
             "El tipo de conector"
         ],
-        "respuesta_correcta": 1,
+        "correcta": 1,
         "categoria": "Cableado y medios"
     },
     {
@@ -1244,7 +1244,7 @@
             "Malla",
             "Árbol"
         ],
-        "respuesta_correcta": 2,
+        "correcta": 2,
         "categoria": "Topologías"
     },
     {
@@ -1256,7 +1256,7 @@
             "Cat 6",
             "Cat 7"
         ],
-        "respuesta_correcta": 1,
+        "correcta": 1,
         "categoria": "Cableado y medios"
     },
     {
@@ -1268,7 +1268,7 @@
             "Mixta",
             "Reflectiva"
         ],
-        "respuesta_correcta": 1,
+        "correcta": 1,
         "categoria": "Cableado y medios"
     },
     {
@@ -1280,7 +1280,7 @@
             "Árbol",
             "Híbrida"
         ],
-        "respuesta_correcta": 2,
+        "correcta": 2,
         "categoria": "Topologías"
     },
     {
@@ -1292,7 +1292,7 @@
             "Tipo de cableado de fibra",
             "Norma de coloración"
         ],
-        "respuesta_correcta": 0,
+        "correcta": 0,
         "categoria": "Cableado y medios"
     },
     {
@@ -1304,7 +1304,7 @@
             "Cifrar los datos",
             "Controlar la sesión"
         ],
-        "respuesta_correcta": 1,
+        "correcta": 1,
         "categoria": "Modelo OSI"
     },
     {
@@ -1316,7 +1316,7 @@
             "TIA",
             "IAB"
         ],
-        "respuesta_correcta": 1,
+        "correcta": 1,
         "categoria": "Direccionamiento IP"
     },
     {
@@ -1328,7 +1328,7 @@
             "Capa de sesión",
             "Capa física"
         ],
-        "respuesta_correcta": 1,
+        "correcta": 1,
         "categoria": "Modelo OSI"
     },
     {
@@ -1340,7 +1340,7 @@
             "Crear redes virtuales",
             "Gestionar direcciones IP"
         ],
-        "respuesta_correcta": 1,
+        "correcta": 1,
         "categoria": "Modelo OSI"
     },
     {
@@ -1352,7 +1352,7 @@
             "11111111.00000000.00000000.00000000",
             "11111111.11111111.11111111.11111111"
         ],
-        "respuesta_correcta": 1,
+        "correcta": 1,
         "categoria": "Direccionamiento IP"
     },
     {
@@ -1364,7 +1364,7 @@
             "IP Clase E",
             "IP Multicast"
         ],
-        "respuesta_correcta": 1,
+        "correcta": 1,
         "categoria": "Direccionamiento IP"
     },
     {
@@ -1376,7 +1376,7 @@
             "192.0.0.0 - 223.255.255.255",
             "224.0.0.0 - 239.255.255.255"
         ],
-        "respuesta_correcta": 1,
+        "correcta": 1,
         "categoria": "Direccionamiento IP"
     },
     {
@@ -1388,7 +1388,7 @@
             "255.255.255.0",
             "255.255.255.255"
         ],
-        "respuesta_correcta": 2,
+        "correcta": 2,
         "categoria": "Direccionamiento IP"
     },
     {
@@ -1400,7 +1400,7 @@
             "192.0.0.0 - 223.255.255.255",
             "224.0.0.0 - 239.255.255.255"
         ],
-        "respuesta_correcta": 1,
+        "correcta": 1,
         "categoria": "Direccionamiento IP"
     },
     {
@@ -1412,7 +1412,7 @@
             "Router",
             "Repetidor"
         ],
-        "respuesta_correcta": 2,
+        "correcta": 2,
         "categoria": "Dispositivos de red"
     },
     {
@@ -1424,7 +1424,7 @@
             "La configuración de direcciones IP",
             "La gestión de contraseñas"
         ],
-        "respuesta_correcta": 0,
+        "correcta": 0,
         "categoria": "Modelo OSI"
     },
     {
@@ -1436,7 +1436,7 @@
             "Libro y página",
             "Auto y carretera"
         ],
-        "respuesta_correcta": 1,
+        "correcta": 1,
         "categoria": "Protocolos y servicios"
     },
     {
@@ -1448,7 +1448,7 @@
             "Conectar el enrutador a una red diferente a la de los puertos Ethernet, como un módem para acceder a Internet",
             "Conectar una impresora compartida"
         ],
-        "respuesta_correcta": 2,
+        "correcta": 2,
         "categoria": "Dispositivos de red"
     },
     {
@@ -1460,7 +1460,7 @@
             "A,B,C",
             "A,C,B"
         ],
-        "respuesta_correcta": 2,
+        "correcta": 2,
         "categoria": "Direccionamiento IP"
     },
     {
@@ -1472,7 +1472,7 @@
             "Cable coaxial",
             "Cable trenzado"
         ],
-        "respuesta_correcta": 1,
+        "correcta": 1,
         "categoria": "Cableado y medios"
     },
     {
@@ -1484,7 +1484,7 @@
             "Coaxial",
             "USB"
         ],
-        "respuesta_correcta": 2,
+        "correcta": 2,
         "categoria": "Cableado y medios"
     },
     {
@@ -1496,7 +1496,7 @@
             "ISO",
             "ITU"
         ],
-        "respuesta_correcta": 1,
+        "correcta": 1,
         "categoria": "Cableado y medios"
     },
     {
@@ -1508,7 +1508,7 @@
             "Phishing",
             "Spoofing"
         ],
-        "respuesta_correcta": 1,
+        "correcta": 1,
         "categoria": "Seguridad informática"
     },
     {
@@ -1520,7 +1520,7 @@
             "Ransomware",
             "Troyano"
         ],
-        "respuesta_correcta": 2,
+        "correcta": 2,
         "categoria": "Seguridad informática"
     },
     {
@@ -1532,7 +1532,7 @@
             "Phisher",
             "Rootkit"
         ],
-        "respuesta_correcta": 1,
+        "correcta": 1,
         "categoria": "Seguridad informática"
     },
     {
@@ -1544,7 +1544,7 @@
             "Spoofing",
             "DDoS"
         ],
-        "respuesta_correcta": 1,
+        "correcta": 1,
         "categoria": "Seguridad informática"
     },
     {
@@ -1556,7 +1556,7 @@
             "Adware",
             "Troyano"
         ],
-        "respuesta_correcta": 2,
+        "correcta": 2,
         "categoria": "Seguridad informática"
     },
     {
@@ -1568,7 +1568,7 @@
             "POP3/IMAP",
             "DNS"
         ],
-        "respuesta_correcta": 2,
+        "correcta": 2,
         "categoria": "Protocolos y servicios"
     },
     {
@@ -1580,7 +1580,7 @@
             "587",
             "143"
         ],
-        "respuesta_correcta": 2,
+        "correcta": 2,
         "categoria": "Protocolos y servicios"
     },
     {
@@ -1592,7 +1592,7 @@
             "Enrutar paquetes entre redes",
             "Establecer conexiones extremo a extremo"
         ],
-        "respuesta_correcta": 1,
+        "correcta": 1,
         "categoria": "Modelo OSI"
     },
     {
@@ -1604,7 +1604,7 @@
             "Usar protocolos seguros como HTTPS",
             "Deshabilitar todos los servicios de red"
         ],
-        "respuesta_correcta": 2,
+        "correcta": 2,
         "categoria": "Seguridad informática"
     },
     {
@@ -1616,7 +1616,7 @@
             "SMTP no seguro",
             "HTTP"
         ],
-        "respuesta_correcta": 2,
+        "correcta": 2,
         "categoria": "Protocolos y servicios"
     },
     {
@@ -1628,7 +1628,7 @@
             "HTTP",
             "EBCDIC"
         ],
-        "respuesta_correcta": 1,
+        "correcta": 1,
         "categoria": "Seguridad informática"
     },
     {
@@ -1640,7 +1640,7 @@
             "Antivirus",
             "Cifrado"
         ],
-        "respuesta_correcta": 1,
+        "correcta": 1,
         "categoria": "Comandos de red"
     },
     {
@@ -1652,7 +1652,7 @@
             "Cifrado",
             "Firewall"
         ],
-        "respuesta_correcta": 0,
+        "correcta": 0,
         "categoria": "Seguridad informática"
     },
     {
@@ -1664,7 +1664,7 @@
             "Usar redes abiertas",
             "Desactivar el firewall"
         ],
-        "respuesta_correcta": 1,
+        "correcta": 1,
         "categoria": "Seguridad informática"
     },
     {
@@ -1676,7 +1676,7 @@
             "Compartirlos en redes sociales",
             "Desactivarlos"
         ],
-        "respuesta_correcta": 1,
+        "correcta": 1,
         "categoria": "Seguridad informática"
     },
     {
@@ -1688,7 +1688,7 @@
             "show running-config",
             "show startup-config"
         ],
-        "respuesta_correcta": 0,
+        "correcta": 0,
         "categoria": "Comandos de red"
     },
     {
@@ -1700,7 +1700,7 @@
             "address ip <dirección>",
             "define ip <dirección>"
         ],
-        "respuesta_correcta": 1,
+        "correcta": 1,
         "categoria": "Comandos de red"
     },
     {
@@ -1712,7 +1712,7 @@
             "show running-config",
             "show protocols"
         ],
-        "respuesta_correcta": 0,
+        "correcta": 0,
         "categoria": "Comandos de red"
     },
     {
@@ -1724,7 +1724,7 @@
             "Filtrado de URL",
             "Inspección con estado"
         ],
-        "respuesta_correcta": 0,
+        "correcta": 0,
         "categoria": "Seguridad informática"
     },
     {
@@ -1736,7 +1736,7 @@
             "Cambiar la IP del router",
             "Usar DHCP dinámico"
         ],
-        "respuesta_correcta": 1,
+        "correcta": 1,
         "categoria": "Seguridad informática"
     },
     {
@@ -1748,7 +1748,7 @@
             "8 o más caracteres",
             "20 caracteres"
         ],
-        "respuesta_correcta": 2,
+        "correcta": 2,
         "categoria": "Seguridad informática"
     },
     {
@@ -1760,7 +1760,7 @@
             "Nagios",
             "Uptrends"
         ],
-        "respuesta_correcta": 1,
+        "correcta": 1,
         "categoria": "Comandos de red"
     },
     {
@@ -1772,7 +1772,7 @@
             "Tracert",
             "nslookup"
         ],
-        "respuesta_correcta": 1,
+        "correcta": 1,
         "categoria": "Comandos de red"
     },
     {
@@ -1784,7 +1784,7 @@
             "Time Transmission Latency",
             "Technical Transfer Layer"
         ],
-        "respuesta_correcta": 0,
+        "correcta": 0,
         "categoria": "Protocolos y servicios"
     },
     {
@@ -1796,7 +1796,7 @@
             "Nagios",
             "Datadog"
         ],
-        "respuesta_correcta": 1,
+        "correcta": 1,
         "categoria": "Comandos de red"
     },
     {
@@ -1808,7 +1808,7 @@
             "Mixta",
             "Compartida"
         ],
-        "respuesta_correcta": 0,
+        "correcta": 0,
         "categoria": "Computación en la nube"
     },
     {
@@ -1820,7 +1820,7 @@
             "La nube pública es menos segura",
             "La nube comunitaria usa redes privadas exclusivamente"
         ],
-        "respuesta_correcta": 1,
+        "correcta": 1,
         "categoria": "Computación en la nube"
     },
     {
@@ -1832,7 +1832,7 @@
             "Servir como respaldo físico únicamente",
             "Proveer energía a los servidores"
         ],
-        "respuesta_correcta": 1,
+        "correcta": 1,
         "categoria": "Computación en la nube"
     },
     {
@@ -1844,7 +1844,7 @@
             "Acceso ilimitado a todos los usuarios",
             "Acceso exclusivamente local"
         ],
-        "respuesta_correcta": 1,
+        "correcta": 1,
         "categoria": "Computación en la nube"
     },
     {
@@ -1856,7 +1856,7 @@
             "16 millones de direcciones",
             "1,024 direcciones"
         ],
-        "respuesta_correcta": 2,
+        "correcta": 2,
         "categoria": "Direccionamiento IP"
     },
     {
@@ -1868,7 +1868,7 @@
             "No se utiliza en equipos de uso normal (experimental)",
             "Multicast exclusivamente"
         ],
-        "respuesta_correcta": 2,
+        "correcta": 2,
         "categoria": "Direccionamiento IP"
     },
     {
@@ -1880,7 +1880,7 @@
             "Está destinada a uso experimental y grupos de máquinas específicos",
             "Solo funciona en redes privadas"
         ],
-        "respuesta_correcta": 2,
+        "correcta": 2,
         "categoria": "Direccionamiento IP"
     },
     {
@@ -1892,7 +1892,7 @@
             "Reducción de costos",
             "Pérdida de compatibilidad"
         ],
-        "respuesta_correcta": 1,
+        "correcta": 1,
         "categoria": "Seguridad informática"
     },
     {
@@ -1904,7 +1904,7 @@
             "Capa de aplicación",
             "Capa de presentación"
         ],
-        "respuesta_correcta": 1,
+        "correcta": 1,
         "categoria": "Modelo OSI"
     },
     {
@@ -1916,7 +1916,7 @@
             "192.0.0.0 - 223.255.255.255",
             "224.0.0.0 - 239.255.255.255"
         ],
-        "respuesta_correcta": 3,
+        "correcta": 3,
         "categoria": "Direccionamiento IP"
     },
     {
@@ -1928,7 +1928,7 @@
             "169.254.1.1",
             "192.168.1.1"
         ],
-        "respuesta_correcta": 2,
+        "correcta": 2,
         "categoria": "Direccionamiento IP"
     },
     {
@@ -1940,7 +1940,7 @@
             "255.255.255.0 / 255.255.0.0 / 255.0.0.0",
             "255.255.255.255 / 255.255.0.0 / 255.0.0.0"
         ],
-        "respuesta_correcta": 0,
+        "correcta": 0,
         "categoria": "Direccionamiento IP"
     },
     {
@@ -1952,7 +1952,7 @@
             "170.100.18 / 18.45.0 / 240.80.78 / 56",
             "100.18.4 / 45.0 / 240.80.78 / 155.77.56"
         ],
-        "respuesta_correcta": 1,
+        "correcta": 1,
         "categoria": "Direccionamiento IP"
     },
     {
@@ -1964,7 +1964,7 @@
             "Redes pequeñas",
             "Comunicación multicast"
         ],
-        "respuesta_correcta": 1,
+        "correcta": 1,
         "categoria": "Direccionamiento IP"
     },
     {
@@ -1976,7 +1976,7 @@
             "UDP",
             "FTP"
         ],
-        "respuesta_correcta": 2,
+        "correcta": 2,
         "categoria": "Protocolos y servicios"
     },
     {
@@ -1988,7 +1988,7 @@
             "IP",
             "FTP"
         ],
-        "respuesta_correcta": 2,
+        "correcta": 2,
         "categoria": "Protocolos y servicios"
     },
     {
@@ -2000,7 +2000,7 @@
             "Solamente 2.4 GHz",
             "900 MHz y 1.8 GHz"
         ],
-        "respuesta_correcta": 1,
+        "correcta": 1,
         "categoria": "Cableado y medios"
     },
     {
@@ -2012,7 +2012,7 @@
             "IEEE 802.11",
             "Categoría 5e"
         ],
-        "respuesta_correcta": 2,
+        "correcta": 2,
         "categoria": "Cableado y medios"
     },
     {
@@ -2024,7 +2024,7 @@
             "El gusano se replica automáticamente sin intervención",
             "El virus no afecta archivos"
         ],
-        "respuesta_correcta": 2,
+        "correcta": 2,
         "categoria": "Seguridad informática"
     },
     {
@@ -2036,7 +2036,7 @@
             "Educar a los usuarios sobre amenazas comunes",
             "Compartir credenciales"
         ],
-        "respuesta_correcta": 2,
+        "correcta": 2,
         "categoria": "Seguridad informática"
     },
     {
@@ -2048,7 +2048,7 @@
             "64.0.0.0 - 64.255.255.255",
             "200.0.0.0 - 200.255.255.255"
         ],
-        "respuesta_correcta": 1,
+        "correcta": 1,
         "categoria": "Direccionamiento IP"
     },
     {
@@ -2060,7 +2060,7 @@
             "127.0.0.1",
             "224.0.0.0"
         ],
-        "respuesta_correcta": 3,
+        "correcta": 3,
         "categoria": "Direccionamiento IP"
     },
     {
@@ -2072,7 +2072,7 @@
             "Configuración automática",
             "Pruebas de conectividad"
         ],
-        "respuesta_correcta": 1,
+        "correcta": 1,
         "categoria": "Direccionamiento IP"
     },
     {
@@ -2084,7 +2084,7 @@
             "/8",
             "/32"
         ],
-        "respuesta_correcta": 2,
+        "correcta": 2,
         "categoria": "Direccionamiento IP"
     },
     {
@@ -2096,7 +2096,7 @@
             "25 y 110",
             "80 y 443"
         ],
-        "respuesta_correcta": 0,
+        "correcta": 0,
         "categoria": "Protocolos y servicios"
     },
     {
@@ -2108,7 +2108,7 @@
             "Porque facilita la interoperabilidad mediante transformación, compresión y cifrado",
             "Porque se encarga de la gestión de la sesión"
         ],
-        "respuesta_correcta": 2,
+        "correcta": 2,
         "categoria": "Modelo OSI"
     },
     {
@@ -2120,7 +2120,7 @@
             "Antispyware",
             "Firewall"
         ],
-        "respuesta_correcta": 1,
+        "correcta": 1,
         "categoria": "Seguridad informática"
     },
     {
@@ -2132,7 +2132,7 @@
             "Para habilitar el acceso remoto",
             "Para reducir errores de comandos"
         ],
-        "respuesta_correcta": 1,
+        "correcta": 1,
         "categoria": "Seguridad informática"
     },
     {
@@ -2144,7 +2144,7 @@
             "Filtrar todo el tráfico externo",
             "Monitorear solo los routers principales"
         ],
-        "respuesta_correcta": 0,
+        "correcta": 0,
         "categoria": "Seguridad informática"
     },
     {
@@ -2156,7 +2156,7 @@
             "/renew",
             "/all"
         ],
-        "respuesta_correcta": 1,
+        "correcta": 1,
         "categoria": "Comandos de red"
     },
     {
@@ -2168,7 +2168,7 @@
             "Bajo rendimiento",
             "Fallo de conexión a Internet"
         ],
-        "respuesta_correcta": 1,
+        "correcta": 1,
         "categoria": "Direccionamiento IP"
     },
     {
@@ -2180,7 +2180,7 @@
             "El centro de datos permite el pago por uso",
             "La nube requiere una infraestructura física en cada oficina"
         ],
-        "respuesta_correcta": 0,
+        "correcta": 0,
         "categoria": "Computación en la nube"
     },
     {
@@ -2192,7 +2192,7 @@
             "actualizar software",
             "controlar usuarios"
         ],
-        "respuesta_correcta": 1,
+        "correcta": 1,
         "categoria": "Conceptos básicos de redes"
     },
     {
@@ -2204,7 +2204,7 @@
             "Nagios",
             "Uptrends"
         ],
-        "respuesta_correcta": 0,
+        "correcta": 0,
         "categoria": "Comandos de red"
     },
     {
@@ -2216,7 +2216,7 @@
             "Tracert",
             "nslookup"
         ],
-        "respuesta_correcta": 1,
+        "correcta": 1,
         "categoria": "Comandos de red"
     },
     {
@@ -2228,7 +2228,7 @@
             "Ifconfig",
             "netstat"
         ],
-        "respuesta_correcta": 0,
+        "correcta": 0,
         "categoria": "Comandos de red"
     },
     {
@@ -2240,7 +2240,7 @@
             "Tracert",
             "Nslookup"
         ],
-        "respuesta_correcta": 2,
+        "correcta": 2,
         "categoria": "Comandos de red"
     },
     {
@@ -2252,7 +2252,7 @@
             "Netstat",
             "traceroute"
         ],
-        "respuesta_correcta": 0,
+        "correcta": 0,
         "categoria": "Comandos de red"
     },
     {
@@ -2264,7 +2264,7 @@
             "Ipconfig",
             "Tracert"
         ],
-        "respuesta_correcta": 1,
+        "correcta": 1,
         "categoria": "Comandos de red"
     },
     {
@@ -2276,7 +2276,7 @@
             "nslookup /dns",
             "ping /refresh"
         ],
-        "respuesta_correcta": 0,
+        "correcta": 0,
         "categoria": "Comandos de red"
     },
     {
@@ -2288,7 +2288,7 @@
             "Cuarto paso",
             "Séptimo paso"
         ],
-        "respuesta_correcta": 1,
+        "correcta": 1,
         "categoria": "Conceptos básicos de redes"
     },
     {
@@ -2300,7 +2300,7 @@
             "Respuesta DNS",
             "Solicitud DHCP"
         ],
-        "respuesta_correcta": 1,
+        "correcta": 1,
         "categoria": "Protocolos y servicios"
     },
     {
@@ -2312,7 +2312,7 @@
             "Tracert",
             "Nslookup"
         ],
-        "respuesta_correcta": 1,
+        "correcta": 1,
         "categoria": "Comandos de red"
     },
     {
@@ -2324,7 +2324,7 @@
             "Transmisión de Comunicación por Internet",
             "Transferencia de Conexión de Protocolo"
         ],
-        "respuesta_correcta": 1,
+        "correcta": 1,
         "categoria": "Protocolos y servicios"
     },
     {
@@ -2336,7 +2336,7 @@
             "Time Transmission Latency",
             "Technical Transfer Layer"
         ],
-        "respuesta_correcta": 0,
+        "correcta": 0,
         "categoria": "Protocolos y servicios"
     },
     {
@@ -2346,7 +2346,7 @@
             "Verdadero",
             "Falso"
         ],
-        "respuesta_correcta": 0,
+        "correcta": 0,
         "categoria": "Computación en la nube"
     },
     {
@@ -2356,7 +2356,7 @@
             "Verdadero",
             "Falso"
         ],
-        "respuesta_correcta": 0,
+        "correcta": 0,
         "categoria": "Computación en la nube"
     }
 ]
