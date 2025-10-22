@@ -1,317 +1,247 @@
-{"id":"10006","variant":"standard/chat_message","title":"index.html — simulador CITEN"}
-<!DOCTYPE html>
-<html lang="es">
-<head>
-  <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width,initial-scale=1" />
-  <title>Repaso — Fundamentos y Arquitectura de Redes | CITEN</title>
-  <style>
-    :root {
-      --azul: #002855;
-      --blanco: #ffffff;
-      --ok: #2e7d32;
-      --bad: #c62828;
-      --bg: #f4f7fb;
-      --card: #fff;
-    }
-    body {
-      font-family: "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
-      background: var(--bg);
-      color: #222;
-      margin: 0;
-      padding: 0;
-    }
-    header {
-      background: var(--azul);
-      color: var(--blanco);
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-      text-align: center;
-      padding: 20px 10px 10px 10px;
-    }
-    header img {
-      width: 90px;
-      height: auto;
-      margin-bottom: 10px;
-    }
-    header h1 {
-      margin: 5px 0 0 0;
-      font-size: 1.4rem;
-      font-weight: 600;
-    }
-    header h2 {
-      margin: 3px 0 10px 0;
-      font-size: 1.1rem;
-      font-weight: 400;
-    }
-    header .creditos {
-      font-size: 0.9rem;
-      color: #ccc;
-    }
-    .contenedor {
-      max-width: 980px;
-      margin: 0 auto;
-      padding: 20px;
-    }
-    .controls {
-      display: flex;
-      flex-wrap: wrap;
-      gap: 10px;
-      align-items: center;
-      margin-bottom: 14px;
-    }
-    label {
-      font-weight: 600;
-    }
-    select,
-    button {
-      padding: 8px 12px;
-      border-radius: 8px;
-      border: 1px solid #ccc;
-      cursor: pointer;
-    }
-    button {
-      background: var(--azul);
-      color: var(--blanco);
-      border: none;
-    }
-    button:hover {
-      opacity: 0.9;
-    }
-    .pregunta {
-      background: var(--card);
-      border-radius: 10px;
-      padding: 16px;
-      margin-bottom: 12px;
-      box-shadow: 0 2px 10px rgba(10, 20, 40, 0.04);
-    }
-    .pregunta h3 {
-      margin: 0 0 8px;
-      font-size: 1.05rem;
-      color: var(--azul);
-    }
-    .opcion {
-      display: block;
-      padding: 8px;
-      border-radius: 8px;
-      margin: 6px 0;
-      cursor: pointer;
-    }
-    .opcion.disabled {
-      opacity: 0.7;
-      pointer-events: none;
-    }
-    .feedback {
-      font-weight: 700;
-      margin-top: 10px;
-    }
-    .feedback.ok {
-      color: var(--ok);
-    }
-    .feedback.bad {
-      color: var(--bad);
-    }
-    .barra {
-      height: 8px;
-      background: #e6eefc;
-      border-radius: 8px;
-      overflow: hidden;
-      margin: 12px 0;
-    }
-    .barra > span {
-      display: block;
-      height: 100%;
-      background: linear-gradient(90deg, #42a5f5, #1e88e5);
-      width: 0%;
-    }
-    #resultado {
-      background: #fff;
-      padding: 14px;
-      border-radius: 10px;
-      box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
-      font-size: 1rem;
-      margin-top: 10px;
-    }
-    footer {
-      text-align: center;
-      font-size: 0.85rem;
-      color: #555;
-      margin: 20px 0;
-    }
-    @media (max-width: 720px) {
-      .controls {
-        flex-direction: column;
-        align-items: stretch;
-      }
-      header img {
-        width: 70px;
-      }
-    }
-  </style>
-</head>
-<body>
-  <header>
-    <img src="citen-escudo.gif" alt="Escudo CITEN" />
-    <h1>Centro de Instrucción Técnica y Entrenamiento Naval – CITEN</h1>
-    <h2>Repaso — Fundamentos y Arquitectura de Redes</h2>
-    <div class="creditos">
-      Elaborado por José Carlos Sosa Villamonte — Instituto de Educación Superior Tecnológico Público Naval
-    </div>
-  </header>
 
-  <div class="contenedor">
-    <div class="controls">
-      <label for="cantidadSelect">Cantidad de preguntas:</label>
-      <select id="cantidadSelect">
-        <option value="10">10 preguntas</option>
-        <option value="20" selected>20 preguntas</option>
-        <option value="50">50 preguntas</option>
-      </select>
+<script>
+/*
+  Versión final CITEN ⚑
+  - Banner azul marino institucional (#002855)
+  - Ícono de bandera ⚑
+  - Indica rango o cantidad + modo (Secuencial/Aleatorio)
+  - Muestra número original del banco [#N]
+*/
 
-      <label for="shuffleQuestions">Orden aleatorio:</label>
-      <select id="shuffleQuestions">
-        <option value="true" selected>Sí</option>
-        <option value="false">No</option>
-      </select>
+const RUTA_JSON = "preguntas.json";
+let preguntasAll = [];
+let preguntasActivas = [];
+let respuestasUsuario = [];
+let indicesOriginales = [];
+let subtituloActual = "";
 
-      <button id="btnIniciar">Iniciar</button>
-      <button id="btnReiniciar" style="display:none">Reiniciar</button>
-    </div>
+async function cargarPreguntas() {
+  try {
+    const resp = await fetch(RUTA_JSON);
+    if (!resp.ok) throw new Error('HTTP ' + resp.status);
+    const data = await resp.json();
+    if (!Array.isArray(data)) throw new Error('Formato inválido: se esperaba un array');
+    preguntasAll = data;
+  } catch (err) {
+    alert("Error al cargar preguntas.json: " + err.message);
+  }
+}
 
-    <div class="barra"><span id="barraProgreso"></span></div>
-    <main id="main"></main>
-    <div id="resultado" style="display:none"></div>
-  </div>
+function mezclarArray(arr) {
+  const a = arr.slice();
+  for (let i = a.length - 1; i > 0; i--) {
+    const j = Math.floor(Math.random() * (i + 1));
+    [a[i], a[j]] = [a[j], a[i]];
+  }
+  return a;
+}
 
-  <footer>
-    &copy; 2025 — CITEN | Fundamentos y Arquitectura de Redes — Todos los derechos reservados.
-  </footer>
+function mostrarError(text) {
+  const box = document.getElementById('errorBox');
+  if (!text) {
+    box.style.display = 'none';
+    box.textContent = '';
+  } else {
+    box.style.display = 'block';
+    box.textContent = text;
+  }
+}
 
-  <script>
-    const RUTA_JSON = "preguntas.json";
-    let preguntasAll = [];
-    let preguntasActivas = [];
-    let respuestasUsuario = [];
+function crearVista() {
+  const cont = document.getElementById("main");
+  cont.innerHTML = "";
 
-    async function cargarPreguntas() {
-      try {
-        const resp = await fetch(RUTA_JSON);
-        const data = await resp.json();
-        preguntasAll = data;
-      } catch (err) {
-        alert("Error al cargar preguntas.json: " + err.message);
-      }
+  // ⚑ Banner azul marino institucional CITEN
+  if (subtituloActual) {
+    const banner = document.createElement("div");
+    banner.style.background = "#002855";
+    banner.style.color = "white";
+    banner.style.fontWeight = "600";
+    banner.style.padding = "10px 14px";
+    banner.style.borderRadius = "8px";
+    banner.style.boxShadow = "0 2px 8px rgba(0,0,0,0.2)";
+    banner.style.marginBottom = "14px";
+    banner.style.display = "flex";
+    banner.style.alignItems = "center";
+    banner.style.gap = "10px";
+
+    const icono = document.createElement("span");
+    icono.textContent = "⚑";
+    icono.style.fontSize = "1.4rem";
+    icono.style.lineHeight = "1";
+    icono.style.display = "flex";
+    icono.style.alignItems = "center";
+
+    const texto = document.createElement("span");
+    texto.textContent = subtituloActual;
+
+    banner.appendChild(icono);
+    banner.appendChild(texto);
+    cont.appendChild(banner);
+  }
+
+  respuestasUsuario = Array(preguntasActivas.length).fill(null);
+  updateProgreso();
+
+  preguntasActivas.forEach((p, idx) => {
+    const card = document.createElement("div");
+    card.className = "pregunta";
+    const titulo = document.createElement("h3");
+    titulo.textContent = `${idx + 1}. [#${indicesOriginales[idx]}] ${p.pregunta}`;
+    card.appendChild(titulo);
+
+    p.opciones.forEach((opt, i) => {
+      const label = document.createElement("label");
+      label.className = "opcion";
+      const radio = document.createElement("input");
+      radio.type = "radio";
+      radio.name = "pregunta_" + idx;
+      radio.value = i;
+      radio.onclick = () => onResponder(idx, i, card);
+      label.appendChild(radio);
+      label.appendChild(document.createTextNode(" " + opt));
+      card.appendChild(label);
+    });
+    cont.appendChild(card);
+  });
+}
+
+function onResponder(idx, idxSel, card) {
+  const p = preguntasActivas[idx];
+  const esCorrecta = idxSel === p.correcta;
+  respuestasUsuario[idx] = { seleccion: idxSel, correcta: esCorrecta };
+
+  const labels = card.querySelectorAll(".opcion");
+  labels.forEach(l => l.classList.add("disabled"));
+
+  const feedback = document.createElement("div");
+  feedback.className = "feedback " + (esCorrecta ? "ok" : "bad");
+  feedback.textContent = esCorrecta
+    ? "✅ ¡Correcto!"
+    : "❌ Incorrecto. Respuesta correcta: " + p.opciones[p.correcta];
+  card.appendChild(feedback);
+
+  labels.forEach((lab, i) => {
+    if (i === p.correcta) lab.style.background = "#e8f5e9";
+    if (i === idxSel && !esCorrecta) lab.style.background = "#ffebee";
+  });
+
+  updateProgreso();
+  if (respuestasUsuario.every(r => r !== null)) mostrarResultado();
+}
+
+function updateProgreso() {
+  const total = preguntasActivas.length;
+  const respondidas = respuestasUsuario.filter(r => r !== null).length;
+  const pct = total ? Math.round((respondidas / total) * 100) : 0;
+  document.getElementById("barraProgreso").style.width = pct + "%";
+}
+
+function mostrarResultado() {
+  const total = preguntasActivas.length;
+  const correctas = respuestasUsuario.filter(r => r && r.correcta).length;
+  const porcentaje = ((correctas / total) * 100).toFixed(1);
+  const resultado = document.getElementById("resultado");
+  resultado.style.display = "block";
+  resultado.innerHTML = `
+    <strong>Puntaje final:</strong> ${correctas} / ${total} (${porcentaje}%)<br>
+    ${porcentaje >= 70 ? "✅ ¡Buen trabajo!" : "📘 Sigue repasando los temas de redes."}
+  `;
+  document.getElementById("btnReiniciar").style.display = "inline-block";
+  document.getElementById("btnIniciar").style.display = "none";
+}
+
+function construirSesionDesdeRango(inicio, fin, modo) {
+  const total = preguntasAll.length;
+  const s = Math.max(1, Math.floor(inicio));
+  const f = Math.min(total, Math.floor(fin));
+  if (s > f) throw new Error("El número de inicio no puede ser mayor que el número final.");
+  const pool = preguntasAll.slice(s - 1, f);
+  const indices = Array.from({length: pool.length}, (_, i) => s + i);
+  if (modo === 'aleatorio') {
+    const combinado = indices.map((idx, i) => ({idx, pregunta: pool[i]}));
+    const mezclado = mezclarArray(combinado);
+    indicesOriginales = mezclado.map(x => x.idx);
+    return mezclado.map(x => x.pregunta);
+  } else {
+    indicesOriginales = indices;
+    return pool.slice();
+  }
+}
+
+function iniciarSesion() {
+  mostrarError(null);
+  if (!preguntasAll || preguntasAll.length === 0) {
+    mostrarError("No hay preguntas cargadas. Verifica preguntas.json.");
+    return;
+  }
+
+  const modo = document.querySelector('input[name="mode"]:checked').value;
+  const cantidad = parseInt(document.getElementById("cantidadSelect").value, 10);
+  const startVal = document.getElementById("startQ").value.trim();
+  const endVal = document.getElementById("endQ").value.trim();
+  subtituloActual = "";
+
+  if (startVal !== "" || endVal !== "") {
+    if (startVal === "" || endVal === "") {
+      mostrarError("Si usas rango, completa ambos campos: inicio y fin.");
+      return;
     }
-
-    function mezclarArray(arr) {
-      const a = arr.slice();
-      for (let i = a.length - 1; i > 0; i--) {
-        const j = Math.floor(Math.random() * (i + 1));
-        [a[i], a[j]] = [a[j], a[i]];
-      }
-      return a;
+    const inicio = Number(startVal);
+    const fin = Number(endVal);
+    if (!Number.isInteger(inicio) || !Number.isInteger(fin) || inicio < 1 || fin < 1) {
+      mostrarError("Los números de inicio y fin deben ser enteros positivos.");
+      return;
     }
-
-    function crearVista() {
-      const cont = document.getElementById("main");
-      cont.innerHTML = "";
-      respuestasUsuario = Array(preguntasActivas.length).fill(null);
-      updateProgreso();
-
-      preguntasActivas.forEach((p, idx) => {
-        const card = document.createElement("div");
-        card.className = "pregunta";
-        const titulo = document.createElement("h3");
-        titulo.textContent = (idx + 1) + ". " + p.pregunta;
-        card.appendChild(titulo);
-
-        p.opciones.forEach((opt, i) => {
-          const label = document.createElement("label");
-          label.className = "opcion";
-          const radio = document.createElement("input");
-          radio.type = "radio";
-          radio.name = "pregunta_" + idx;
-          radio.value = i;
-          radio.onclick = () => onResponder(idx, i, card);
-          label.appendChild(radio);
-          label.appendChild(document.createTextNode(opt));
-          card.appendChild(label);
-        });
-        cont.appendChild(card);
-      });
+    if (inicio > fin) {
+      mostrarError("El número de inicio no puede ser mayor que el número final.");
+      return;
     }
-
-    function onResponder(idx, idxSel, card) {
-      const p = preguntasActivas[idx];
-      const esCorrecta = idxSel === p.correcta;
-      respuestasUsuario[idx] = { seleccion: idxSel, correcta: esCorrecta };
-
-      const labels = card.querySelectorAll(".opcion");
-      labels.forEach(l => l.classList.add("disabled"));
-
-      const feedback = document.createElement("div");
-      feedback.className = "feedback " + (esCorrecta ? "ok" : "bad");
-      feedback.textContent = esCorrecta
-        ? "✅ ¡Correcto!"
-        : "❌ Incorrecto. Respuesta correcta: " + p.opciones[p.correcta];
-      card.appendChild(feedback);
-
-      labels.forEach((lab, i) => {
-        if (i === p.correcta) lab.style.background = "#e8f5e9";
-        if (i === idxSel && !esCorrecta) lab.style.background = "#ffebee";
-      });
-
-      updateProgreso();
-      if (respuestasUsuario.every(r => r !== null)) mostrarResultado();
+    if (inicio > preguntasAll.length || fin > preguntasAll.length) {
+      mostrarError(`Rango fuera de límites. El banco tiene ${preguntasAll.length} preguntas.`);
+      return;
     }
-
-    function updateProgreso() {
-      const total = preguntasActivas.length;
-      const respondidas = respuestasUsuario.filter(r => r !== null).length;
-      const pct = total ? Math.round((respondidas / total) * 100) : 0;
-      document.getElementById("barraProgreso").style.width = pct + "%";
+    preguntasActivas = construirSesionDesdeRango(inicio, fin, modo);
+    subtituloActual = `Preguntas del banco: ${inicio} – ${fin}  (modo: ${modo.charAt(0).toUpperCase() + modo.slice(1)})`;
+  } else {
+    if (!Number.isInteger(cantidad) || cantidad < 1) {
+      mostrarError("Selecciona una cantidad válida (10, 20, 50).");
+      return;
     }
+    let pool = preguntasAll.map((p, i) => ({p, idx: i + 1}));
+    if (modo === 'aleatorio') pool = mezclarArray(pool);
+    const subset = pool.slice(0, Math.min(cantidad, pool.length));
+    preguntasActivas = subset.map(x => x.p);
+    indicesOriginales = subset.map(x => x.idx);
+    subtituloActual = `Mostrando ${preguntasActivas.length} preguntas  (modo: ${modo.charAt(0).toUpperCase() + modo.slice(1)})`;
+  }
 
-    function mostrarResultado() {
-      const total = preguntasActivas.length;
-      const correctas = respuestasUsuario.filter(r => r && r.correcta).length;
-      const porcentaje = ((correctas / total) * 100).toFixed(1);
-      const resultado = document.getElementById("resultado");
-      resultado.style.display = "block";
-      resultado.innerHTML = `
-        <strong>Puntaje final:</strong> ${correctas} / ${total} (${porcentaje}%)<br>
-        ${porcentaje >= 70 ? "✅ ¡Buen trabajo!" : "📘 Sigue repasando los temas de redes."}
-      `;
-      document.getElementById("btnReiniciar").style.display = "inline-block";
-      document.getElementById("btnIniciar").style.display = "none";
-    }
+  if (!preguntasActivas || preguntasActivas.length === 0) {
+    mostrarError("No se seleccionaron preguntas para la sesión. Ajusta la cantidad o el rango.");
+    return;
+  }
 
-    function iniciarSesion() {
-      const cantidad = parseInt(document.getElementById("cantidadSelect").value, 10);
-      const shuffle = document.getElementById("shuffleQuestions").value === "true";
-      let pool = preguntasAll.slice();
-      if (shuffle) pool = mezclarArray(pool);
-      preguntasActivas = pool.slice(0, Math.min(cantidad, pool.length));
-      document.getElementById("resultado").style.display = "none";
-      crearVista();
-      document.getElementById("btnIniciar").style.display = "none";
-      document.getElementById("btnReiniciar").style.display = "inline-block";
-    }
+  document.getElementById("resultado").style.display = "none";
+  crearVista();
+  document.getElementById("btnIniciar").style.display = "none";
+  document.getElementById("btnReiniciar").style.display = "inline-block";
+  window.scrollTo({ top: 0, behavior: 'smooth' });
+}
 
-    function reiniciar() {
-      preguntasActivas = [];
-      respuestasUsuario = [];
-      document.getElementById("main").innerHTML = "";
-      document.getElementById("resultado").style.display = "none";
-      document.getElementById("btnReiniciar").style.display = "none";
-      document.getElementById("btnIniciar").style.display = "inline-block";
-      document.getElementById("barraProgreso").style.width = "0%";
-    }
+function reiniciar() {
+  preguntasActivas = [];
+  respuestasUsuario = [];
+  indicesOriginales = [];
+  subtituloActual = "";
+  document.getElementById("main").innerHTML = "";
+  document.getElementById("resultado").style.display = "none";
+  document.getElementById("btnReiniciar").style.display = "none";
+  document.getElementById("btnIniciar").style.display = "inline-block";
+  document.getElementById("barraProgreso").style.width = "0%";
+  mostrarError(null);
+}
 
-    document.getElementById("btnIniciar").addEventListener("click", iniciarSesion);
-    document.getElementById("btnReiniciar").addEventListener("click", reiniciar);
-    window.addEventListener("DOMContentLoaded", cargarPreguntas);
-  </script>
-</body>
-</html>
+document.getElementById("btnIniciar").addEventListener("click", iniciarSesion);
+document.getElementById("btnReiniciar").addEventListener("click", reiniciar);
+window.addEventListener("DOMContentLoaded", async () => { await cargarPreguntas(); });
+</script>
