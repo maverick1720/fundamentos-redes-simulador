@@ -269,7 +269,7 @@ function onResponder(idx, idxSel, card) {
   feedback.className = "feedback " + (esCorrecta ? "ok" : "bad");
   feedback.textContent = esCorrecta
     ? "✅ ¡Correcto!"
-    : "❌ Incorrecto. Respuesta correcta: " + p.opciones[p.correcta];
+    : "❌ Incorrecto. Respuesta correcta: " + p.opciones[p.respuesta_correcta];
   card.appendChild(feedback);
 
   labels.forEach((lab, i) => {
