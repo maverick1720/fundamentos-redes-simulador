@@ -1,18 +1,4 @@
 {
-  "banco_preguntas": {
-    "total_preguntas": 197,
-    "categorias": [
-      "Conceptos básicos de redes",
-      "Dispositivos de red",
-      "Protocolos y servicios",
-      "Seguridad informática",
-      "Modelo OSI",
-      "Direccionamiento IP",
-      "Cableado y medios",
-      "Comandos de red",
-      "Topologías",
-      "Computación en la nube"
-    ],
     "preguntas": [
       {
         "id": 1,
@@ -1454,30 +1440,7 @@
         ],
         "respuesta_correcta": 1,
         "categoria": "Protocolos y servicios"
-      }
-    ]
-  }
-}
-He continuado con las preguntas del 61 al 120. ¿Te gustaría que proceda con las siguientes preguntas (121-197) para completar todo el banco de preguntas?
-
-si
-json
-{
-  "banco_preguntas": {
-    "total_preguntas": 197,
-    "categorias": [
-      "Conceptos básicos de redes",
-      "Dispositivos de red",
-      "Protocolos y servicios",
-      "Seguridad informática",
-      "Modelo OSI",
-      "Direccionamiento IP",
-      "Cableado y medios",
-      "Comandos de red",
-      "Topologías",
-      "Computación en la nube"
-    ],
-    "preguntas": [
+      },
       {
         "id": 121,
         "pregunta": "¿Cuál es el propósito del Puerto Internet en un enrutador doméstico?",
