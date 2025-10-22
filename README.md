@@ -29,7 +29,7 @@ Facilitar la **auto-evaluación y el refuerzo del aprendizaje** mediante un ento
 ## 🚀 Uso en línea
 
 Visita:  
-👉 **[https://maverick1720.github.io/fundamentos-redes-simulador/](https://TU_USUARIO.github.io/fundamentos-redes-simulador/)**  
+👉 **[https://maverick1720.github.io/fundamentos-redes-simulador/](https://maverick1720.github.io/fundamentos-redes-simulador/)**  
 (Actualiza esta URL con tu nombre de usuario de GitHub)
 
 ---
