@@ -1,6 +1,5 @@
 {
-  "banco_preguntas": {
-    "total_preguntas": 197,
+ 
     "preguntas": [
       {
         "id": 1,
@@ -2166,5 +2165,5 @@
         "respuesta_correcta": "Verdadero"
       }
     ]
-  }
+  
 }
