@@ -179,5 +179,180 @@
     "pregunta": "¿Qué elemento identifica de forma única a una interfaz de red física?",
     "opciones": ["Dirección IP", "Dirección MAC", "Nombre DNS", "SSID"],
     "correcta": 1
+  },
+  {
+    "pregunta": "¿Qué tipo de red cubre un área geográfica extensa, como varios países?",
+    "opciones": ["LAN", "MAN", "WAN", "PAN"],
+    "correcta": 2
+  },
+  {
+    "pregunta": "¿Qué dispositivo permite la conexión de múltiples computadoras dentro de una misma red local?",
+    "opciones": ["Switch", "Router", "Repetidor", "Módem"],
+    "correcta": 0
+  },
+  {
+    "pregunta": "¿Qué capa del modelo OSI se encarga del direccionamiento lógico?",
+    "opciones": ["Capa física", "Capa de red", "Capa de transporte", "Capa de aplicación"],
+    "correcta": 1
+  },
+  {
+    "pregunta": "¿Qué significa la sigla IP?",
+    "opciones": ["Internet Protocol", "Internal Process", "Information Path", "Interface Port"],
+    "correcta": 0
+  },
+  {
+    "pregunta": "¿Qué protocolo se usa para obtener información sobre una dirección IP o un dominio?",
+    "opciones": ["PING", "DNS", "ARP", "WHOIS"],
+    "correcta": 3
+  },
+  {
+    "pregunta": "¿Qué comando muestra las rutas que siguen los paquetes en una red?",
+    "opciones": ["ping", "netstat", "tracert", "nslookup"],
+    "correcta": 2
+  },
+  {
+    "pregunta": "¿Qué capa del modelo OSI establece, mantiene y finaliza sesiones entre aplicaciones?",
+    "opciones": ["Capa de presentación", "Capa de sesión", "Capa de red", "Capa de transporte"],
+    "correcta": 1
+  },
+  {
+    "pregunta": "¿Qué dirección IP pertenece a una red privada Clase A?",
+    "opciones": ["10.0.0.5", "192.168.0.10", "172.33.1.1", "11.25.4.2"],
+    "correcta": 0
+  },
+  {
+    "pregunta": "¿Qué puerto utiliza el protocolo FTP?",
+    "opciones": ["21", "25", "53", "110"],
+    "correcta": 0
+  },
+  {
+    "pregunta": "¿Qué tecnología inalámbrica se utiliza para redes personales (PAN)?",
+    "opciones": ["Wi-Fi", "Bluetooth", "ZigBee", "LTE"],
+    "correcta": 1
+  },
+  {
+    "pregunta": "¿Cuál es la principal función de un firewall?",
+    "opciones": [
+      "Conectar dispositivos en una red",
+      "Bloquear o permitir tráfico según reglas de seguridad",
+      "Asignar direcciones IP",
+      "Traducir direcciones de red"
+    ],
+    "correcta": 1
+  },
+  {
+    "pregunta": "¿Qué protocolo permite acceder remotamente a otra computadora de forma segura?",
+    "opciones": ["FTP", "SSH", "Telnet", "HTTP"],
+    "correcta": 1
+  },
+  {
+    "pregunta": "¿Qué tipo de dirección IP comienza con 169.254.x.x?",
+    "opciones": ["Pública", "Estática", "APIPA", "Reservada para loopback"],
+    "correcta": 2
+  },
+  {
+    "pregunta": "¿Qué significa la sigla DHCP?",
+    "opciones": [
+      "Dynamic Host Configuration Protocol",
+      "Data Handling Control Process",
+      "Device Host Connection Port",
+      "Domain Host Communication Protocol"
+    ],
+    "correcta": 0
+  },
+  {
+    "pregunta": "¿Qué herramienta gráfica de Windows permite ver las conexiones de red activas?",
+    "opciones": [
+      "Administrador de tareas",
+      "Panel de control",
+      "Explorador de archivos",
+      "Administrador de dispositivos"
+    ],
+    "correcta": 0
+  },
+  {
+    "pregunta": "¿Qué tipo de cable se utiliza en instalaciones de redes de larga distancia?",
+    "opciones": ["UTP", "STP", "Fibra óptica", "Coaxial"],
+    "correcta": 2
+  },
+  {
+    "pregunta": "¿Qué capa del modelo OSI es responsable de la segmentación de datos?",
+    "opciones": ["Capa de transporte", "Capa de sesión", "Capa de red", "Capa física"],
+    "correcta": 0
+  },
+  {
+    "pregunta": "¿Qué función cumple el protocolo ARP?",
+    "opciones": [
+      "Asigna direcciones IP a los equipos",
+      "Traduce direcciones IP en direcciones MAC",
+      "Envía correos electrónicos",
+      "Transfiere archivos"
+    ],
+    "correcta": 1
+  },
+  {
+    "pregunta": "¿Qué capa del modelo OSI se encarga de la conversión de formatos de datos?",
+    "opciones": ["Capa de presentación", "Capa de sesión", "Capa de red", "Capa de transporte"],
+    "correcta": 0
+  },
+  {
+    "pregunta": "¿Qué protocolo se usa para sincronizar la hora entre equipos de red?",
+    "opciones": ["NTP", "SMTP", "SNMP", "FTP"],
+    "correcta": 0
+  },
+  {
+    "pregunta": "¿Qué tipo de red se usa normalmente dentro de un campus universitario?",
+    "opciones": ["LAN", "MAN", "WAN", "PAN"],
+    "correcta": 1
+  },
+  {
+    "pregunta": "¿Qué comando de Windows libera y renueva la dirección IP de un equipo?",
+    "opciones": ["ipconfig /renew", "ping", "tracert", "nslookup"],
+    "correcta": 0
+  },
+  {
+    "pregunta": "¿Qué protocolo se usa para enviar mensajes de correo electrónico?",
+    "opciones": ["SMTP", "IMAP", "POP3", "FTP"],
+    "correcta": 0
+  },
+  {
+    "pregunta": "¿Qué elemento del cable UTP protege contra interferencias electromagnéticas?",
+    "opciones": ["Forro externo", "Pares trenzados", "Cubierta metálica", "Núcleo de cobre"],
+    "correcta": 1
+  },
+  {
+    "pregunta": "¿Qué dirección IP identifica a la red completa (dirección de red)?",
+    "opciones": [
+      "Todos los bits de host en 1",
+      "Todos los bits de host en 0",
+      "Dirección del router",
+      "Dirección broadcast"
+    ],
+    "correcta": 1
+  },
+  {
+    "pregunta": "¿Qué capa del modelo OSI se encarga de decidir la mejor ruta para los datos?",
+    "opciones": ["Capa de transporte", "Capa de red", "Capa de enlace de datos", "Capa física"],
+    "correcta": 1
+  },
+  {
+    "pregunta": "¿Qué herramienta de Windows muestra las tablas de enrutamiento?",
+    "opciones": ["route print", "ipconfig", "ping", "netstat"],
+    "correcta": 0
+  },
+  {
+    "pregunta": "¿Qué dirección IP se usa para broadcast en una red con máscara 255.255.255.0?",
+    "opciones": ["192.168.1.0", "192.168.1.255", "192.168.0.0", "192.168.0.255"],
+    "correcta": 1
+  },
+  {
+    "pregunta": "¿Qué protocolo se usa para obtener información del estado de los dispositivos de red?",
+    "opciones": ["SNMP", "DNS", "FTP", "NTP"],
+    "correcta": 0
+  },
+  {
+    "pregunta": "¿Qué capa del modelo OSI asegura la entrega libre de errores entre nodos directamente conectados?",
+    "opciones": ["Capa de transporte", "Capa de red", "Capa de enlace de datos", "Capa física"],
+    "correcta": 2
   }
 ]
