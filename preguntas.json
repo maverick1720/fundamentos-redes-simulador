@@ -1,2362 +1,410 @@
-[
-    {
-        
-        "pregunta": "¿Qué es una red informática?",
-        "opciones": [
-            "Un grupo de usuarios conectados por teléfono",
-            "La interconexión de computadoras para compartir recursos e información",
-            "Un software para procesar datos",
-            "Un tipo de servidor"
-        ],
-        "correcta":  "La interconexión de computadoras para compartir recursos e información"
-       
-    },
-    {
-        "id": 2,
-        "pregunta": "¿Qué comando se usa para configurar la contraseña de la consola?",
-        "opciones": [
-            "line console 0",
-            "password console",
-            "set console",
-            "enable console"
-        ],
-        "correcta": 0,
-        "categoria": "Comandos de red"
-    },
-    {
-        "id": 3,
-        "pregunta": "¿Qué permite una red informática?",
-        "opciones": [
-            "Trabajar sin conexión",
-            "Compartir recursos y comunicarse entre sistemas",
-            "Aumentar el tamaño del disco duro",
-            "Reducir la memoria RAM"
-        ],
-        "correcta": 1,
-        "categoria": "Conceptos básicos de redes"
-    },
-    {
-        "id": 4,
-        "pregunta": "¿Cuál es un medio físico de transmisión de datos?",
-        "opciones": [
-            "Fibra óptica",
-            "Wi-Fi",
-            "Microondas",
-            "Infrarrojos"
-        ],
-        "correcta": 0,
-        "categoria": "Cableado y medios"
-    },
-    {
-        "id": 5,
-        "pregunta": "¿Qué dispositivo se encarga de dirigir el tráfico dentro de una red local (LAN)?",
-        "opciones": [
-            "Router",
-            "Switch",
-            "Firewall",
-            "Módem"
-        ],
-        "correcta": 1,
-        "categoria": "Dispositivos de red"
-    },
-    {
-        "id": 6,
-        "pregunta": "¿Qué comando encripta todas las contraseñas en un router Cisco?",
-        "opciones": [
-            "encrypt all",
-            "service password encryption",
-            "password secure",
-            "crypto password"
-        ],
-        "correcta": 1,
-        "categoria": "Comandos de red"
-    },
-    {
-        "id": 7,
-        "pregunta": "¿Qué es una red de computadoras?",
-        "opciones": [
-            "Un solo equipo que almacena información",
-            "Un conjunto de equipos conectados para compartir recursos e información",
-            "Un software de comunicación",
-            "Un sistema operativo"
-        ],
-        "correcta": 1,
-        "categoria": "Conceptos básicos de redes"
-    },
-    {
-        "id": 8,
-        "pregunta": "¿Qué significa TIA/EIA?",
-        "opciones": [
-            "Tecnología Internacional Avanzada",
-            "Asociación de la Industria de las Telecomunicaciones y Alianza de Industrias Electrónicas",
-            "Telecom International Association",
-            "Technical Information Alliance"
-        ],
-        "correcta": 1,
-        "categoria": "Cableado y medios"
-    },
-    {
-        "id": 9,
-        "pregunta": "¿Cuál es el objetivo principal de la norma TIA/EIA-568?",
-        "opciones": [
-            "Regular el uso de redes inalámbricas",
-            "Estandarizar el cableado estructurado",
-            "Diseñar conectores de fibra óptica",
-            "Mejorar la velocidad del Internet"
-        ],
-        "correcta": 1,
-        "categoria": "Cableado y medios"
-    },
-    {
-        "id": 10,
-        "pregunta": "¿Qué tipo de conector utiliza el cable UTP?",
-        "opciones": [
-            "BNC",
-            "SC",
-            "RJ45",
-            "RJ11"
-        ],
-        "correcta": 2,
-        "categoria": "Cableado y medios"
-    },
-    {
-        "id": 11,
-        "pregunta": "¿Cuál es la longitud máxima permitida para un cable horizontal según la norma TIA/EIA-568?",
-        "opciones": [
-            "50 m",
-            "75 m",
-            "90 m",
-            "120 m"
-        ],
-        "correcta": 2,
-        "categoria": "Cableado y medios"
-    },
-    {
-        "id": 12,
-        "pregunta": "¿Qué tipo de malware requiere la interacción del usuario para propagarse?",
-        "opciones": [
-            "Virus",
-            "Gusano",
-            "Caballo de Troya",
-            "Spyware"
-        ],
-        "correcta": 2,
-        "categoria": "Seguridad informática"
-    },
-    {
-        "id": 13,
-        "pregunta": "¿Qué tipo de señal transmite la fibra óptica?",
-        "opciones": [
-            "Señales eléctricas",
-            "Ondas de radio",
-            "Pulsos de luz",
-            "Señales infrarrojas"
-        ],
-        "correcta": 2,
-        "categoria": "Cableado y medios"
-    },
-    {
-        "id": 14,
-        "pregunta": "¿Qué topología conecta todos los equipos a un solo nodo central?",
-        "opciones": [
-            "Bus",
-            "Anillo",
-            "Estrella",
-            "Malla"
-        ],
-        "correcta": 2,
-        "categoria": "Topologías"
-    },
-    {
-        "id": 15,
-        "pregunta": "¿Qué ataque coloca al atacante entre dos entidades legítimas?",
-        "opciones": [
-            "Denegación de servicio",
-            "Redireccionamiento de puertos",
-            "Man-in-the-middle",
-            "Phishing"
-        ],
-        "correcta": 2,
-        "categoria": "Seguridad informática"
-    },
-    {
-        "id": 16,
-        "pregunta": "¿Qué es una DMZ (zona desmilitarizada)?",
-        "opciones": [
-            "Una red interna privada",
-            "Un área de la red expuesta parcialmente al exterior",
-            "Un software antivirus",
-            "Un tipo de malware"
-        ],
-        "correcta": 1,
-        "categoria": "Seguridad informática"
-    },
-    {
-        "id": 17,
-        "pregunta": "¿Qué componente se encarga de interconectar redes diferentes?",
-        "opciones": [
-            "Switch",
-            "Router",
-            "Módem",
-            "Repetidor"
-        ],
-        "correcta": 1,
-        "categoria": "Dispositivos de red"
-    },
-    {
-        "id": 18,
-        "pregunta": "¿Qué parámetro de ipconfig fuerza la renovación de la configuración DHCP?",
-        "opciones": [
-            "/reléase",
-            "/renew",
-            "/all",
-            "/flushdns"
-        ],
-        "correcta": 1,
-        "categoria": "Comandos de red"
-    },
-    {
-        "id": 19,
-        "pregunta": "¿Qué tipo de cables son medios de transmisión habituales en la capa física?",
-        "opciones": [
-            "Cables de cobre, fibra óptica o inalámbricos",
-            "Cables USB y HDMI",
-            "Cables coaxiales y de audio",
-            "Cables de alimentación eléctrica"
-        ],
-        "correcta": 0,
-        "categoria": "Cableado y medios"
-    },
-    {
-        "id": 20,
-        "pregunta": "¿Qué color de hilo comienza el estándar T568A?",
-        "opciones": [
-            "Blanco/naranja",
-            "Blanco/verde",
-            "Azul",
-            "Marrón"
-        ],
-        "correcta": 1,
-        "categoria": "Cableado y medios"
-    },
-    {
-        "id": 21,
-        "pregunta": "¿Qué dispositivo convierte señales digitales en analógicas?",
-        "opciones": [
-            "Switch",
-            "Router",
-            "Módem",
-            "Repetidor"
-        ],
-        "correcta": 2,
-        "categoria": "Dispositivos de red"
-    },
-    {
-        "id": 22,
-        "pregunta": "¿Qué componente de seguridad controla quién accede, qué hace y registra sus acciones?",
-        "opciones": [
-            "Firewall",
-            "AAA (Autenticación, Autorización y Contabilización)",
-            "Antivirus",
-            "DMZ"
-        ],
-        "correcta": 1,
-        "categoria": "Seguridad informática"
-    },
-    {
-        "id": 23,
-        "pregunta": "¿Qué afirmación es correcta respecto al uso cotidiano de las redes?",
-        "opciones": [
-            "Las redes son perjudiciales y deben evitarse totalmente",
-            "Las redes solo se utilizan con fines académicos",
-            "Las redes deben usarse de manera responsable para maximizar sus beneficios",
-            "El uso de redes no tiene impacto en la interacción social"
-        ],
-        "correcta": 2,
-        "categoria": "Conceptos básicos de redes"
-    },
-    {
-        "id": 24,
-        "pregunta": "¿Qué tipo de red se limita a un edificio o pocos kilómetros?",
-        "opciones": [
-            "WAN",
-            "MAN",
-            "LAN",
-            "PAN"
-        ],
-        "correcta": 2,
-        "categoria": "Conceptos básicos de redes"
-    },
-    {
-        "id": 25,
-        "pregunta": "¿Qué significa LAN?",
-        "opciones": [
-            "Local Access Node",
-            "Local Area Network",
-            "Long Area Network",
-            "Linked Access Network"
-        ],
-        "correcta": 1,
-        "categoria": "Conceptos básicos de redes"
-    },
-    {
-        "id": 26,
-        "pregunta": "¿Qué tipo de red cubre áreas personales?",
-        "opciones": [
-            "WAN",
-            "MAN",
-            "PAN",
-            "LAN"
-        ],
-        "correcta": 2,
-        "categoria": "Conceptos básicos de redes"
-    },
-    {
-        "id": 27,
-        "pregunta": "¿Qué red se usa para cubrir ciudades?",
-        "opciones": [
-            "LAN",
-            "MAN",
-            "PAN",
-            "WAN"
-        ],
-        "correcta": 1,
-        "categoria": "Conceptos básicos de redes"
-    },
-    {
-        "id": 28,
-        "pregunta": "¿Qué red tiene mayor alcance geográfico?",
-        "opciones": [
-            "LAN",
-            "MAN",
-            "WAN",
-            "WLAN"
-        ],
-        "correcta": 2,
-        "categoria": "Conceptos básicos de redes"
-    },
-    {
-        "id": 29,
-        "pregunta": "¿Qué comando se utiliza para verificar la conectividad con un host remoto?",
-        "opciones": [
-            "Ipconfig",
-            "Ping",
-            "Netstat",
-            "Nslookup"
-        ],
-        "correcta": 1,
-        "categoria": "Comandos de red"
-    },
-    {
-        "id": 30,
-        "pregunta": "¿Qué comando traza la ruta de los paquetes hasta un destino?",
-        "opciones": [
-            "Ping",
-            "Ipconfig",
-            "tracert/traceroute",
-            "nslookup"
-        ],
-        "correcta": 2,
-        "categoria": "Comandos de red"
-    },
-    {
-        "id": 31,
-        "pregunta": "¿Qué protocolo se usa para la comunicación entre un servidor web y un cliente web?",
-        "opciones": [
-            "FTP",
-            "SMTP",
-            "HTTP",
-            "DNS"
-        ],
-        "correcta": 2,
-        "categoria": "Protocolos y servicios"
-    },
-    {
-        "id": 32,
-        "pregunta": "Marca la respuesta correcta sobre la asignación de direcciones IP por región:",
-        "opciones": [
-            "APNIC administra la región ÁFRICA, ARIN administra AMÉRICA DEL NORTE, LACNIC administra EUROPA/MEDIO ORIENTE/ASIA CENTRAL, RIPE NCC administra AMÉRICA LATINA",
-            "APNIC administra la región ASIA-PACÍFICO, ARIN administra AMÉRICA DEL NORTE, LACNIC administra AMÉRICA LATINA, RIPE NCC administra EUROPA/MEDIO ORIENTE",
-            "APNIC administra la región EUROPA, ARIN administra AMÉRICA LATINA, LACNIC administra AMÉRICA DEL NORTE, RIPE NCC administra ÁFRICA",
-            "APNIC administra la región AMÉRICA DEL NORTE, ARIN administra ASIA, LACNIC administra ÁFRICA, RIPE NCC administra EUROPA"
-        ],
-        "correcta": 1,
-        "categoria": "Direccionamiento IP"
-    },
-    {
-        "id": 33,
-        "pregunta": "¿Qué problema de red ocurre cuando dos dispositivos tienen la misma dirección IP?",
-        "opciones": [
-            "Agotamiento de IP",
-            "Direcciones IP duplicadas",
-            "Bajo rendimiento",
-            "Congestión de red"
-        ],
-        "correcta": 1,
-        "categoria": "Direccionamiento IP"
-    },
-    {
-        "id": 34,
-        "pregunta": "¿Qué comando se utiliza para diagnosticar problemas de DNS?",
-        "opciones": [
-            "Ping",
-            "Tracert",
-            "Nslookup",
-            "netstat"
-        ],
-        "correcta": 2,
-        "categoria": "Comandos de red"
-    },
-    {
-        "id": 35,
-        "pregunta": "¿Qué capa del modelo OSI interactúa directamente con el usuario?",
-        "opciones": [
-            "Capa de transporte",
-            "Capa de aplicación",
-            "Capa de red",
-            "Capa de enlace de datos"
-        ],
-        "correcta": 1,
-        "categoria": "Modelo OSI"
-    },
-    {
-        "id": 36,
-        "pregunta": "¿Qué protocolo se usa para enviar correos electrónicos?",
-        "opciones": [
-            "HTTP",
-            "SMTP",
-            "FTP",
-            "IP"
-        ],
-        "correcta": 1,
-        "categoria": "Protocolos y servicios"
-    },
-    {
-        "id": 37,
-        "pregunta": "¿Qué dispositivo se utiliza para regenerar una señal y evitar la atenuación?",
-        "opciones": [
-            "Router",
-            "Switch",
-            "Repetidor",
-            "Módem"
-        ],
-        "correcta": 2,
-        "categoria": "Dispositivos de red"
-    },
-    {
-        "id": 38,
-        "pregunta": "¿Qué función principal tiene un switch?",
-        "opciones": [
-            "Conectar diferentes redes",
-            "Conectar dispositivos dentro de una misma red local",
-            "Amplificar la señal",
-            "Convertir señales analógicas a digitales"
-        ],
-        "correcta": 1,
-        "categoria": "Dispositivos de red"
-    },
-    {
-        "id": 39,
-        "pregunta": "¿Qué dispositivo es esencial en el hogar para proporcionar Wi-Fi y acceso a Internet?",
-        "opciones": [
-            "Switch",
-            "Repetidor",
-            "Router",
-            "Módem"
-        ],
-        "correcta": 2,
-        "categoria": "Dispositivos de red"
-    },
-    {
-        "id": 40,
-        "pregunta": "¿Qué se conoce como latencia?",
-        "opciones": [
-            "Pérdida de señal",
-            "Retraso en la transmisión de datos",
-            "Interferencia de otras redes",
-            "Falta de conectividad"
-        ],
-        "correcta": 1,
-        "categoria": "Conceptos básicos de redes"
-    },
-    {
-        "id": 41,
-        "pregunta": "¿Qué permite la computación en la nube a las organizaciones?",
-        "opciones": [
-            "Acceder a los datos solo desde la red interna",
-            "Acceder a los datos en cualquier momento y lugar",
-            "Aumentar el costo de infraestructura",
-            "Eliminar la seguridad de la red"
-        ],
-        "correcta": 1,
-        "categoria": "Computación en la nube"
-    },
-    {
-        "id": 42,
-        "pregunta": "¿Qué significa SaaS?",
-        "opciones": [
-            "Seguridad como Servicio",
-            "Software como Servicio",
-            "Sistema como Servicio",
-            "Servidor como Sistema"
-        ],
-        "correcta": 1,
-        "categoria": "Computación en la nube"
-    },
-    {
-        "id": 43,
-        "pregunta": "¿Qué se usa para aumentar la intensidad de la señal en largas distancias?",
-        "opciones": [
-            "Convertidores",
-            "Amplificadores",
-            "Switches",
-            "Routers"
-        ],
-        "correcta": 1,
-        "categoria": "Dispositivos de red"
-    },
-    {
-        "id": 44,
-        "pregunta": "¿Qué capa del modelo OSI se encarga de la transmisión y recepción de bits?",
-        "opciones": [
-            "Capa de enlace",
-            "Capa de red",
-            "Capa física",
-            "Capa de aplicación"
-        ],
-        "correcta": 2,
-        "categoria": "Modelo OSI"
-    },
-    {
-        "id": 45,
-        "pregunta": "¿Cuántos bits tiene una dirección IPv4?",
-        "opciones": [
-            "64 bits",
-            "32 bits",
-            "128 bits",
-            "16 bits"
-        ],
-        "correcta": 1,
-        "categoria": "Direccionamiento IP"
-    },
-    {
-        "id": 46,
-        "pregunta": "¿Qué clase de dirección IP se utiliza para redes pequeñas?",
-        "opciones": [
-            "Clase A",
-            "Clase B",
-            "Clase C",
-            "Clase D"
-        ],
-        "correcta": 2,
-        "categoria": "Direccionamiento IP"
-    },
-    {
-        "id": 47,
-        "pregunta": "¿Qué protocolo se utiliza para la asignación dinámica de direcciones IP?",
-        "opciones": [
-            "DNS",
-            "FTP",
-            "DHCP",
-            "HTTP"
-        ],
-        "correcta": 2,
-        "categoria": "Protocolos y servicios"
-    },
-    {
-        "id": 48,
-        "pregunta": "¿Qué dirección IPv4 está reservada para direcciones privadas de clase C?",
-        "opciones": [
-            "10.0.0.0",
-            "172.16.0.0",
-            "192.168.0.0",
-            "169.254.0.0"
-        ],
-        "correcta": 2,
-        "categoria": "Direccionamiento IP"
-    },
-    {
-        "id": 49,
-        "pregunta": "¿Qué organización administra la asignación global de direcciones IP?",
-        "opciones": [
-            "ISP",
-            "IANA",
-            "RIR",
-            "IEEE"
-        ],
-        "correcta": 1,
-        "categoria": "Direccionamiento IP"
-    },
-    {
-        "id": 50,
-        "pregunta": "¿Cuál es la máscara de subred por defecto para una dirección de clase A?",
-        "opciones": [
-            "255.0.0.0",
-            "255.255.0.0",
-            "255.255.255.0",
-            "255.255.255.255"
-        ],
-        "correcta": 0,
-        "categoria": "Direccionamiento IP"
-    },
-    {
-        "id": 51,
-        "pregunta": "¿Qué dirección se utiliza para pruebas de loopback?",
-        "opciones": [
-            "192.168.1.1",
-            "127.0.0.1",
-            "10.0.0.1",
-            "172.16.0.1"
-        ],
-        "correcta": 1,
-        "categoria": "Direccionamiento IP"
-    },
-    {
-        "id": 52,
-        "pregunta": "¿Qué tipo de dirección IP es 224.0.0.0?",
-        "opciones": [
-            "Clase A",
-            "Clase B",
-            "Clase C",
-            "Clase D"
-        ],
-        "correcta": 3,
-        "categoria": "Direccionamiento IP"
-    },
-    {
-        "id": 53,
-        "pregunta": "¿Cuál es el rango decimal del primer octeto para una dirección de clase B?",
-        "opciones": [
-            "1 - 126",
-            "128 - 191",
-            "192 - 223",
-            "224 - 239"
-        ],
-        "correcta": 1,
-        "categoria": "Direccionamiento IP"
-    },
-    {
-        "id": 54,
-        "pregunta": "¿Cuántos octetos identifican la red en una dirección de clase B?",
-        "opciones": [
-            "1",
-            "2",
-            "3",
-            "4"
-        ],
-        "correcta": 1,
-        "categoria": "Direccionamiento IP"
-    },
-    {
-        "id": 55,
-        "pregunta": "¿Qué dirección IP pertenece a un rango privado?",
-        "opciones": [
-            "8.8.8.8",
-            "172.32.0.1",
-            "192.169.1.1",
-            "10.0.0.1"
-        ],
-        "correcta": 3,
-        "categoria": "Direccionamiento IP"
-    },
-    {
-        "id": 56,
-        "pregunta": "¿Quién administra las aplicaciones en el modelo SaaS?",
-        "opciones": [
-            "El usuario final",
-            "El proveedor del servicio en la nube",
-            "El técnico local",
-            "El programador"
-        ],
-        "correcta": 1,
-        "categoria": "Computación en la nube"
-    },
-    {
-        "id": 57,
-        "pregunta": "¿Qué es una dirección IP?",
-        "opciones": [
-            "Un nombre de dominio",
-            "Una representación numérica que identifica una interfaz",
-            "Un protocolo de correo electrónico",
-            "Un tipo de cable de red"
-        ],
-        "correcta": 1,
-        "categoria": "Direccionamiento IP"
-    },
-    {
-        "id": 58,
-        "pregunta": "¿Qué servicio permite ejecutar sistemas operativos y aplicaciones en servidores virtuales?",
-        "opciones": [
-            "SaaS",
-            "PaaS",
-            "IaaS",
-            "ITaaS"
-        ],
-        "correcta": 2,
-        "categoria": "Computación en la nube"
-    },
-    {
-        "id": 59,
-        "pregunta": "¿Qué tipo de dirección IP se configura manualmente y no cambia automáticamente?",
-        "opciones": [
-            "IP Dinámica",
-            "IP Pública",
-            "IP Estática",
-            "IP Privada"
-        ],
-        "correcta": 2,
-        "categoria": "Direccionamiento IP"
-    },
-    {
-        "id": 60,
-        "pregunta": "¿Qué protocolo asigna direcciones IP dinámicas?",
-        "opciones": [
-            "DNS",
-            "HTTP",
-            "DHCP",
-            "FTP"
-        ],
-        "correcta": 2,
-        "categoria": "Protocolos y servicios"
-    },
-    {
-        "id": 61,
-        "pregunta": "¿Qué clase de dirección IP se usa para redes muy grandes?",
-        "opciones": [
-            "Clase B",
-            "Clase C",
-            "Clase A",
-            "Clase D"
-        ],
-        "correcta": 2,
-        "categoria": "Direccionamiento IP"
-    },
-    {
-        "id": 62,
-        "pregunta": "¿Qué parte de la dirección IP identifica la red?",
-        "opciones": [
-            "HostID",
-            "NetworkID",
-            "Subnet Mask",
-            "DNS"
-        ],
-        "correcta": 1,
-        "categoria": "Direccionamiento IP"
-    },
-    {
-        "id": 63,
-        "pregunta": "¿En qué capa del modelo OSI operan los switches tradicionales?",
-        "opciones": [
-            "Capa 1",
-            "Capa 2",
-            "Capa 3",
-            "Capa 4"
-        ],
-        "correcta": 1,
-        "categoria": "Modelo OSI"
-    },
-    {
-        "id": 64,
-        "pregunta": "¿Qué significa APIPA y cuál es su rango?",
-        "opciones": [
-            "Automatic Private IP Addressing, 169.254.0.0/16",
-            "Advanced Private IP Assignment, 192.168.0.0/16",
-            "Automatic Public IP Addressing, 10.0.0.0/8",
-            "Advanced Public IP Assignment, 172.16.0.0/12"
-        ],
-        "correcta": 0,
-        "categoria": "Direccionamiento IP"
-    },
-    {
-        "id": 65,
-        "pregunta": "¿Qué rango de direcciones pertenece a la Clase A?",
-        "opciones": [
-            "128.0.0.0 a 191.255.255.255",
-            "192.0.0.0 a 223.255.255.255",
-            "0.0.0.0 a 127.255.255.255",
-            "224.0.0.0 a 239.255.255.255"
-        ],
-        "correcta": 2,
-        "categoria": "Direccionamiento IP"
-    },
-    {
-        "id": 66,
-        "pregunta": "¿En qué clase de red se utilizan los dos primeros bytes para la red y los dos últimos para el host?",
-        "opciones": [
-            "Clase A",
-            "Clase B",
-            "Clase C",
-            "Clase D"
-        ],
-        "correcta": 1,
-        "categoria": "Direccionamiento IP"
-    },
-    {
-        "id": 67,
-        "pregunta": "¿Qué tipo de señales transportan los cables de fibra óptica?",
-        "opciones": [
-            "Señales eléctricas",
-            "Pulsos de luz",
-            "Ondas de radio",
-            "Señales magnéticas"
-        ],
-        "correcta": 1,
-        "categoria": "Cableado y medios"
-    },
-    {
-        "id": 68,
-        "pregunta": "¿Qué tipo de nube está diseñada para un grupo u organización específica?",
-        "opciones": [
-            "Pública",
-            "Comunitaria",
-            "Privada",
-            "Híbrida"
-        ],
-        "correcta": 2,
-        "categoria": "Computación en la nube"
-    },
-    {
-        "id": 69,
-        "pregunta": "¿Qué significa TCP/IP?",
-        "opciones": [
-            "Transferencia de Contenido por Internet",
-            "Protocolo de Control de Transmisión/Protocolo de Internet",
-            "Transmisión de Comunicación por Internet",
-            "Transferencia de Conexión de Protocolo"
-        ],
-        "correcta": 1,
-        "categoria": "Protocolos y servicios"
-    },
-    {
-        "id": 70,
-        "pregunta": "¿Qué protocolo es mejor para transferir archivos como fotos?",
-        "opciones": [
-            "UDP",
-            "HTTP",
-            "TCP",
-            "DNS"
-        ],
-        "correcta": 2,
-        "categoria": "Protocolos y servicios"
-    },
-    {
-        "id": 71,
-        "pregunta": "¿Qué protocolo es ideal para videojuegos online?",
-        "opciones": [
-            "TCP",
-            "FTP",
-            "UDP",
-            "SMTP"
-        ],
-        "correcta": 2,
-        "categoria": "Protocolos y servicios"
-    },
-    {
-        "id": 72,
-        "pregunta": "¿Qué protocolo traduce nombres de dominio a direcciones IP?",
-        "opciones": [
-            "HTTP",
-            "DNS",
-            "FTP",
-            "UDP"
-        ],
-        "correcta": 1,
-        "categoria": "Protocolos y servicios"
-    },
-    {
-        "id": 73,
-        "pregunta": "¿Qué puerto utiliza HTTP?",
-        "opciones": [
-            "21",
-            "80",
-            "443",
-            "53"
-        ],
-        "correcta": 1,
-        "categoria": "Protocolos y servicios"
-    },
-    {
-        "id": 74,
-        "pregunta": "¿Qué puerto utiliza HTTPS?",
-        "opciones": [
-            "80",
-            "443",
-            "21",
-            "53"
-        ],
-        "correcta": 1,
-        "categoria": "Protocolos y servicios"
-    },
-    {
-        "id": 75,
-        "pregunta": "¿Qué protocolo es más rápido, pero menos confiable?",
-        "opciones": [
-            "TCP",
-            "HTTP",
-            "UDP",
-            "FTP"
-        ],
-        "correcta": 2,
-        "categoria": "Protocolos y servicios"
-    },
-    {
-        "id": 76,
-        "pregunta": "¿Qué protocolo utiliza el puerto 21?",
-        "opciones": [
-            "HTTP",
-            "FTP",
-            "DNS",
-            "SMTP"
-        ],
-        "correcta": 1,
-        "categoria": "Protocolos y servicios"
-    },
-    {
-        "id": 77,
-        "pregunta": "¿Cuál es el número de capa que ocupa la Capa de Sesión dentro del modelo OSI?",
-        "opciones": [
-            "La tercera capa",
-            "La cuarta capa",
-            "La quinta capa",
-            "La sexta capa"
-        ],
-        "correcta": 2,
-        "categoria": "Modelo OSI"
-    },
-    {
-        "id": 78,
-        "pregunta": "¿Qué tipo de conexión establece la Capa de Sesión entre las entidades de sesión?",
-        "opciones": [
-            "Conexión de red",
-            "Conexión de transporte",
-            "Una sesión",
-            "Conexión física"
-        ],
-        "correcta": 2,
-        "categoria": "Modelo OSI"
-    },
-    {
-        "id": 79,
-        "pregunta": "¿Qué tecnología inalámbrica se limita a comunicaciones de baja velocidad y corto alcance, pero puede comunicarse con muchos dispositivos al mismo tiempo?",
-        "opciones": [
-            "Wi-Fi",
-            "802.11n",
-            "Bluetooth",
-            "Ethernet"
-        ],
-        "correcta": 2,
-        "categoria": "Cableado y medios"
-    },
-    {
-        "id": 80,
-        "pregunta": "¿Qué versión de HTTP es segura?",
-        "opciones": [
-            "HTTP",
-            "FTP",
-            "HTTPS",
-            "TFTP"
-        ],
-        "correcta": 2,
-        "categoria": "Protocolos y servicios"
-    },
-    {
-        "id": 81,
-        "pregunta": "¿Qué tipo de comunicación permite que solo un lado envíe datos a la vez?",
-        "opciones": [
-            "Full-Duplex Mode",
-            "Two-Way Simultaneous (TWS)",
-            "Half-Duplex Mode (Two-Way Alternate -- TWA)",
-            "Conexión de difusión"
-        ],
-        "correcta": 2,
-        "categoria": "Conceptos básicos de redes"
-    },
-    {
-        "id": 82,
-        "pregunta": "¿Qué capa del modelo OSI gestiona los datos que recibe la Capa de Sesión?",
-        "opciones": [
-            "La Capa de Transporte",
-            "La Capa de Red",
-            "La Capa de Presentación",
-            "La Capa de Aplicación"
-        ],
-        "correcta": 2,
-        "categoria": "Modelo OSI"
-    },
-    {
-        "id": 83,
-        "pregunta": "¿Cuál es el cableado más común utilizado en una LAN Ethernet, que consta de cuatro pares de hilos trenzados?",
-        "opciones": [
-            "Cable coaxial",
-            "Cable de fibra óptica",
-            "Categoría 5e",
-            "Cable serial"
-        ],
-        "correcta": 2,
-        "categoria": "Cableado y medios"
-    },
-    {
-        "id": 84,
-        "pregunta": "¿Cuál es la sigla de Service Set Identifier (Identificador de Conjunto de Servicios)?",
-        "opciones": [
-            "WLAN",
-            "AP",
-            "SSID",
-            "WAN"
-        ],
-        "correcta": 2,
-        "categoria": "Conceptos básicos de redes"
-    },
-    {
-        "id": 85,
-        "pregunta": "¿Qué tecnología utiliza la banda de 2.4 GHz y se limita a comunicaciones de baja velocidad y corto rango?",
-        "opciones": [
-            "802.11",
-            "Bluetooth",
-            "Fibra óptica",
-            "Ethernet"
-        ],
-        "correcta": 1,
-        "categoria": "Cableado y medios"
-    },
-    {
-        "id": 86,
-        "pregunta": "¿Cuál es el único puerto en la configuración predeterminada de un enrutador doméstico que está en una red diferente a la de los puertos de switch de la red LAN?",
-        "opciones": [
-            "Puertos Ethernet",
-            "Puertos LAN",
-            "Puerto Internet",
-            "Puerto de consola"
-        ],
-        "correcta": 2,
-        "categoria": "Dispositivos de red"
-    },
-    {
-        "id": 87,
-        "pregunta": "¿Qué se requiere para que todos los dispositivos participen en una Red de Área Local Inalámbrica (WLAN)?",
-        "opciones": [
-            "Estar conectados físicamente al puerto Internet",
-            "Tener diferentes modos de red",
-            "Tener el mismo Nombre de la red (SSID)",
-            "Configurar manualmente el Canal Estándar"
-        ],
-        "correcta": 2,
-        "categoria": "Conceptos básicos de redes"
-    },
-    {
-        "id": 88,
-        "pregunta": "¿Qué estándar rige las redes Wi-Fi?",
-        "opciones": [
-            "IEEE 802.3",
-            "IEEE 802.11",
-            "IEEE 802.5",
-            "IEEE 802.15"
-        ],
-        "correcta": 1,
-        "categoria": "Cableado y medios"
-    },
-    {
-        "id": 89,
-        "pregunta": "¿Qué tipo de ataque busca saturar un sistema para impedir su funcionamiento?",
-        "opciones": [
-            "Phishing",
-            "DoS",
-            "Troyano",
-            "Spoofing"
-        ],
-        "correcta": 1,
-        "categoria": "Seguridad informática"
-    },
-    {
-        "id": 90,
-        "pregunta": "¿Qué práctica ayuda a proteger la información crítica?",
-        "opciones": [
-            "Compartir contraseñas",
-            "Usar redes abiertas",
-            "Realizar copias de seguridad periódicas",
-            "Desactivar el firewall"
-        ],
-        "correcta": 2,
-        "categoria": "Seguridad informática"
-    },
-    {
-        "id": 91,
-        "pregunta": "¿Qué número de capa del modelo OSI corresponde a la capa de aplicación?",
-        "opciones": [
-            "Capa 1",
-            "Capa 4",
-            "Capa 7",
-            "Capa 5"
-        ],
-        "correcta": 2,
-        "categoria": "Modelo OSI"
-    },
-    {
-        "id": 92,
-        "pregunta": "¿Qué protocolo se utiliza para transferir páginas web?",
-        "opciones": [
-            "FTP",
-            "SMTP",
-            "HTTP/HTTPS",
-            "DNS"
-        ],
-        "correcta": 2,
-        "categoria": "Protocolos y servicios"
-    },
-    {
-        "id": 93,
-        "pregunta": "¿Qué principio busca proteger los datos contra accesos no autorizados?",
-        "opciones": [
-            "Disponibilidad",
-            "Integridad",
-            "Confidencialidad",
-            "Transparencia"
-        ],
-        "correcta": 2,
-        "categoria": "Seguridad informática"
-    },
-    {
-        "id": 94,
-        "pregunta": "¿Qué principio asegura que la información no sea modificada sin permiso?",
-        "opciones": [
-            "Confidencialidad",
-            "Integridad",
-            "Privacidad",
-            "Seguridad"
-        ],
-        "correcta": 1,
-        "categoria": "Seguridad informática"
-    },
-    {
-        "id": 95,
-        "pregunta": "¿Cuál es la misión principal de la Capa de Presentación?",
-        "opciones": [
-            "Gestionar el enrutamiento de paquetes",
-            "Establecer sesiones de comunicación",
-            "Asegurar que los datos transmitidos sean interpretables por el receptor",
-            "Optimizar el uso de la Capa de Red"
-        ],
-        "correcta": 2,
-        "categoria": "Modelo OSI"
-    },
-    {
-        "id": 96,
-        "pregunta": "¿Qué codificación se recomienda adoptar como estándar para mejorar la interoperabilidad, según las buenas prácticas?",
-        "opciones": [
-            "ASCII",
-            "EBCDIC",
-            "UTF-8",
-            "Base64"
-        ],
-        "correcta": 2,
-        "categoria": "Protocolos y servicios"
-    },
-    {
-        "id": 97,
-        "pregunta": "¿Cuál es un ejemplo de codificación de caracteres que gestiona la Capa de Presentación?",
-        "opciones": [
-            "XML",
-            "ASCII",
-            "MPEG",
-            "TLS"
-        ],
-        "correcta": 1,
-        "categoria": "Modelo OSI"
-    },
-    {
-        "id": 98,
-        "pregunta": "¿Cuál es el objetivo del software de seguridad de red?",
-        "opciones": [
-            "Aumentar la velocidad de navegación",
-            "Proteger sistemas e información frente a ataques",
-            "Mejorar la estética del sistema",
-            "Compartir archivos"
-        ],
-        "correcta": 1,
-        "categoria": "Seguridad informática"
-    },
-    {
-        "id": 99,
-        "pregunta": "¿Cuál es el propósito de un firewall?",
-        "opciones": [
-            "Acelerar la red",
-            "Controlar y filtrar el tráfico entre redes",
-            "Servir como almacenamiento de datos",
-            "Crear copias de seguridad"
-        ],
-        "correcta": 1,
-        "categoria": "Seguridad informática"
-    },
-    {
-        "id": 100,
-        "pregunta": "¿Qué comando se usa para asignar un nombre al router?",
-        "opciones": [
-            "Hostname",
-            "ip name",
-            "set name",
-            "routername"
-        ],
-        "correcta": 0,
-        "categoria": "Comandos de red"
-    },
-    {
-        "id": 101,
-        "pregunta": "¿Cuál fue una de las primeras tecnologías de telecomunicaciones en el Perú?",
-        "opciones": [
-            "Internet móvil",
-            "Telégrafo",
-            "Fibra óptica",
-            "Telefonía IP"
-        ],
-        "correcta": 1,
-        "categoria": "Conceptos básicos de redes"
-    },
-    {
-        "id": 102,
-        "pregunta": "¿Qué función cumple un firewall en una red?",
-        "opciones": [
-            "Transmitir señales inalámbricas",
-            "Proteger la red de accesos no autorizados",
-            "Dirigir tráfico dentro de la LAN",
-            "Almacenar datos"
-        ],
-        "correcta": 1,
-        "categoria": "Seguridad informática"
-    },
-    {
-        "id": 103,
-        "pregunta": "¿Cuál es la principal diferencia entre los esquemas T568A y T568B?",
-        "opciones": [
-            "El tipo de cable",
-            "El orden de los colores",
-            "La categoría de velocidad",
-            "El tipo de conector"
-        ],
-        "correcta": 1,
-        "categoria": "Cableado y medios"
-    },
-    {
-        "id": 104,
-        "pregunta": "¿Qué topología ofrece redundancia de caminos entre dispositivos?",
-        "opciones": [
-            "Bus",
-            "Estrella",
-            "Malla",
-            "Árbol"
-        ],
-        "correcta": 2,
-        "categoria": "Topologías"
-    },
-    {
-        "id": 105,
-        "pregunta": "¿Qué categoría de cable permite velocidades de hasta 10 Gbps?",
-        "opciones": [
-            "Cat 5e",
-            "Cat 6a",
-            "Cat 6",
-            "Cat 7"
-        ],
-        "correcta": 1,
-        "categoria": "Cableado y medios"
-    },
-    {
-        "id": 106,
-        "pregunta": "¿Qué tipo de fibra óptica utiliza un solo haz de luz?",
-        "opciones": [
-            "Multimodo",
-            "Monomodo",
-            "Mixta",
-            "Reflectiva"
-        ],
-        "correcta": 1,
-        "categoria": "Cableado y medios"
-    },
-    {
-        "id": 107,
-        "pregunta": "¿Qué topología combina características de la estrella y del bus?",
-        "opciones": [
-            "Malla",
-            "Anillo",
-            "Árbol",
-            "Híbrida"
-        ],
-        "correcta": 2,
-        "categoria": "Topologías"
-    },
-    {
-        "id": 108,
-        "pregunta": "¿Qué es PoE (Power over Ethernet)?",
-        "opciones": [
-            "Alimentación de equipos a través del cable de red",
-            "Protocolo de seguridad",
-            "Tipo de cableado de fibra",
-            "Norma de coloración"
-        ],
-        "correcta": 0,
-        "categoria": "Cableado y medios"
-    },
-    {
-        "id": 109,
-        "pregunta": "¿Qué función tiene la capa de enlace de datos en el modelo OSI?",
-        "opciones": [
-            "Asignar direcciones IP",
-            "Dividir paquetes en tramas",
-            "Cifrar los datos",
-            "Controlar la sesión"
-        ],
-        "correcta": 1,
-        "categoria": "Modelo OSI"
-    },
-    {
-        "id": 110,
-        "pregunta": "¿Qué organismo coordina la asignación de direcciones IP y nombres de dominio?",
-        "opciones": [
-            "IEEE",
-            "ICANN",
-            "TIA",
-            "IAB"
-        ],
-        "correcta": 1,
-        "categoria": "Direccionamiento IP"
-    },
-    {
-        "id": 111,
-        "pregunta": "¿Qué capa del modelo OSI se encarga del cifrado y la compresión?",
-        "opciones": [
-            "Capa de red",
-            "Capa de presentación",
-            "Capa de sesión",
-            "Capa física"
-        ],
-        "correcta": 1,
-        "categoria": "Modelo OSI"
-    },
-    {
-        "id": 112,
-        "pregunta": "¿Qué permite la capa física además de transformar señales en datos binarios?",
-        "opciones": [
-            "Enviar correos electrónicos",
-            "Transformar datos binarios en señales para transmitirlas",
-            "Crear redes virtuales",
-            "Gestionar direcciones IP"
-        ],
-        "correcta": 1,
-        "categoria": "Modelo OSI"
-    },
-    {
-        "id": 113,
-        "pregunta": "¿Cuál es la representación binaria de la máscara de subred 255.255.0.0?",
-        "opciones": [
-            "11111111.11111111.11111111.00000000",
-            "11111111.11111111.00000000.00000000",
-            "11111111.00000000.00000000.00000000",
-            "11111111.11111111.11111111.11111111"
-        ],
-        "correcta": 1,
-        "categoria": "Direccionamiento IP"
-    },
-    {
-        "id": 114,
-        "pregunta": "Si una dirección IP es 2001:00B:ABCD:EF::1000, ¿a qué versión de IP corresponde?",
-        "opciones": [
-            "IPv4",
-            "IPv6",
-            "IP Clase E",
-            "IP Multicast"
-        ],
-        "correcta": 1,
-        "categoria": "Direccionamiento IP"
-    },
-    {
-        "id": 115,
-        "pregunta": "¿Cuál es el rango de direcciones IP de Clase B?",
-        "opciones": [
-            "0.0.0.0 - 127.255.255.255",
-            "128.0.0.0 - 191.255.255.255",
-            "192.0.0.0 - 223.255.255.255",
-            "224.0.0.0 - 239.255.255.255"
-        ],
-        "correcta": 1,
-        "categoria": "Direccionamiento IP"
-    },
-    {
-        "id": 116,
-        "pregunta": "¿Qué máscara de subred corresponde a la Clase C?",
-        "opciones": [
-            "255.0.0.0",
-            "255.255.0.0",
-            "255.255.255.0",
-            "255.255.255.255"
-        ],
-        "correcta": 2,
-        "categoria": "Direccionamiento IP"
-    },
-    {
-        "id": 117,
-        "pregunta": "¿Cuál es el rango de direcciones IP de Clase B?",
-        "opciones": [
-            "0.0.0.0 - 127.255.255.255",
-            "128.0.0.0 - 191.255.255.255",
-            "192.0.0.0 - 223.255.255.255",
-            "224.0.0.0 - 239.255.255.255"
-        ],
-        "correcta": 1,
-        "categoria": "Direccionamiento IP"
-    },
-    {
-        "id": 118,
-        "pregunta": "¿Qué dispositivo opera en la capa 3 del modelo OSI y reenvía paquetes entre redes?",
-        "opciones": [
-            "Hub",
-            "Switch Capa 2",
-            "Router",
-            "Repetidor"
-        ],
-        "correcta": 2,
-        "categoria": "Dispositivos de red"
-    },
-    {
-        "id": 119,
-        "pregunta": "¿Qué abarcan los métodos de codificación y señalización en la capa física?",
-        "opciones": [
-            "La representación de unos y ceros en la red",
-            "La creación de aplicaciones de usuario",
-            "La configuración de direcciones IP",
-            "La gestión de contraseñas"
-        ],
-        "correcta": 0,
-        "categoria": "Modelo OSI"
-    },
-    {
-        "id": 120,
-        "pregunta": "¿Qué analogía se usa para explicar la relación entre IP y TCP?",
-        "opciones": [
-            "Carta y sello",
-            "Teléfono y número telefónico",
-            "Libro y página",
-            "Auto y carretera"
-        ],
-        "correcta": 1,
-        "categoria": "Protocolos y servicios"
-    },
-    {
-        "id": 121,
-        "pregunta": "¿Cuál es el propósito del Puerto Internet en un enrutador doméstico?",
-        "opciones": [
-            "Conectar dispositivos a la misma red local",
-            "Conectarse a la parte del conmutador interno del enrutador",
-            "Conectar el enrutador a una red diferente a la de los puertos Ethernet, como un módem para acceder a Internet",
-            "Conectar una impresora compartida"
-        ],
-        "correcta": 2,
-        "categoria": "Dispositivos de red"
-    },
-    {
-        "id": 122,
-        "pregunta": "Indica a qué tipo de Clase de Red pertenecen las siguientes IP's: I. 10.250.1.1, II. 150.10.15.0, III. 192.14.2.0",
-        "opciones": [
-            "A,B,C",
-            "C,B,A",
-            "A,B,C",
-            "A,C,B"
-        ],
-        "correcta": 2,
-        "categoria": "Direccionamiento IP"
-    },
-    {
-        "id": 123,
-        "pregunta": "¿Qué tipo de medio de cableado se describe como vidrio o plástico con un diámetro similar al de un cabello humano, capaz de transmitir información digital a velocidades muy rápidas a través de grandes distancias y con un ancho de banda muy alto?",
-        "opciones": [
-            "Categoría 5e",
-            "Cables de fibra óptica",
-            "Cable coaxial",
-            "Cable trenzado"
-        ],
-        "correcta": 1,
-        "categoria": "Cableado y medios"
-    },
-    {
-        "id": 124,
-        "pregunta": "¿Qué tipo de cable tiene un alambre interno y blindaje conductor?",
-        "opciones": [
-            "Fibra óptica",
-            "Categoría 5e",
-            "Coaxial",
-            "USB"
-        ],
-        "correcta": 2,
-        "categoria": "Cableado y medios"
-    },
-    {
-        "id": 125,
-        "pregunta": "¿Qué organización prueba la interoperabilidad de dispositivos Wi-Fi?",
-        "opciones": [
-            "IEEE",
-            "WiFi Alliance",
-            "ISO",
-            "ITU"
-        ],
-        "correcta": 1,
-        "categoria": "Cableado y medios"
-    },
-    {
-        "id": 126,
-        "pregunta": "¿Qué tipo de ataque se realiza desde múltiples equipos?",
-        "opciones": [
-            "DoS",
-            "DDoS",
-            "Phishing",
-            "Spoofing"
-        ],
-        "correcta": 1,
-        "categoria": "Seguridad informática"
-    },
-    {
-        "id": 127,
-        "pregunta": "¿Qué tipo de malware exige un rescate por los archivos secuestrados?",
-        "opciones": [
-            "Adware",
-            "Spyware",
-            "Ransomware",
-            "Troyano"
-        ],
-        "correcta": 2,
-        "categoria": "Seguridad informática"
-    },
-    {
-        "id": 128,
-        "pregunta": "¿Qué tipo de software malicioso se disfraza como legítimo?",
-        "opciones": [
-            "Gusano",
-            "Troyano",
-            "Phisher",
-            "Rootkit"
-        ],
-        "correcta": 1,
-        "categoria": "Seguridad informática"
-    },
-    {
-        "id": 129,
-        "pregunta": "¿Qué tipo de ataque se realiza mediante llamadas telefónicas fraudulentas?",
-        "opciones": [
-            "Phishing",
-            "Vishing",
-            "Spoofing",
-            "DDoS"
-        ],
-        "correcta": 1,
-        "categoria": "Seguridad informática"
-    },
-    {
-        "id": 130,
-        "pregunta": "¿Qué tipo de malware muestra publicidad no deseada?",
-        "opciones": [
-            "Spyware",
-            "Ransomware",
-            "Adware",
-            "Troyano"
-        ],
-        "correcta": 2,
-        "categoria": "Seguridad informática"
-    },
-    {
-        "id": 131,
-        "pregunta": "¿Qué protocolo se utiliza específicamente para recibir correos electrónicos?",
-        "opciones": [
-            "SMTP",
-            "HTTP",
-            "POP3/IMAP",
-            "DNS"
-        ],
-        "correcta": 2,
-        "categoria": "Protocolos y servicios"
-    },
-    {
-        "id": 132,
-        "pregunta": "¿Qué puerto utiliza SMTP de forma segura?",
-        "opciones": [
-            "25",
-            "110",
-            "587",
-            "143"
-        ],
-        "correcta": 2,
-        "categoria": "Protocolos y servicios"
-    },
-    {
-        "id": 133,
-        "pregunta": "¿Qué función principal tiene la capa de aplicación?",
-        "opciones": [
-            "Transmitir bits a través del medio",
-            "Proporcionar servicios de red directamente a las aplicaciones de usuario",
-            "Enrutar paquetes entre redes",
-            "Establecer conexiones extremo a extremo"
-        ],
-        "correcta": 1,
-        "categoria": "Modelo OSI"
-    },
-    {
-        "id": 134,
-        "pregunta": "¿Qué buena práctica se recomienda para prevenir vulnerabilidades?",
-        "opciones": [
-            "Usar protocolos sin cifrado",
-            "Mantener servidores desactualizados",
-            "Usar protocolos seguros como HTTPS",
-            "Deshabilitar todos los servicios de red"
-        ],
-        "correcta": 2,
-        "categoria": "Seguridad informática"
-    },
-    {
-        "id": 135,
-        "pregunta": "¿Qué protocolo de correo utiliza el puerto 25?",
-        "opciones": [
-            "POP3",
-            "IMAP",
-            "SMTP no seguro",
-            "HTTP"
-        ],
-        "correcta": 2,
-        "categoria": "Protocolos y servicios"
-    },
-    {
-        "id": 136,
-        "pregunta": "¿Qué protocolos de seguridad se recomienda usar para proteger las comunicaciones sensibles, según las buenas prácticas?",
-        "opciones": [
-            "SSL",
-            "TLS 1.2 o TLS 1.3",
-            "HTTP",
-            "EBCDIC"
-        ],
-        "correcta": 1,
-        "categoria": "Seguridad informática"
-    },
-    {
-        "id": 137,
-        "pregunta": "¿Qué herramienta analiza paquetes y tráfico de red?",
-        "opciones": [
-            "Antispyware",
-            "Monitor de tráfico",
-            "Antivirus",
-            "Cifrado"
-        ],
-        "correcta": 1,
-        "categoria": "Comandos de red"
-    },
-    {
-        "id": 138,
-        "pregunta": "¿Qué herramienta detecta y previene intrusiones?",
-        "opciones": [
-            "IDS/IPS",
-            "Antispam",
-            "Cifrado",
-            "Firewall"
-        ],
-        "correcta": 0,
-        "categoria": "Seguridad informática"
-    },
-    {
-        "id": 139,
-        "pregunta": "¿Qué práctica ayuda a proteger la información crítica?",
-        "opciones": [
-            "Compartir contraseñas",
-            "Realizar copias de seguridad periódicas",
-            "Usar redes abiertas",
-            "Desactivar el firewall"
-        ],
-        "correcta": 1,
-        "categoria": "Seguridad informática"
-    },
-    {
-        "id": 140,
-        "pregunta": "¿Qué se debe hacer con los parches de seguridad?",
-        "opciones": [
-            "Ignorarlos",
-            "Instalarlos periódicamente",
-            "Compartirlos en redes sociales",
-            "Desactivarlos"
-        ],
-        "correcta": 1,
-        "categoria": "Seguridad informática"
-    },
-    {
-        "id": 141,
-        "pregunta": "¿Qué comando se usa para verificar la tabla de enrutamiento IPv4?",
-        "opciones": [
-            "show ip route",
-            "show interfaces",
-            "show running-config",
-            "show startup-config"
-        ],
-        "correcta": 0,
-        "categoria": "Comandos de red"
-    },
-    {
-        "id": 142,
-        "pregunta": "¿Qué comando se usa para asignar una dirección IPv4 a una interfaz?",
-        "opciones": [
-            "set ip address",
-            "ip address <dirección> <máscara>",
-            "address ip <dirección>",
-            "define ip <dirección>"
-        ],
-        "correcta": 1,
-        "categoria": "Comandos de red"
-    },
-    {
-        "id": 143,
-        "pregunta": "¿Qué comando muestra estadísticas detalladas de las interfaces?",
-        "opciones": [
-            "show interfaces",
-            "show ip interface brief",
-            "show running-config",
-            "show protocols"
-        ],
-        "correcta": 0,
-        "categoria": "Comandos de red"
-    },
-    {
-        "id": 144,
-        "pregunta": "¿Qué técnica de firewall bloquea o permite paquetes basándose en IP o MAC?",
-        "opciones": [
-            "Filtrado de paquetes",
-            "Filtrado de aplicaciones",
-            "Filtrado de URL",
-            "Inspección con estado"
-        ],
-        "correcta": 0,
-        "categoria": "Seguridad informática"
-    },
-    {
-        "id": 145,
-        "pregunta": "¿Qué medida ayuda a mitigar los ataques de gusanos informáticos?",
-        "opciones": [
-            "Desactivar antivirus",
-            "Instalar actualizaciones y parches de seguridad",
-            "Cambiar la IP del router",
-            "Usar DHCP dinámico"
-        ],
-        "correcta": 1,
-        "categoria": "Seguridad informática"
-    },
-    {
-        "id": 146,
-        "pregunta": "¿Cuál es la longitud mínima recomendada para contraseñas seguras según el módulo?",
-        "opciones": [
-            "4 caracteres",
-            "6 caracteres",
-            "8 o más caracteres",
-            "20 caracteres"
-        ],
-        "correcta": 2,
-        "categoria": "Seguridad informática"
-    },
-    {
-        "id": 147,
-        "pregunta": "¿Qué herramienta captura y analiza paquetes de datos?",
-        "opciones": [
-            "Nmap",
-            "Wireshark",
-            "Nagios",
-            "Uptrends"
-        ],
-        "correcta": 1,
-        "categoria": "Comandos de red"
-    },
-    {
-        "id": 148,
-        "pregunta": "¿Qué comando se utiliza para visualizar y modificar tablas de enrutamiento?",
-        "opciones": [
-            "Netstat",
-            "Route",
-            "Tracert",
-            "nslookup"
-        ],
-        "correcta": 1,
-        "categoria": "Comandos de red"
-    },
-    {
-        "id": 149,
-        "pregunta": "¿Qué significa TTL en el contexto de traceroute?",
-        "opciones": [
-            "Time To Live (Tiempo de Vida)",
-            "Total Transmission Limit",
-            "Time Transmission Latency",
-            "Technical Transfer Layer"
-        ],
-        "correcta": 0,
-        "categoria": "Protocolos y servicios"
-    },
-    {
-        "id": 150,
-        "pregunta": "¿Qué herramienta es utilizada para escaneo de puertos?",
-        "opciones": [
-            "Wireshark",
-            "Nmap",
-            "Nagios",
-            "Datadog"
-        ],
-        "correcta": 1,
-        "categoria": "Comandos de red"
-    },
-    {
-        "id": 151,
-        "pregunta": "¿Qué tipo de nube combina características de las nubes pública y privada?",
-        "opciones": [
-            "Híbrida",
-            "Comunitaria",
-            "Mixta",
-            "Compartida"
-        ],
-        "correcta": 0,
-        "categoria": "Computación en la nube"
-    },
-    {
-        "id": 152,
-        "pregunta": "¿Cuál es la diferencia entre una nube comunitaria y una pública?",
-        "opciones": [
-            "La comunidad paga más",
-            "La nube comunitaria está adaptada a necesidades específicas de un grupo",
-            "La nube pública es menos segura",
-            "La nube comunitaria usa redes privadas exclusivamente"
-        ],
-        "correcta": 1,
-        "categoria": "Computación en la nube"
-    },
-    {
-        "id": 153,
-        "pregunta": "¿Cuál es una función de los centros de datos en la computación en la nube?",
-        "opciones": [
-            "Reemplazar Internet",
-            "Alojar servicios y recursos basados en la nube",
-            "Servir como respaldo físico únicamente",
-            "Proveer energía a los servidores"
-        ],
-        "correcta": 1,
-        "categoria": "Computación en la nube"
-    },
-    {
-        "id": 154,
-        "pregunta": "¿Qué permite una nube híbrida en cuanto a acceso?",
-        "opciones": [
-            "Acceso restringido solo desde la red interna",
-            "Grados de acceso diferenciados según permisos del usuario",
-            "Acceso ilimitado a todos los usuarios",
-            "Acceso exclusivamente local"
-        ],
-        "correcta": 1,
-        "categoria": "Computación en la nube"
-    },
-    {
-        "id": 155,
-        "pregunta": "¿Cuántas direcciones IP puede manejar aproximadamente una red Clase A?",
-        "opciones": [
-            "256 direcciones",
-            "65,536 direcciones",
-            "16 millones de direcciones",
-            "1,024 direcciones"
-        ],
-        "correcta": 2,
-        "categoria": "Direccionamiento IP"
-    },
-    {
-        "id": 156,
-        "pregunta": "¿Cuál es el propósito específico de la Clase E de direcciones IP?",
-        "opciones": [
-            "Redes comerciales grandes",
-            "Redes domésticas",
-            "No se utiliza en equipos de uso normal (experimental)",
-            "Multicast exclusivamente"
-        ],
-        "correcta": 2,
-        "categoria": "Direccionamiento IP"
-    },
-    {
-        "id": 157,
-        "pregunta": "¿Por qué la Clase D no es de utilización común para usuarios normales?",
-        "opciones": [
-            "Es muy lenta",
-            "Es muy cara",
-            "Está destinada a uso experimental y grupos de máquinas específicos",
-            "Solo funciona en redes privadas"
-        ],
-        "correcta": 2,
-        "categoria": "Direccionamiento IP"
-    },
-    {
-        "id": 158,
-        "pregunta": "¿Qué desafío enfrenta la red en cuanto a privacidad?",
-        "opciones": [
-            "Mejora de la velocidad de transferencia",
-            "Exposición de datos confidenciales",
-            "Reducción de costos",
-            "Pérdida de compatibilidad"
-        ],
-        "correcta": 1,
-        "categoria": "Seguridad informática"
-    },
-    {
-        "id": 159,
-        "pregunta": "¿Qué capa del modelo OSI divide los datos en segmentos?",
-        "opciones": [
-            "Capa de red",
-            "Capa de transporte",
-            "Capa de aplicación",
-            "Capa de presentación"
-        ],
-        "correcta": 1,
-        "categoria": "Modelo OSI"
-    },
-    {
-        "id": 160,
-        "pregunta": "¿En qué rango de direcciones IP se encuentra la Clase D?",
-        "opciones": [
-            "0.0.0.0 - 127.255.255.255",
-            "128.0.0.0 - 191.255.255.255",
-            "192.0.0.0 - 223.255.255.255",
-            "224.0.0.0 - 239.255.255.255"
-        ],
-        "correcta": 3,
-        "categoria": "Direccionamiento IP"
-    },
-    {
-        "id": 161,
-        "pregunta": "¿Qué dirección IP pertenece al rango de direcciones de enlace local (APIPA)?",
-        "opciones": [
-            "10.1.1.1",
-            "172.16.1.1",
-            "169.254.1.1",
-            "192.168.1.1"
-        ],
-        "correcta": 2,
-        "categoria": "Direccionamiento IP"
-    },
-    {
-        "id": 162,
-        "pregunta": "¿Cuáles son las máscaras de subred de los siguientes tipos de clases de red: CLASE A, CLASE B, CLASE C?",
-        "opciones": [
-            "255.0.0.0 / 255.255.0.0 / 255.255.255.0",
-            "255.255.0.0 / 255.0.0.0 / 255.255.255.0",
-            "255.255.255.0 / 255.255.0.0 / 255.0.0.0",
-            "255.255.255.255 / 255.255.0.0 / 255.0.0.0"
-        ],
-        "correcta": 0,
-        "categoria": "Direccionamiento IP"
-    },
-    {
-        "id": 163,
-        "pregunta": "¿Cuál es el Id de Red de las siguientes IP's: I. 170.100.18.4, II. 119.18.45.0, III. 209.240.80.78, IV. 199.155.77.56?",
-        "opciones": [
-            "18.4 / 119 .18 / 209.240 / 199.155",
-            "170.100 / 119 / 209.240.80 / 199.155.77",
-            "170.100.18 / 18.45.0 / 240.80.78 / 56",
-            "100.18.4 / 45.0 / 240.80.78 / 155.77.56"
-        ],
-        "correcta": 1,
-        "categoria": "Direccionamiento IP"
-    },
-    {
-        "id": 164,
-        "pregunta": "¿Cuál es el propósito principal de las direcciones de Clase E?",
-        "opciones": [
-            "Redes muy grandes",
-            "Uso experimental",
-            "Redes pequeñas",
-            "Comunicación multicast"
-        ],
-        "correcta": 1,
-        "categoria": "Direccionamiento IP"
-    },
-    {
-        "id": 165,
-        "pregunta": "¿Qué protocolo utilizaría para una videollamada donde la velocidad es más importante que la precisión?",
-        "opciones": [
-            "TCP",
-            "HTTP",
-            "UDP",
-            "FTP"
-        ],
-        "correcta": 2,
-        "categoria": "Protocolos y servicios"
-    },
-    {
-        "id": 166,
-        "pregunta": "¿Qué protocolo es responsable de obtener y definir la dirección del dispositivo destino?",
-        "opciones": [
-            "TCP",
-            "UDP",
-            "IP",
-            "FTP"
-        ],
-        "correcta": 2,
-        "categoria": "Protocolos y servicios"
-    },
-    {
-        "id": 167,
-        "pregunta": "¿Cuál es el rango de frecuencias en el que se encuentran las tecnologías inalámbricas usadas con más frecuencia en las redes domésticas, incluyendo tanto Bluetooth como las modernas tecnologías LAN inalámbricas IEEE 802.11?",
-        "opciones": [
-            "Solamente 5 GHz",
-            "2.4 GHz y 5 GHz",
-            "Solamente 2.4 GHz",
-            "900 MHz y 1.8 GHz"
-        ],
-        "correcta": 1,
-        "categoria": "Cableado y medios"
-    },
-    {
-        "id": 168,
-        "pregunta": "¿Qué estándar rige el entorno WLAN y describe las características de los diferentes estándares para las comunicaciones inalámbricas, como las conocidas colectivamente como Wi-Fi?",
-        "opciones": [
-            "Bluetooth",
-            "IEEE 802.3",
-            "IEEE 802.11",
-            "Categoría 5e"
-        ],
-        "correcta": 2,
-        "categoria": "Cableado y medios"
-    },
-    {
-        "id": 169,
-        "pregunta": "¿Qué diferencia a un gusano de un virus?",
-        "opciones": [
-            "El gusano necesita ejecutarse manualmente",
-            "El virus se replica automáticamente",
-            "El gusano se replica automáticamente sin intervención",
-            "El virus no afecta archivos"
-        ],
-        "correcta": 2,
-        "categoria": "Seguridad informática"
-    },
-    {
-        "id": 170,
-        "pregunta": "¿Qué se debe hacer para reducir riesgos de seguridad en la red?",
-        "opciones": [
-            "Usar contraseñas simples",
-            "Ignorar actualizaciones",
-            "Educar a los usuarios sobre amenazas comunes",
-            "Compartir credenciales"
-        ],
-        "correcta": 2,
-        "categoria": "Seguridad informática"
-    },
-    {
-        "id": 171,
-        "pregunta": "¿Cuál de estos rangos corresponde a direcciones IP privadas?",
-        "opciones": [
-            "8.8.8.8 - 8.8.8.255",
-            "192.168.0.0 - 192.168.255.255",
-            "64.0.0.0 - 64.255.255.255",
-            "200.0.0.0 - 200.255.255.255"
-        ],
-        "correcta": 1,
-        "categoria": "Direccionamiento IP"
-    },
-    {
-        "id": 172,
-        "pregunta": "¿Cuál es la dirección IP multicast más común?",
-        "opciones": [
-            "192.168.1.1",
-            "10.0.0.1",
-            "127.0.0.1",
-            "224.0.0.0"
-        ],
-        "correcta": 3,
-        "categoria": "Direccionamiento IP"
-    },
-    {
-        "id": 173,
-        "pregunta": "¿Cuál es la función de la dirección de broadcast 255.255.255.255?",
-        "opciones": [
-            "Comunicación punto a punto",
-            "Enviar información a todos los dispositivos en una red local",
-            "Configuración automática",
-            "Pruebas de conectividad"
-        ],
-        "correcta": 1,
-        "categoria": "Direccionamiento IP"
-    },
-    {
-        "id": 174,
-        "pregunta": "¿Cuál es la notación CIDR para la máscara de subred de Clase A?",
-        "opciones": [
-            "/24",
-            "/16",
-            "/8",
-            "/32"
-        ],
-        "correcta": 2,
-        "categoria": "Direccionamiento IP"
-    },
-    {
-        "id": 175,
-        "pregunta": "¿Qué dos puertos utiliza FTP para sus operaciones?",
-        "opciones": [
-            "20 y 21",
-            "21 y 22",
-            "25 y 110",
-            "80 y 443"
-        ],
-        "correcta": 0,
-        "categoria": "Protocolos y servicios"
-    },
-    {
-        "id": 176,
-        "pregunta": "¿Por qué se considera fundamental la Capa de Presentación en las comunicaciones entre aplicaciones?",
-        "opciones": [
-            "Porque solo maneja la seguridad mediante SSL/TLS",
-            "Porque define el camino de los datos a través de la red",
-            "Porque facilita la interoperabilidad mediante transformación, compresión y cifrado",
-            "Porque se encarga de la gestión de la sesión"
-        ],
-        "correcta": 2,
-        "categoria": "Modelo OSI"
-    },
-    {
-        "id": 177,
-        "pregunta": "¿Qué tipo de software permite gestionar vulnerabilidades?",
-        "opciones": [
-            "IDS",
-            "Herramienta de gestión de vulnerabilidades",
-            "Antispyware",
-            "Firewall"
-        ],
-        "correcta": 1,
-        "categoria": "Seguridad informática"
-    },
-    {
-        "id": 178,
-        "pregunta": "¿Por qué se recomienda cifrar las contraseñas en el archivo de configuración?",
-        "opciones": [
-            "Para mejorar el rendimiento",
-            "Para evitar accesos no autorizados si alguien accede al archivo",
-            "Para habilitar el acceso remoto",
-            "Para reducir errores de comandos"
-        ],
-        "correcta": 1,
-        "categoria": "Seguridad informática"
-    },
-    {
-        "id": 179,
-        "pregunta": "¿Qué representa el concepto de 'defensa en profundidad'?",
-        "opciones": [
-            "Proteger la red con múltiples capas de seguridad",
-            "Instalar varios antivirus en el mismo sistema",
-            "Filtrar todo el tráfico externo",
-            "Monitorear solo los routers principales"
-        ],
-        "correcta": 0,
-        "categoria": "Seguridad informática"
-    },
-    {
-        "id": 180,
-        "pregunta": "¿Qué parámetro de ipconfig libera la configuración DHCP actual?",
-        "opciones": [
-            "/flushdns",
-            "/release",
-            "/renew",
-            "/all"
-        ],
-        "correcta": 1,
-        "categoria": "Comandos de red"
-    },
-    {
-        "id": 181,
-        "pregunta": "¿Qué problema se soluciona ajustando el tamaño del pool de direcciones en el router?",
-        "opciones": [
-            "Direcciones IP duplicadas",
-            "Agotamiento de direcciones IP",
-            "Bajo rendimiento",
-            "Fallo de conexión a Internet"
-        ],
-        "correcta": 1,
-        "categoria": "Direccionamiento IP"
-    },
-    {
-        "id": 182,
-        "pregunta": "¿Cuál es una diferencia fundamental entre la computación en la nube y un centro de datos tradicional?",
-        "opciones": [
-            "La nube está fuera de las instalaciones y es escalable bajo demanda",
-            "Ambos son exactamente iguales",
-            "El centro de datos permite el pago por uso",
-            "La nube requiere una infraestructura física en cada oficina"
-        ],
-        "correcta": 0,
-        "categoria": "Computación en la nube"
-    },
-    {
-        "id": 183,
-        "pregunta": "¿Cuál es la principal tarea de un administrador de red?",
-        "opciones": [
-            "configurar impresoras",
-            "resolver problemas de red",
-            "actualizar software",
-            "controlar usuarios"
-        ],
-        "correcta": 1,
-        "categoria": "Conceptos básicos de redes"
-    },
-    {
-        "id": 184,
-        "pregunta": "¿Qué herramienta captura datos de paquetes y los analiza?",
-        "opciones": [
-            "Wireshark",
-            "Nmap",
-            "Nagios",
-            "Uptrends"
-        ],
-        "correcta": 0,
-        "categoria": "Comandos de red"
-    },
-    {
-        "id": 185,
-        "pregunta": "¿Qué comando muestra la configuración TCP/IP actual del equipo?",
-        "opciones": [
-            "Netstat",
-            "Ipconfig",
-            "Tracert",
-            "nslookup"
-        ],
-        "correcta": 1,
-        "categoria": "Comandos de red"
-    },
-    {
-        "id": 186,
-        "pregunta": "¿Qué comando se utiliza para comprobar la conectividad con otro host?",
-        "opciones": [
-            "Ping",
-            "Route",
-            "Ifconfig",
-            "netstat"
-        ],
-        "correcta": 0,
-        "categoria": "Comandos de red"
-    },
-    {
-        "id": 187,
-        "pregunta": "¿Qué comando traza la ruta que siguen los paquetes hasta un destino?",
-        "opciones": [
-            "Ping",
-            "Netstat",
-            "Tracert",
-            "Nslookup"
-        ],
-        "correcta": 2,
-        "categoria": "Comandos de red"
-    },
-    {
-        "id": 188,
-        "pregunta": "¿Qué herramienta ayuda a determinar problemas con DNS?",
-        "opciones": [
-            "Nslookup",
-            "Ipconfig",
-            "Netstat",
-            "traceroute"
-        ],
-        "correcta": 0,
-        "categoria": "Comandos de red"
-    },
-    {
-        "id": 189,
-        "pregunta": "¿Qué comando permite visualizar y modificar las tablas de enrutamiento?",
-        "opciones": [
-            "Ping",
-            "Route",
-            "Ipconfig",
-            "Tracert"
-        ],
-        "correcta": 1,
-        "categoria": "Comandos de red"
-    },
-    {
-        "id": 190,
-        "pregunta": "¿Qué comando permite renovar la configuración DHCP de una red?",
-        "opciones": [
-            "ipconfig /renew",
-            "netstat /update",
-            "nslookup /dns",
-            "ping /refresh"
-        ],
-        "correcta": 0,
-        "categoria": "Comandos de red"
-    },
-    {
-        "id": 191,
-        "pregunta": "¿Cuál es el paso que consiste en documentar todo el suceso y su resolución?",
-        "opciones": [
-            "Quinto paso",
-            "Sexto paso",
-            "Cuarto paso",
-            "Séptimo paso"
-        ],
-        "correcta": 1,
-        "categoria": "Conceptos básicos de redes"
-    },
-    {
-        "id": 192,
-        "pregunta": "¿Qué tipo de mensaje devuelve el comando ping cuando el host remoto está disponible?",
-        "opciones": [
-            "Mensaje ICMP de 'no disponible'",
-            "Mensaje ICMP de 'sí, estoy aquí'",
-            "Respuesta DNS",
-            "Solicitud DHCP"
-        ],
-        "correcta": 1,
-        "categoria": "Protocolos y servicios"
-    },
-    {
-        "id": 193,
-        "pregunta": "¿Qué comando limpia la tabla de enrutamiento y puede usar IPv4 o IPv6?",
-        "opciones": [
-            "Ipconfig",
-            "Route",
-            "Tracert",
-            "Nslookup"
-        ],
-        "correcta": 1,
-        "categoria": "Comandos de red"
-    },
-    {
-        "id": 194,
-        "pregunta": "¿Qué significa TCP/IP?",
-        "opciones": [
-            "Transferencia de Contenido por Internet",
-            "Protocolo de Control de Transmisión/Protocolo de Internet",
-            "Transmisión de Comunicación por Internet",
-            "Transferencia de Conexión de Protocolo"
-        ],
-        "correcta": 1,
-        "categoria": "Protocolos y servicios"
-    },
-    {
-        "id": 195,
-        "pregunta": "¿Qué significa TTL en el contexto de traceroute?",
-        "opciones": [
-            "Time To Live (Tiempo de Vida)",
-            "Total Transmission Limit",
-            "Time Transmission Latency",
-            "Technical Transfer Layer"
-        ],
-        "correcta": 0,
-        "categoria": "Protocolos y servicios"
-    },
-    {
-        "id": 196,
-        "pregunta": "Los servicios principales de computación en la nube son: SaaS, PaaS, IaaS.",
-        "opciones": [
-            "Verdadero",
-            "Falso"
-        ],
-        "correcta": 0,
-        "categoria": "Computación en la nube"
-    },
-    {
-        "id": 197,
-        "pregunta": "Los modelos principales de computación en la nube son 4.",
-        "opciones": [
-            "Verdadero",
-            "Falso"
-        ],
-        "correcta": 0,
-        "categoria": "Computación en la nube"
+{
+    "banco_preguntas": {
+        "total_preguntas": 197,
+        "preguntas": [
+            {
+                "id": 161,
+                "pregunta": "¿Qué dirección IP pertenece al rango de direcciones de enlace local (APIPA)?",
+                "opciones": [
+                    "10.1.1.1",
+                    "172.16.1.1",
+                    "169.254.1.1",
+                    "192.168.1.1"
+                ],
+                "respuesta_correcta": "169.254.1.1"
+            },
+            {
+                "id": 162,
+                "pregunta": "¿Cuáles son las máscaras de subred de los siguientes tipos de clases de red: CLASE A, CLASE B, CLASE C?",
+                "opciones": [
+                    "255.0.0.0 / 255.255.0.0 / 255.255.255.0",
+                    "255.255.0.0 / 255.0.0.0 / 255.255.255.0",
+                    "255.255.255.0 / 255.255.0.0 / 255.0.0.0",
+                    "255.255.255.255 / 255.255.0.0 / 255.0.0.0"
+                ],
+                "respuesta_correcta": "255.0.0.0 / 255.255.0.0 / 255.255.255.0"
+            },
+            {
+                "id": 163,
+                "pregunta": "¿Cuál es el Id de Red de las siguientes IP's: I. 170.100.18.4, II. 119.18.45.0, III. 209.240.80.78, IV. 199.155.77.56?",
+                "opciones": [
+                    "18.4 / 119 .18 / 209.240 / 199.155",
+                    "170.100 / 119 / 209.240.80 / 199.155.77",
+                    "170.100.18 / 18.45.0 / 240.80.78 / 56",
+                    "100.18.4 / 45.0 / 240.80.78 / 155.77.56"
+                ],
+                "respuesta_correcta": "170.100 / 119 / 209.240.80 / 199.155.77"
+            },
+            {
+                "id": 164,
+                "pregunta": "¿Cuál es el propósito principal de las direcciones de Clase E?",
+                "opciones": [
+                    "Redes muy grandes",
+                    "Uso experimental",
+                    "Redes pequeñas",
+                    "Comunicación multicast"
+                ],
+                "respuesta_correcta": "Uso experimental"
+            },
+            {
+                "id": 165,
+                "pregunta": "¿Qué protocolo utilizaría para una videollamada donde la velocidad es más importante que la precisión?",
+                "opciones": [
+                    "TCP",
+                    "HTTP",
+                    "UDP",
+                    "FTP"
+                ],
+                "respuesta_correcta": "UDP"
+            },
+            {
+                "id": 166,
+                "pregunta": "¿Qué protocolo es responsable de obtener y definir la dirección del dispositivo destino?",
+                "opciones": [
+                    "TCP",
+                    "UDP",
+                    "IP",
+                    "FTP"
+                ],
+                "respuesta_correcta": "IP"
+            },
+            {
+                "id": 167,
+                "pregunta": "¿Cuál es el rango de frecuencias en el que se encuentran las tecnologías inalámbricas usadas con más frecuencia en las redes domésticas, incluyendo tanto Bluetooth como las modernas tecnologías LAN inalámbricas IEEE 802.11?",
+                "opciones": [
+                    "Solamente 5 GHz",
+                    "2.4 GHz y 5 GHz",
+                    "Solamente 2.4 GHz",
+                    "900 MHz y 1.8 GHz"
+                ],
+                "respuesta_correcta": "2.4 GHz y 5 GHz"
+            },
+            {
+                "id": 168,
+                "pregunta": "¿Qué estándar rige el entorno WLAN y describe las características de los diferentes estándares para las comunicaciones inalámbricas, como las conocidas colectivamente como Wi-Fi?",
+                "opciones": [
+                    "Bluetooth",
+                    "IEEE 802.3",
+                    "IEEE 802.11",
+                    "Categoría 5e"
+                ],
+                "respuesta_correcta": "IEEE 802.11"
+            },
+            {
+                "id": 169,
+                "pregunta": "¿Qué diferencia a un gusano de un virus?",
+                "opciones": [
+                    "El gusano necesita ejecutarse manualmente",
+                    "El virus se replica automáticamente",
+                    "El gusano se replica automáticamente sin intervención",
+                    "El virus no afecta archivos"
+                ],
+                "respuesta_correcta": "El gusano se replica automáticamente sin intervención"
+            },
+            {
+                "id": 170,
+                "pregunta": "¿Qué se debe hacer para reducir riesgos de seguridad en la red?",
+                "opciones": [
+                    "Usar contraseñas simples",
+                    "Ignorar actualizaciones",
+                    "Educar a los usuarios sobre amenazas comunes",
+                    "Compartir credenciales"
+                ],
+                "respuesta_correcta": "Educar a los usuarios sobre amenazas comunes"
+            },
+            {
+                "id": 171,
+                "pregunta": "¿Cuál de estos rangos corresponde a direcciones IP privadas?",
+                "opciones": [
+                    "8.8.8.8 - 8.8.8.255",
+                    "192.168.0.0 - 192.168.255.255",
+                    "64.0.0.0 - 64.255.255.255",
+                    "200.0.0.0 - 200.255.255.255"
+                ],
+                "respuesta_correcta": "192.168.0.0 - 192.168.255.255"
+            },
+            {
+                "id": 172,
+                "pregunta": "¿Cuál es la dirección IP multicast más común?",
+                "opciones": [
+                    "192.168.1.1",
+                    "10.0.0.1",
+                    "127.0.0.1",
+                    "224.0.0.0"
+                ],
+                "respuesta_correcta": "224.0.0.0"
+            },
+            {
+                "id": 173,
+                "pregunta": "¿Cuál es la función de la dirección de broadcast 255.255.255.255?",
+                "opciones": [
+                    "Comunicación punto a punto",
+                    "Enviar información a todos los dispositivos en una red local",
+                    "Configuración automática",
+                    "Pruebas de conectividad"
+                ],
+                "respuesta_correcta": "Enviar información a todos los dispositivos en una red local"
+            },
+            {
+                "id": 174,
+                "pregunta": "¿Cuál es la notación CIDR para la máscara de subred de Clase A?",
+                "opciones": [
+                    "/24",
+                    "/16",
+                    "/8",
+                    "/32"
+                ],
+                "respuesta_correcta": "/8"
+            },
+            {
+                "id": 175,
+                "pregunta": "¿Qué dos puertos utiliza FTP para sus operaciones?",
+                "opciones": [
+                    "20 y 21",
+                    "21 y 22",
+                    "25 y 110",
+                    "80 y 443"
+                ],
+                "respuesta_correcta": "20 y 21"
+            },
+            {
+                "id": 176,
+                "pregunta": "¿Por qué se considera fundamental la Capa de Presentación en las comunicaciones entre aplicaciones?",
+                "opciones": [
+                    "Porque solo maneja la seguridad mediante SSL/TLS",
+                    "Porque define el camino de los datos a través de la red",
+                    "Porque facilita la interoperabilidad mediante transformación, compresión y cifrado",
+                    "Porque se encarga de la gestión de la sesión"
+                ],
+                "respuesta_correcta": "Porque facilita la interoperabilidad mediante transformación, compresión y cifrado"
+            },
+            {
+                "id": 177,
+                "pregunta": "¿Qué tipo de software permite gestionar vulnerabilidades?",
+                "opciones": [
+                    "IDS",
+                    "Herramienta de gestión de vulnerabilidades",
+                    "Antispyware",
+                    "Firewall"
+                ],
+                "respuesta_correcta": "Herramienta de gestión de vulnerabilidades"
+            },
+            {
+                "id": 178,
+                "pregunta": "¿Por qué se recomienda cifrar las contraseñas en el archivo de configuración?",
+                "opciones": [
+                    "Para mejorar el rendimiento",
+                    "Para evitar accesos no autorizados si alguien accede al archivo",
+                    "Para habilitar el acceso remoto",
+                    "Para reducir errores de comandos"
+                ],
+                "respuesta_correcta": "Para evitar accesos no autorizados si alguien accede al archivo"
+            },
+            {
+                "id": 179,
+                "pregunta": "¿Qué representa el concepto de 'defensa en profundidad'?",
+                "opciones": [
+                    "Proteger la red con múltiples capas de seguridad",
+                    "Instalar varios antivirus en el mismo sistema",
+                    "Filtrar todo el tráfico externo",
+                    "Monitorear solo los routers principales"
+                ],
+                "respuesta_correcta": "Proteger la red con múltiples capas de seguridad"
+            },
+            {
+                "id": 180,
+                "pregunta": "¿Qué parámetro de ipconfig libera la configuración DHCP actual?",
+                "opciones": [
+                    "/flushdns",
+                    "/release",
+                    "/renew",
+                    "/all"
+                ],
+                "respuesta_correcta": "/release"
+            },
+            {
+                "id": 181,
+                "pregunta": "¿Qué problema se soluciona ajustando el tamaño del pool de direcciones en el router?",
+                "opciones": [
+                    "Direcciones IP duplicadas",
+                    "Agotamiento de direcciones IP",
+                    "Bajo rendimiento",
+                    "Fallo de conexión a Internet"
+                ],
+                "respuesta_correcta": "Agotamiento de direcciones IP"
+            },
+            {
+                "id": 182,
+                "pregunta": "¿Cuál es una diferencia fundamental entre la computación en la nube y un centro de datos tradicional?",
+                "opciones": [
+                    "La nube está fuera de las instalaciones y es escalable bajo demanda",
+                    "Ambos son exactamente iguales",
+                    "El centro de datos permite el pago por uso",
+                    "La nube requiere una infraestructura física en cada oficina"
+                ],
+                "respuesta_correcta": "La nube está fuera de las instalaciones y es escalable bajo demanda"
+            },
+            {
+                "id": 183,
+                "pregunta": "¿Cuál es la principal tarea de un administrador de red?",
+                "opciones": [
+                    "configurar impresoras",
+                    "resolver problemas de red",
+                    "actualizar software",
+                    "controlar usuarios"
+                ],
+                "respuesta_correcta": "resolver problemas de red"
+            },
+            {
+                "id": 184,
+                "pregunta": "¿Qué herramienta captura datos de paquetes y los analiza?",
+                "opciones": [
+                    "Wireshark",
+                    "Nmap",
+                    "Nagios",
+                    "Uptrends"
+                ],
+                "respuesta_correcta": "Wireshark"
+            },
+            {
+                "id": 185,
+                "pregunta": "¿Qué comando muestra la configuración TCP/IP actual del equipo?",
+                "opciones": [
+                    "Netstat",
+                    "Ipconfig",
+                    "Tracert",
+                    "nslookup"
+                ],
+                "respuesta_correcta": "Ipconfig"
+            },
+            {
+                "id": 186,
+                "pregunta": "¿Qué comando se utiliza para comprobar la conectividad con otro host?",
+                "opciones": [
+                    "Ping",
+                    "Route",
+                    "Ifconfig",
+                    "netstat"
+                ],
+                "respuesta_correcta": "Ping"
+            },
+            {
+                "id": 187,
+                "pregunta": "¿Qué comando traza la ruta que siguen los paquetes hasta un destino?",
+                "opciones": [
+                    "Ping",
+                    "Netstat",
+                    "Tracert",
+                    "Nslookup"
+                ],
+                "respuesta_correcta": "Tracert"
+            },
+            {
+                "id": 188,
+                "pregunta": "¿Qué herramienta ayuda a determinar problemas con DNS?",
+                "opciones": [
+                    "Nslookup",
+                    "Ipconfig",
+                    "Netstat",
+                    "traceroute"
+                ],
+                "respuesta_correcta": "Nslookup"
+            },
+            {
+                "id": 189,
+                "pregunta": "¿Qué comando permite visualizar y modificar las tablas de enrutamiento?",
+                "opciones": [
+                    "Ping",
+                    "Route",
+                    "Ipconfig",
+                    "Tracert"
+                ],
+                "respuesta_correcta": "Route"
+            },
+            {
+                "id": 190,
+                "pregunta": "¿Qué comando permite renovar la configuración DHCP de una red?",
+                "opciones": [
+                    "ipconfig /renew",
+                    "netstat /update",
+                    "nslookup /dns",
+                    "ping /refresh"
+                ],
+                "respuesta_correcta": "ipconfig /renew"
+            },
+            {
+                "id": 191,
+                "pregunta": "¿Cuál es el paso que consiste en documentar todo el suceso y su resolución?",
+                "opciones": [
+                    "Quinto paso",
+                    "Sexto paso",
+                    "Cuarto paso",
+                    "Séptimo paso"
+                ],
+                "respuesta_correcta": "Sexto paso"
+            },
+            {
+                "id": 192,
+                "pregunta": "¿Qué tipo de mensaje devuelve el comando ping cuando el host remoto está disponible?",
+                "opciones": [
+                    "Mensaje ICMP de 'no disponible'",
+                    "Mensaje ICMP de 'sí, estoy aquí'",
+                    "Respuesta DNS",
+                    "Solicitud DHCP"
+                ],
+                "respuesta_correcta": "Mensaje ICMP de 'sí, estoy aquí'"
+            },
+            {
+                "id": 193,
+                "pregunta": "¿Qué comando limpia la tabla de enrutamiento y puede usar IPv4 o IPv6?",
+                "opciones": [
+                    "Ipconfig",
+                    "Route",
+                    "Tracert",
+                    "Nslookup"
+                ],
+                "respuesta_correcta": "Route"
+            },
+            {
+                "id": 194,
+                "pregunta": "¿Qué significa TCP/IP?",
+                "opciones": [
+                    "Transferencia de Contenido por Internet",
+                    "Protocolo de Control de Transmisión/Protocolo de Internet",
+                    "Transmisión de Comunicación por Internet",
+                    "Transferencia de Conexión de Protocolo"
+                ],
+                "respuesta_correcta": "Protocolo de Control de Transmisión/Protocolo de Internet"
+            },
+            {
+                "id": 195,
+                "pregunta": "¿Qué significa TTL en el contexto de traceroute?",
+                "opciones": [
+                    "Time To Live (Tiempo de Vida)",
+                    "Total Transmission Limit",
+                    "Time Transmission Latency",
+                    "Technical Transfer Layer"
+                ],
+                "respuesta_correcta": "Time To Live (Tiempo de Vida)"
+            },
+            {
+                "id": 196,
+                "pregunta": "Los servicios principales de computación en la nube son: SaaS, PaaS, IaaS.",
+                "opciones": [
+                    "Verdadero",
+                    "Falso"
+                ],
+                "respuesta_correcta": "Verdadero"
+            },
+            {
+                "id": 197,
+                "pregunta": "Los modelos principales de computación en la nube son 4.",
+                "opciones": [
+                    "Verdadero",
+                    "Falso"
+                ],
+                "respuesta_correcta": "Verdadero"
+            }
+        ]
     }
-]
+}
