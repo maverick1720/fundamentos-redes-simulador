@@ -1,0 +1,317 @@
+{"id":"10006","variant":"standard/chat_message","title":"index.html — simulador CITEN"}
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Repaso — Fundamentos y Arquitectura de Redes | CITEN</title>
+  <style>
+    :root {
+      --azul: #002855;
+      --blanco: #ffffff;
+      --ok: #2e7d32;
+      --bad: #c62828;
+      --bg: #f4f7fb;
+      --card: #fff;
+    }
+    body {
+      font-family: "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+      background: var(--bg);
+      color: #222;
+      margin: 0;
+      padding: 0;
+    }
+    header {
+      background: var(--azul);
+      color: var(--blanco);
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      text-align: center;
+      padding: 20px 10px 10px 10px;
+    }
+    header img {
+      width: 90px;
+      height: auto;
+      margin-bottom: 10px;
+    }
+    header h1 {
+      margin: 5px 0 0 0;
+      font-size: 1.4rem;
+      font-weight: 600;
+    }
+    header h2 {
+      margin: 3px 0 10px 0;
+      font-size: 1.1rem;
+      font-weight: 400;
+    }
+    header .creditos {
+      font-size: 0.9rem;
+      color: #ccc;
+    }
+    .contenedor {
+      max-width: 980px;
+      margin: 0 auto;
+      padding: 20px;
+    }
+    .controls {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 10px;
+      align-items: center;
+      margin-bottom: 14px;
+    }
+    label {
+      font-weight: 600;
+    }
+    select,
+    button {
+      padding: 8px 12px;
+      border-radius: 8px;
+      border: 1px solid #ccc;
+      cursor: pointer;
+    }
+    button {
+      background: var(--azul);
+      color: var(--blanco);
+      border: none;
+    }
+    button:hover {
+      opacity: 0.9;
+    }
+    .pregunta {
+      background: var(--card);
+      border-radius: 10px;
+      padding: 16px;
+      margin-bottom: 12px;
+      box-shadow: 0 2px 10px rgba(10, 20, 40, 0.04);
+    }
+    .pregunta h3 {
+      margin: 0 0 8px;
+      font-size: 1.05rem;
+      color: var(--azul);
+    }
+    .opcion {
+      display: block;
+      padding: 8px;
+      border-radius: 8px;
+      margin: 6px 0;
+      cursor: pointer;
+    }
+    .opcion.disabled {
+      opacity: 0.7;
+      pointer-events: none;
+    }
+    .feedback {
+      font-weight: 700;
+      margin-top: 10px;
+    }
+    .feedback.ok {
+      color: var(--ok);
+    }
+    .feedback.bad {
+      color: var(--bad);
+    }
+    .barra {
+      height: 8px;
+      background: #e6eefc;
+      border-radius: 8px;
+      overflow: hidden;
+      margin: 12px 0;
+    }
+    .barra > span {
+      display: block;
+      height: 100%;
+      background: linear-gradient(90deg, #42a5f5, #1e88e5);
+      width: 0%;
+    }
+    #resultado {
+      background: #fff;
+      padding: 14px;
+      border-radius: 10px;
+      box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+      font-size: 1rem;
+      margin-top: 10px;
+    }
+    footer {
+      text-align: center;
+      font-size: 0.85rem;
+      color: #555;
+      margin: 20px 0;
+    }
+    @media (max-width: 720px) {
+      .controls {
+        flex-direction: column;
+        align-items: stretch;
+      }
+      header img {
+        width: 70px;
+      }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <img src="citen-escudo.gif" alt="Escudo CITEN" />
+    <h1>Centro de Instrucción Técnica y Entrenamiento Naval – CITEN</h1>
+    <h2>Repaso — Fundamentos y Arquitectura de Redes</h2>
+    <div class="creditos">
+      Elaborado por José Carlos Sosa Villamonte — Instituto de Educación Superior Tecnológico Público Naval
+    </div>
+  </header>
+
+  <div class="contenedor">
+    <div class="controls">
+      <label for="cantidadSelect">Cantidad de preguntas:</label>
+      <select id="cantidadSelect">
+        <option value="10">10 preguntas</option>
+        <option value="20" selected>20 preguntas</option>
+        <option value="50">50 preguntas</option>
+      </select>
+
+      <label for="shuffleQuestions">Orden aleatorio:</label>
+      <select id="shuffleQuestions">
+        <option value="true" selected>Sí</option>
+        <option value="false">No</option>
+      </select>
+
+      <button id="btnIniciar">Iniciar</button>
+      <button id="btnReiniciar" style="display:none">Reiniciar</button>
+    </div>
+
+    <div class="barra"><span id="barraProgreso"></span></div>
+    <main id="main"></main>
+    <div id="resultado" style="display:none"></div>
+  </div>
+
+  <footer>
+    &copy; 2025 — CITEN | Fundamentos y Arquitectura de Redes — Todos los derechos reservados.
+  </footer>
+
+  <script>
+    const RUTA_JSON = "preguntas.json";
+    let preguntasAll = [];
+    let preguntasActivas = [];
+    let respuestasUsuario = [];
+
+    async function cargarPreguntas() {
+      try {
+        const resp = await fetch(RUTA_JSON);
+        const data = await resp.json();
+        preguntasAll = data;
+      } catch (err) {
+        alert("Error al cargar preguntas.json: " + err.message);
+      }
+    }
+
+    function mezclarArray(arr) {
+      const a = arr.slice();
+      for (let i = a.length - 1; i > 0; i--) {
+        const j = Math.floor(Math.random() * (i + 1));
+        [a[i], a[j]] = [a[j], a[i]];
+      }
+      return a;
+    }
+
+    function crearVista() {
+      const cont = document.getElementById("main");
+      cont.innerHTML = "";
+      respuestasUsuario = Array(preguntasActivas.length).fill(null);
+      updateProgreso();
+
+      preguntasActivas.forEach((p, idx) => {
+        const card = document.createElement("div");
+        card.className = "pregunta";
+        const titulo = document.createElement("h3");
+        titulo.textContent = (idx + 1) + ". " + p.pregunta;
+        card.appendChild(titulo);
+
+        p.opciones.forEach((opt, i) => {
+          const label = document.createElement("label");
+          label.className = "opcion";
+          const radio = document.createElement("input");
+          radio.type = "radio";
+          radio.name = "pregunta_" + idx;
+          radio.value = i;
+          radio.onclick = () => onResponder(idx, i, card);
+          label.appendChild(radio);
+          label.appendChild(document.createTextNode(opt));
+          card.appendChild(label);
+        });
+        cont.appendChild(card);
+      });
+    }
+
+    function onResponder(idx, idxSel, card) {
+      const p = preguntasActivas[idx];
+      const esCorrecta = idxSel === p.correcta;
+      respuestasUsuario[idx] = { seleccion: idxSel, correcta: esCorrecta };
+
+      const labels = card.querySelectorAll(".opcion");
+      labels.forEach(l => l.classList.add("disabled"));
+
+      const feedback = document.createElement("div");
+      feedback.className = "feedback " + (esCorrecta ? "ok" : "bad");
+      feedback.textContent = esCorrecta
+        ? "✅ ¡Correcto!"
+        : "❌ Incorrecto. Respuesta correcta: " + p.opciones[p.correcta];
+      card.appendChild(feedback);
+
+      labels.forEach((lab, i) => {
+        if (i === p.correcta) lab.style.background = "#e8f5e9";
+        if (i === idxSel && !esCorrecta) lab.style.background = "#ffebee";
+      });
+
+      updateProgreso();
+      if (respuestasUsuario.every(r => r !== null)) mostrarResultado();
+    }
+
+    function updateProgreso() {
+      const total = preguntasActivas.length;
+      const respondidas = respuestasUsuario.filter(r => r !== null).length;
+      const pct = total ? Math.round((respondidas / total) * 100) : 0;
+      document.getElementById("barraProgreso").style.width = pct + "%";
+    }
+
+    function mostrarResultado() {
+      const total = preguntasActivas.length;
+      const correctas = respuestasUsuario.filter(r => r && r.correcta).length;
+      const porcentaje = ((correctas / total) * 100).toFixed(1);
+      const resultado = document.getElementById("resultado");
+      resultado.style.display = "block";
+      resultado.innerHTML = `
+        <strong>Puntaje final:</strong> ${correctas} / ${total} (${porcentaje}%)<br>
+        ${porcentaje >= 70 ? "✅ ¡Buen trabajo!" : "📘 Sigue repasando los temas de redes."}
+      `;
+      document.getElementById("btnReiniciar").style.display = "inline-block";
+      document.getElementById("btnIniciar").style.display = "none";
+    }
+
+    function iniciarSesion() {
+      const cantidad = parseInt(document.getElementById("cantidadSelect").value, 10);
+      const shuffle = document.getElementById("shuffleQuestions").value === "true";
+      let pool = preguntasAll.slice();
+      if (shuffle) pool = mezclarArray(pool);
+      preguntasActivas = pool.slice(0, Math.min(cantidad, pool.length));
+      document.getElementById("resultado").style.display = "none";
+      crearVista();
+      document.getElementById("btnIniciar").style.display = "none";
+      document.getElementById("btnReiniciar").style.display = "inline-block";
+    }
+
+    function reiniciar() {
+      preguntasActivas = [];
+      respuestasUsuario = [];
+      document.getElementById("main").innerHTML = "";
+      document.getElementById("resultado").style.display = "none";
+      document.getElementById("btnReiniciar").style.display = "none";
+      document.getElementById("btnIniciar").style.display = "inline-block";
+      document.getElementById("barraProgreso").style.width = "0%";
+    }
+
+    document.getElementById("btnIniciar").addEventListener("click", iniciarSesion);
+    document.getElementById("btnReiniciar").addEventListener("click", reiniciar);
+    window.addEventListener("DOMContentLoaded", cargarPreguntas);
+  </script>
+</body>
+</html>

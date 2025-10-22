@@ -1,0 +1,183 @@
+{"id":"10007","variant":"standard/chat_message","title":"preguntas.json — primera mitad del banco"}
+[
+  {
+    "pregunta": "¿Qué es una red informática?",
+    "opciones": [
+      "Un grupo de usuarios conectados por teléfono",
+      "La interconexión de computadoras para compartir recursos e información",
+      "Un software para procesar datos",
+      "Un tipo de servidor"
+    ],
+    "correcta": 1
+  },
+  {
+    "pregunta": "¿Cuál es un medio físico de transmisión de datos?",
+    "opciones": ["Fibra óptica", "Wi-Fi", "Microondas", "Infrarrojos"],
+    "correcta": 0
+  },
+  {
+    "pregunta": "¿Qué tipo de conector utiliza el cable UTP?",
+    "opciones": ["BNC", "SC", "RJ45", "RJ11"],
+    "correcta": 2
+  },
+  {
+    "pregunta": "¿Qué dispositivo se encarga de dirigir el tráfico dentro de una red local (LAN)?",
+    "opciones": ["Router", "Switch", "Firewall", "Módem"],
+    "correcta": 1
+  },
+  {
+    "pregunta": "¿Qué protocolo se utiliza para transferir páginas web?",
+    "opciones": ["FTP", "SMTP", "HTTP/HTTPS", "DNS"],
+    "correcta": 2
+  },
+  {
+    "pregunta": "¿Qué tipo de malware requiere la interacción del usuario para propagarse?",
+    "opciones": ["Virus", "Gusano", "Caballo de Troya", "Spyware"],
+    "correcta": 2
+  },
+  {
+    "pregunta": "¿Qué capa del modelo OSI interactúa directamente con el usuario?",
+    "opciones": [
+      "Capa de transporte",
+      "Capa de aplicación",
+      "Capa de red",
+      "Capa de enlace de datos"
+    ],
+    "correcta": 1
+  },
+  {
+    "pregunta": "¿Qué protocolo traduce nombres de dominio a direcciones IP?",
+    "opciones": ["HTTP", "DNS", "FTP", "UDP"],
+    "correcta": 1
+  },
+  {
+    "pregunta": "¿Qué puerto utiliza HTTP?",
+    "opciones": ["21", "80", "443", "53"],
+    "correcta": 1
+  },
+  {
+    "pregunta": "¿Qué puerto utiliza HTTPS?",
+    "opciones": ["80", "443", "21", "53"],
+    "correcta": 1
+  },
+  {
+    "pregunta": "¿Qué capa del modelo OSI se encarga de la transmisión y recepción de bits?",
+    "opciones": [
+      "Capa de enlace",
+      "Capa de red",
+      "Capa física",
+      "Capa de aplicación"
+    ],
+    "correcta": 2
+  },
+  {
+    "pregunta": "¿Qué significa LAN?",
+    "opciones": [
+      "Local Access Node",
+      "Local Area Network",
+      "Long Area Network",
+      "Linked Access Network"
+    ],
+    "correcta": 1
+  },
+  {
+    "pregunta": "¿Qué topología conecta todos los equipos a un solo nodo central?",
+    "opciones": ["Bus", "Anillo", "Estrella", "Malla"],
+    "correcta": 2
+  },
+  {
+    "pregunta": "¿Qué color de hilo comienza el estándar T568A?",
+    "opciones": ["Blanco/naranja", "Blanco/verde", "Azul", "Marrón"],
+    "correcta": 1
+  },
+  {
+    "pregunta": "¿Qué componente se encarga de interconectar redes diferentes?",
+    "opciones": ["Switch", "Router", "Módem", "Repetidor"],
+    "correcta": 1
+  },
+  {
+    "pregunta": "¿Qué protocolo asigna direcciones IP dinámicas?",
+    "opciones": ["DNS", "HTTP", "DHCP", "FTP"],
+    "correcta": 2
+  },
+  {
+    "pregunta": "¿Qué dirección se utiliza para pruebas de loopback?",
+    "opciones": ["192.168.1.1", "127.0.0.1", "10.0.0.1", "172.16.0.1"],
+    "correcta": 1
+  },
+  {
+    "pregunta": "¿Qué tipo de red cubre áreas personales?",
+    "opciones": ["WAN", "MAN", "PAN", "LAN"],
+    "correcta": 2
+  },
+  {
+    "pregunta": "¿Qué protocolo se usa para enviar correos electrónicos?",
+    "opciones": ["HTTP", "SMTP", "FTP", "IP"],
+    "correcta": 1
+  },
+  {
+    "pregunta": "¿Qué es un switch?",
+    "opciones": [
+      "Un dispositivo que repite señales eléctricas",
+      "Un equipo que filtra y envía tramas dentro de una LAN",
+      "Un equipo que conecta computadoras a Internet",
+      "Un servidor de archivos"
+    ],
+    "correcta": 1
+  },
+  {
+    "pregunta": "¿Qué protocolo permite la transferencia de archivos entre computadoras?",
+    "opciones": ["FTP", "SMTP", "DNS", "TELNET"],
+    "correcta": 0
+  },
+  {
+    "pregunta": "¿Cuál es la unidad básica de transmisión en la capa de enlace de datos?",
+    "opciones": ["Trama", "Paquete", "Bit", "Segmento"],
+    "correcta": 0
+  },
+  {
+    "pregunta": "¿Qué protocolo de capa de transporte garantiza la entrega confiable de datos?",
+    "opciones": ["TCP", "UDP", "IP", "ICMP"],
+    "correcta": 0
+  },
+  {
+    "pregunta": "¿Qué dirección IP pertenece a una red privada Clase C?",
+    "opciones": [
+      "192.168.10.5",
+      "8.8.8.8",
+      "172.35.4.2",
+      "200.45.10.7"
+    ],
+    "correcta": 0
+  },
+  {
+    "pregunta": "¿Qué tipo de topología conecta todos los dispositivos en un círculo cerrado?",
+    "opciones": ["Estrella", "Malla", "Anillo", "Bus"],
+    "correcta": 2
+  },
+  {
+    "pregunta": "¿Qué comando permite verificar conectividad entre equipos en una red?",
+    "opciones": ["tracert", "ping", "netstat", "ipconfig"],
+    "correcta": 1
+  },
+  {
+    "pregunta": "¿Qué estándar define las redes Wi-Fi?",
+    "opciones": ["IEEE 802.3", "IEEE 802.11", "IEEE 802.5", "IEEE 802.15"],
+    "correcta": 1
+  },
+  {
+    "pregunta": "¿Qué tipo de cable se utiliza comúnmente para conectar computadoras en redes LAN?",
+    "opciones": ["Coaxial", "UTP", "Fibra óptica", "HDMI"],
+    "correcta": 1
+  },
+  {
+    "pregunta": "¿Qué comando muestra la configuración IP de un equipo Windows?",
+    "opciones": ["ipconfig", "netstat", "nslookup", "route"],
+    "correcta": 0
+  },
+  {
+    "pregunta": "¿Qué elemento identifica de forma única a una interfaz de red física?",
+    "opciones": ["Dirección IP", "Dirección MAC", "Nombre DNS", "SSID"],
+    "correcta": 1
+  }
+]
