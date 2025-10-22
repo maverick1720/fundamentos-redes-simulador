@@ -11,7 +11,7 @@
                     "169.254.1.1",
                     "192.168.1.1"
                 ],
-                "respuesta_correcta": "169.254.1.1"
+                "correcta": "169.254.1.1"
             },
             {
                 "id": 162,
@@ -22,7 +22,7 @@
                     "255.255.255.0 / 255.255.0.0 / 255.0.0.0",
                     "255.255.255.255 / 255.255.0.0 / 255.0.0.0"
                 ],
-                "respuesta_correcta": "255.0.0.0 / 255.255.0.0 / 255.255.255.0"
+                "correcta": "255.0.0.0 / 255.255.0.0 / 255.255.255.0"
             },
             {
                 "id": 163,
@@ -33,7 +33,7 @@
                     "170.100.18 / 18.45.0 / 240.80.78 / 56",
                     "100.18.4 / 45.0 / 240.80.78 / 155.77.56"
                 ],
-                "respuesta_correcta": "170.100 / 119 / 209.240.80 / 199.155.77"
+                "correcta": "170.100 / 119 / 209.240.80 / 199.155.77"
             },
             {
                 "id": 164,
@@ -44,7 +44,7 @@
                     "Redes pequeñas",
                     "Comunicación multicast"
                 ],
-                "respuesta_correcta": "Uso experimental"
+                "correcta": "Uso experimental"
             },
             {
                 "id": 165,
@@ -55,7 +55,7 @@
                     "UDP",
                     "FTP"
                 ],
-                "respuesta_correcta": "UDP"
+                "correcta": "UDP"
             },
             {
                 "id": 166,
@@ -66,7 +66,7 @@
                     "IP",
                     "FTP"
                 ],
-                "respuesta_correcta": "IP"
+                "correcta": "IP"
             },
             {
                 "id": 167,
@@ -77,7 +77,7 @@
                     "Solamente 2.4 GHz",
                     "900 MHz y 1.8 GHz"
                 ],
-                "respuesta_correcta": "2.4 GHz y 5 GHz"
+                "correcta": "2.4 GHz y 5 GHz"
             },
             {
                 "id": 168,
@@ -88,7 +88,7 @@
                     "IEEE 802.11",
                     "Categoría 5e"
                 ],
-                "respuesta_correcta": "IEEE 802.11"
+                "correcta": "IEEE 802.11"
             },
             {
                 "id": 169,
@@ -99,7 +99,7 @@
                     "El gusano se replica automáticamente sin intervención",
                     "El virus no afecta archivos"
                 ],
-                "respuesta_correcta": "El gusano se replica automáticamente sin intervención"
+                "correcta": "El gusano se replica automáticamente sin intervención"
             },
             {
                 "id": 170,
@@ -110,7 +110,7 @@
                     "Educar a los usuarios sobre amenazas comunes",
                     "Compartir credenciales"
                 ],
-                "respuesta_correcta": "Educar a los usuarios sobre amenazas comunes"
+                "correcta": "Educar a los usuarios sobre amenazas comunes"
             },
             {
                 "id": 171,
@@ -121,7 +121,7 @@
                     "64.0.0.0 - 64.255.255.255",
                     "200.0.0.0 - 200.255.255.255"
                 ],
-                "respuesta_correcta": "192.168.0.0 - 192.168.255.255"
+                "correcta": "192.168.0.0 - 192.168.255.255"
             },
             {
                 "id": 172,
@@ -132,7 +132,7 @@
                     "127.0.0.1",
                     "224.0.0.0"
                 ],
-                "respuesta_correcta": "224.0.0.0"
+                "correcta": "224.0.0.0"
             },
             {
                 "id": 173,
@@ -143,7 +143,7 @@
                     "Configuración automática",
                     "Pruebas de conectividad"
                 ],
-                "respuesta_correcta": "Enviar información a todos los dispositivos en una red local"
+                "correcta": "Enviar información a todos los dispositivos en una red local"
             },
             {
                 "id": 174,
@@ -154,7 +154,7 @@
                     "/8",
                     "/32"
                 ],
-                "respuesta_correcta": "/8"
+                "correcta": "/8"
             },
             {
                 "id": 175,
@@ -165,7 +165,7 @@
                     "25 y 110",
                     "80 y 443"
                 ],
-                "respuesta_correcta": "20 y 21"
+                "correcta": "20 y 21"
             },
             {
                 "id": 176,
@@ -176,7 +176,7 @@
                     "Porque facilita la interoperabilidad mediante transformación, compresión y cifrado",
                     "Porque se encarga de la gestión de la sesión"
                 ],
-                "respuesta_correcta": "Porque facilita la interoperabilidad mediante transformación, compresión y cifrado"
+                "correcta": "Porque facilita la interoperabilidad mediante transformación, compresión y cifrado"
             },
             {
                 "id": 177,
@@ -187,7 +187,7 @@
                     "Antispyware",
                     "Firewall"
                 ],
-                "respuesta_correcta": "Herramienta de gestión de vulnerabilidades"
+                "correcta": "Herramienta de gestión de vulnerabilidades"
             },
             {
                 "id": 178,
@@ -198,7 +198,7 @@
                     "Para habilitar el acceso remoto",
                     "Para reducir errores de comandos"
                 ],
-                "respuesta_correcta": "Para evitar accesos no autorizados si alguien accede al archivo"
+                "correcta": "Para evitar accesos no autorizados si alguien accede al archivo"
             },
             {
                 "id": 179,
@@ -209,7 +209,7 @@
                     "Filtrar todo el tráfico externo",
                     "Monitorear solo los routers principales"
                 ],
-                "respuesta_correcta": "Proteger la red con múltiples capas de seguridad"
+                "correcta": "Proteger la red con múltiples capas de seguridad"
             },
             {
                 "id": 180,
@@ -220,7 +220,7 @@
                     "/renew",
                     "/all"
                 ],
-                "respuesta_correcta": "/release"
+                "correcta": "/release"
             },
             {
                 "id": 181,
@@ -231,7 +231,7 @@
                     "Bajo rendimiento",
                     "Fallo de conexión a Internet"
                 ],
-                "respuesta_correcta": "Agotamiento de direcciones IP"
+                "correcta": "Agotamiento de direcciones IP"
             },
             {
                 "id": 182,
@@ -242,7 +242,7 @@
                     "El centro de datos permite el pago por uso",
                     "La nube requiere una infraestructura física en cada oficina"
                 ],
-                "respuesta_correcta": "La nube está fuera de las instalaciones y es escalable bajo demanda"
+                "correcta": "La nube está fuera de las instalaciones y es escalable bajo demanda"
             },
             {
                 "id": 183,
@@ -253,7 +253,7 @@
                     "actualizar software",
                     "controlar usuarios"
                 ],
-                "respuesta_correcta": "resolver problemas de red"
+                "correcta": "resolver problemas de red"
             },
             {
                 "id": 184,
@@ -264,7 +264,7 @@
                     "Nagios",
                     "Uptrends"
                 ],
-                "respuesta_correcta": "Wireshark"
+                "correcta": "Wireshark"
             },
             {
                 "id": 185,
@@ -275,7 +275,7 @@
                     "Tracert",
                     "nslookup"
                 ],
-                "respuesta_correcta": "Ipconfig"
+                "correcta": "Ipconfig"
             },
             {
                 "id": 186,
@@ -286,7 +286,7 @@
                     "Ifconfig",
                     "netstat"
                 ],
-                "respuesta_correcta": "Ping"
+                "correcta": "Ping"
             },
             {
                 "id": 187,
@@ -297,7 +297,7 @@
                     "Tracert",
                     "Nslookup"
                 ],
-                "respuesta_correcta": "Tracert"
+                "correcta": "Tracert"
             },
             {
                 "id": 188,
@@ -308,7 +308,7 @@
                     "Netstat",
                     "traceroute"
                 ],
-                "respuesta_correcta": "Nslookup"
+                "correcta": "Nslookup"
             },
             {
                 "id": 189,
@@ -319,7 +319,7 @@
                     "Ipconfig",
                     "Tracert"
                 ],
-                "respuesta_correcta": "Route"
+                "correcta": "Route"
             },
             {
                 "id": 190,
@@ -330,7 +330,7 @@
                     "nslookup /dns",
                     "ping /refresh"
                 ],
-                "respuesta_correcta": "ipconfig /renew"
+                "correcta": "ipconfig /renew"
             },
             {
                 "id": 191,
@@ -341,7 +341,7 @@
                     "Cuarto paso",
                     "Séptimo paso"
                 ],
-                "respuesta_correcta": "Sexto paso"
+                "correcta": "Sexto paso"
             },
             {
                 "id": 192,
@@ -352,7 +352,7 @@
                     "Respuesta DNS",
                     "Solicitud DHCP"
                 ],
-                "respuesta_correcta": "Mensaje ICMP de 'sí, estoy aquí'"
+                "correcta": "Mensaje ICMP de 'sí, estoy aquí'"
             },
             {
                 "id": 193,
@@ -363,7 +363,7 @@
                     "Tracert",
                     "Nslookup"
                 ],
-                "respuesta_correcta": "Route"
+                "correcta": "Route"
             },
             {
                 "id": 194,
@@ -374,7 +374,7 @@
                     "Transmisión de Comunicación por Internet",
                     "Transferencia de Conexión de Protocolo"
                 ],
-                "respuesta_correcta": "Protocolo de Control de Transmisión/Protocolo de Internet"
+                "correcta": "Protocolo de Control de Transmisión/Protocolo de Internet"
             },
             {
                 "id": 195,
@@ -385,7 +385,7 @@
                     "Time Transmission Latency",
                     "Technical Transfer Layer"
                 ],
-                "respuesta_correcta": "Time To Live (Tiempo de Vida)"
+                "correcta": "Time To Live (Tiempo de Vida)"
             },
             {
                 "id": 196,
@@ -394,7 +394,7 @@
                     "Verdadero",
                     "Falso"
                 ],
-                "respuesta_correcta": "Verdadero"
+                "correcta": "Verdadero"
             },
             {
                 "id": 197,
@@ -403,7 +403,7 @@
                     "Verdadero",
                     "Falso"
                 ],
-                "respuesta_correcta": "Verdadero"
+                "correcta": "Verdadero"
             }
         ]
     }
