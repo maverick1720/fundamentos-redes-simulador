@@ -1,7 +1,4 @@
-{
-  "banco_preguntas": {
-    "total_preguntas": 197,
-    "preguntas": [
+[
       {
         "id": 1,
         "pregunta": "¿Qué es una red informática?",
@@ -332,10 +329,6 @@
         ],
         "respuesta_correcta": "tracert/traceroute"
       },
-      {
-  "banco_preguntas": {
-    "total_preguntas": 197,
-    "preguntas": [
       {
         "id": 31,
         "pregunta": "¿Qué protocolo se usa para la comunicación entre un servidor web y un cliente web?",
@@ -887,10 +880,6 @@
         "respuesta_correcta": "HTTPS"
       },
       {
-  "banco_preguntas": {
-    "total_preguntas": 197,
-    "preguntas": [
-      {
         "id": 81,
         "pregunta": "¿Qué tipo de comunicación permite que solo un lado envíe datos a la vez?",
         "opciones": [
@@ -1330,10 +1319,6 @@
         ],
         "respuesta_correcta": "Teléfono y número telefónico"
       },
-      {
-  "banco_preguntas": {
-    "total_preguntas": 197,
-    "preguntas": [
       {
         "id": 121,
         "pregunta": "¿Cuál es el propósito del Puerto Internet en un enrutador doméstico?",
@@ -1775,10 +1760,6 @@
         "respuesta_correcta": "224.0.0.0 - 239.255.255.255"
       },
       {
-  "banco_preguntas": {
-    "total_preguntas": 197,
-    "preguntas": [
-      {
         "id": 161,
         "pregunta": "¿Qué dirección IP pertenece al rango de direcciones de enlace local (APIPA)?",
         "opciones": [
@@ -2182,4 +2163,4 @@
         "respuesta_correcta": "Verdadero"
       }
  
-    ]
+]
