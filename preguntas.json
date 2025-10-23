@@ -8,7 +8,7 @@
           "Un software para procesar datos",
           "Un tipo de servidor"
         ],
-        "correcta": "La interconexión de computadoras para compartir recursos e información"
+        "correcta": 1
       },
       {
         "id": 2,
@@ -19,7 +19,7 @@
           "set console",
           "enable console"
         ],
-        "correcta": "line console 0"
+        "correcta": 0
       },
       {
         "id": 3,
