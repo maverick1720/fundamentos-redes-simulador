@@ -267,7 +267,7 @@ function crearVista() {
       radio.type = "radio";
       radio.name = "pregunta_" + idx;
       radio.value = i;
-      radio.onclick = () => ro(idx, i, card);
+      radio.onclick = () => onResponder(idx, i, card);
       label.appendChild(radio);
       label.appendChild(document.createTextNode(" " + opt));
       card.appendChild(label);
@@ -278,7 +278,24 @@ function crearVista() {
 
 function onResponder(idx, idxSel, card) {
   const p = preguntasActivas[idx];
-  const esCorrecta = idxSel === p.correcta;
+
+  // --- seguridad: normalizar campo "correcta" si viene como letra ---
+  if (typeof p.correcta === 'string') {
+    const letra = p.correcta.trim().toLowerCase();
+    const map = { a:0, b:1, c:2, d:3 };
+    if (map.hasOwnProperty(letra)) {
+      p.correcta = map[letra];
+    } else {
+      // si no se puede normalizar, marca -1 para detectar más abajo
+      p.correcta = -1;
+    }
+  }
+
+  const correctIdx = Number.isInteger(p.correcta) ? p.correcta : -1;
+  const correctText = (Array.isArray(p.opciones) && p.opciones[correctIdx]) ? p.opciones[correctIdx] : undefined;
+
+  const esCorrecta = (correctText !== undefined) ? (idxSel === correctIdx) : false;
+
   respuestasUsuario[idx] = { seleccion: idxSel, correcta: esCorrecta };
 
   const labels = card.querySelectorAll(".opcion");
@@ -286,19 +303,35 @@ function onResponder(idx, idxSel, card) {
 
   const feedback = document.createElement("div");
   feedback.className = "feedback " + (esCorrecta ? "ok" : "bad");
-  feedback.textContent = esCorrecta
-    ? "✅ ¡Correcto!"
-    : "❌ Incorrecto. Respuesta correcta: " + p.opciones[p.correcta];
+
+  if (correctText !== undefined) {
+    feedback.textContent = esCorrecta
+      ? "✅ ¡Correcto!"
+      : "❌ Incorrecto. Respuesta correcta: " + correctText;
+  } else {
+    // Mensaje claro para el docente/administrador
+    feedback.textContent = "❌ Incorrecto. Respuesta correcta: (no definida en preguntas.json)";
+    feedback.style.fontWeight = "700";
+    feedback.style.color = "#c62828";
+    // además, log en consola para detectar la pregunta problemática
+    console.error("Pregunta sin 'correcta' válida o sin opción correspondiente:", {
+      indiceSesion: idx,
+      indiceOriginal: indicesOriginales[idx],
+      pregunta: p
+    });
+  }
+
   card.appendChild(feedback);
 
   labels.forEach((lab, i) => {
-    if (i === p.correcta) lab.style.background = "#e8f5e9";
+    if (i === correctIdx && correctText !== undefined) lab.style.background = "#e8f5e9";
     if (i === idxSel && !esCorrecta) lab.style.background = "#ffebee";
   });
 
   updateProgreso();
   if (respuestasUsuario.every(r => r !== null)) mostrarResultado();
 }
+
 
 function updateProgreso() {
   const total = preguntasActivas.length;
