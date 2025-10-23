@@ -1,5 +1,4 @@
-
-    [
+[
       {
         "id": 1,
         "pregunta": "¿Qué es una red informática?",
@@ -2163,4 +2162,4 @@
         ],
         "respuesta_correcta": "Verdadero"
       }
-    ]
+ ]
