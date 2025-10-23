@@ -267,7 +267,7 @@ function crearVista() {
       radio.type = "radio";
       radio.name = "pregunta_" + idx;
       radio.value = i;
-      radio.onclick = () => onResponder(idx, i, card);
+      radio.onclick = () => ro(idx, i, card);
       label.appendChild(radio);
       label.appendChild(document.createTextNode(" " + opt));
       card.appendChild(label);
