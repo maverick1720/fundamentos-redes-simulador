@@ -171,9 +171,11 @@
   <footer>&copy; 2025 — CITEN | Fundamentos y Arquitectura de Redes</footer>
 <script>
 /*
-  Versión extendida con subtítulo dinámico que muestra:
-  - rango de preguntas del banco (inicio–fin)
-  - o cantidad seleccionada + modo de estudio
+  Versión final CITEN ⚑
+  - Banner azul marino institucional (#002855)
+  - Ícono de bandera ⚑
+  - Indica rango o cantidad + modo (Secuencial/Aleatorio)
+  - Muestra número original del banco [#N]
 */
 
 const RUTA_JSON = "preguntas.json";
@@ -219,14 +221,33 @@ function crearVista() {
   const cont = document.getElementById("main");
   cont.innerHTML = "";
 
-  // Mostrar subtítulo dinámico antes de las preguntas
+  // ⚑ Banner azul marino institucional CITEN
   if (subtituloActual) {
-    const info = document.createElement("p");
-    info.style.fontWeight = "600";
-    info.style.color = "#1e3a8a";
-    info.style.margin = "8px 0 14px 0";
-    info.textContent = subtituloActual;
-    cont.appendChild(info);
+    const banner = document.createElement("div");
+    banner.style.background = "#002855";
+    banner.style.color = "white";
+    banner.style.fontWeight = "600";
+    banner.style.padding = "10px 14px";
+    banner.style.borderRadius = "8px";
+    banner.style.boxShadow = "0 2px 8px rgba(0,0,0,0.2)";
+    banner.style.marginBottom = "14px";
+    banner.style.display = "flex";
+    banner.style.alignItems = "center";
+    banner.style.gap = "10px";
+
+    const icono = document.createElement("span");
+    icono.textContent = "⚑";
+    icono.style.fontSize = "1.4rem";
+    icono.style.lineHeight = "1";
+    icono.style.display = "flex";
+    icono.style.alignItems = "center";
+
+    const texto = document.createElement("span");
+    texto.textContent = subtituloActual;
+
+    banner.appendChild(icono);
+    banner.appendChild(texto);
+    cont.appendChild(banner);
   }
 
   respuestasUsuario = Array(preguntasActivas.length).fill(null);
@@ -350,13 +371,8 @@ function iniciarSesion() {
       mostrarError(`Rango fuera de límites. El banco tiene ${preguntasAll.length} preguntas.`);
       return;
     }
-    try {
-      preguntasActivas = construirSesionDesdeRango(inicio, fin, modo);
-      subtituloActual = `Preguntas del banco: ${inicio} – ${fin}  (modo: ${modo.charAt(0).toUpperCase() + modo.slice(1)})`;
-    } catch (err) {
-      mostrarError(err.message);
-      return;
-    }
+    preguntasActivas = construirSesionDesdeRango(inicio, fin, modo);
+    subtituloActual = `Preguntas del banco: ${inicio} – ${fin}  (modo: ${modo.charAt(0).toUpperCase() + modo.slice(1)})`;
   } else {
     if (!Number.isInteger(cantidad) || cantidad < 1) {
       mostrarError("Selecciona una cantidad válida (10, 20, 50).");
