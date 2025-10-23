@@ -1,4 +1,105 @@
 [
+  
+  {
+    "pregunta": "¿Qué es una red informática?",
+    "opciones": [
+      "Un grupo de usuarios conectados por teléfono",
+      "La interconexión de computadoras para compartir recursos e información",
+      "Un software para procesar datos",
+      "Un tipo de servidor"
+    ],
+    "correcta": 1
+  },
+  {
+    "pregunta": "¿Cuál de los siguientes dispositivos se utiliza para conectar diferentes redes y dirigir el tráfico de datos?",
+    "opciones": [
+      "Switch",
+      "Router",
+      "Hub",
+      "Repeater"
+    ],
+    "correcta": 1
+  },
+  {
+    "pregunta": "¿Qué tipo de topología conecta cada dispositivo directamente con un nodo central?",
+    "opciones": [
+      "Anillo",
+      "Estrella",
+      "Bus",
+      "Malla"
+    ],
+    "correcta": 1
+  },
+  {
+    "pregunta": "¿Qué protocolo se utiliza para transferir páginas web?",
+    "opciones": [
+      "FTP",
+      "SMTP",
+      "HTTP/HTTPS",
+      "DNS"
+    ],
+    "correcta": 2
+  },
+  {
+    "pregunta": "¿Cuál es un medio físico de transmisión de datos?",
+    "opciones": [
+      "Fibra óptica",
+      "Wi-Fi",
+      "Microondas",
+      "Infrarrojos"
+    ],
+    "correcta": 0
+  },
+  {
+    "pregunta": "¿Qué tipo de conector utiliza el cable UTP?",
+    "opciones": [
+      "BNC",
+      "SC",
+      "RJ-45",
+      "RJ-11"
+    ],
+    "correcta": 2
+  },
+  {
+    "pregunta": "¿Qué capa del modelo OSI es responsable de establecer, mantener y finalizar las conexiones entre dispositivos?",
+    "opciones": [
+      "Capa de transporte",
+      "Capa de sesión",
+      "Capa de presentación",
+      "Capa de aplicación"
+    ],
+    "correcta": 1
+  },
+  {
+    "pregunta": "¿Qué capa del modelo OSI se encarga de la transmisión física de bits a través de un medio?",
+    "opciones": [
+      "Capa de enlace de datos",
+      "Capa de red",
+      "Capa física",
+      "Capa de transporte"
+    ],
+    "correcta": 2
+  },
+  {
+    "pregunta": "¿Qué dirección identifica de manera única una tarjeta de red NIC?",
+    "opciones": [
+      "Dirección MAC",
+      "Dirección IP",
+      "Dirección DNS",
+      "Dirección ARP"
+    ],
+    "correcta": 0
+  },
+  {
+    "pregunta": "¿Cuál de las siguientes direcciones IP pertenece a una red privada?",
+    "opciones": [
+      "192.168.1.10",
+      "8.8.8.8",
+      "172.32.0.1",
+      "11.0.0.1"
+    ],
+    "correcta": 0
+  },
   {
     "pregunta": "¿Qué tipo de red cubre un área geográfica amplia, como un país o continente?",
     "opciones": [
