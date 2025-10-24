@@ -128,6 +128,7 @@
   radios.forEach(r => r.addEventListener('change', () => {
     if (document.querySelector('input[name="modo"]:checked')) {
       rangeFields.style.display = 'flex';
+      document.getElementById("cantidadGroup").style.display = "none";
     }
   }));
 
@@ -138,7 +139,8 @@
       if (!resp.ok) throw new Error("No se pudo cargar el archivo " + archivo);
       const data = await resp.json();
       bancoCompleto = data;
-      document.getElementById("cantidadGroup").insertAdjacentHTML("beforeend", `<div style='margin-top:6px;font-size:0.9rem;color:#555'>Banco cargado con ${data.length} preguntas disponibles.</div>`);
+      document.getElementById("cantidadGroup").insertAdjacentHTML("beforeend", `<div id='infoCantidad' style='margin-top:6px;font-size:0.9rem;color:#555'>Banco cargado con ${data.length} preguntas disponibles.</div>`);
+      document.getElementById("cantidadGroup").style.display = "block";
       actualizarOpcionesCantidad(bancoCompleto.length);
 
       const inicio = parseInt(document.getElementById("inicio").value);
@@ -163,7 +165,7 @@
 
   function actualizarOpcionesCantidad(max) {
     cantidadSelect.innerHTML = "";
-    const opciones = [10, 20, 50, 100];
+    document.getElementById("infoCantidad")?.remove();    const opciones = [10, 20, 50, 100];
     opciones.forEach(c => {
       if (c <= max) {
         const opt = document.createElement("option");
