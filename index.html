@@ -101,6 +101,11 @@
       </div>
     </div>
 
+    <div id="cantidadGroup" style="margin-top: 14px;">
+      <label for="cantidadSelect">O selecciona cantidad de preguntas:</label>
+      <select id="cantidadSelect"></select>
+    </div>
+
     <button onclick="cargarBanco()">Iniciar Cuestionario</button>
     <button onclick="reiniciarCuestionario()" id="btnReiniciar" style="display:none; margin-left:10px; background:#999;">Reiniciar</button>
   </div>
@@ -115,8 +120,10 @@
   const rangeFields = document.getElementById('rangeFields');
   const radios = document.querySelectorAll('input[name="modo"]');
   const btnReiniciar = document.getElementById("btnReiniciar");
+  const cantidadSelect = document.getElementById("cantidadSelect");
   let preguntas = [];
   let respuestas = [];
+  let bancoCompleto = [];
 
   radios.forEach(r => r.addEventListener('change', () => {
     if (document.querySelector('input[name="modo"]:checked')) {
@@ -130,19 +137,44 @@
       const resp = await fetch(archivo);
       if (!resp.ok) throw new Error("No se pudo cargar el archivo " + archivo);
       const data = await resp.json();
+      bancoCompleto = data;
+      document.getElementById("cantidadGroup").insertAdjacentHTML("beforeend", `<div style='margin-top:6px;font-size:0.9rem;color:#555'>Banco cargado con ${data.length} preguntas disponibles.</div>`);
+      actualizarOpcionesCantidad(bancoCompleto.length);
 
-      const inicio = parseInt(document.getElementById("inicio").value || "1");
-      const fin = parseInt(document.getElementById("fin").value || data.length);
-      const modo = document.querySelector("input[name='modo']:checked")?.value || "secuencial";
+      const inicio = parseInt(document.getElementById("inicio").value);
+      const fin = parseInt(document.getElementById("fin").value);
+      const modo = document.querySelector("input[name='modo']:checked")?.value || null;
 
-      preguntas = data.slice(inicio - 1, fin);
-      if (modo === "aleatorio") preguntas = preguntas.sort(() => Math.random() - 0.5);
+      if (modo && inicio > 0 && fin > 0 && inicio <= fin && fin <= bancoCompleto.length) {
+        preguntas = bancoCompleto.slice(inicio - 1, fin);
+        if (modo === "aleatorio") preguntas = preguntas.sort(() => Math.random() - 0.5);
+      } else {
+        const cantidad = parseInt(cantidadSelect.value);
+        preguntas = bancoCompleto.slice(0, cantidad);
+      }
+
       respuestas = Array(preguntas.length).fill(null);
-
       mostrarPreguntas();
       btnReiniciar.style.display = "inline-block";
     } catch (e) {
       alert(e.message);
+    }
+  }
+
+  function actualizarOpcionesCantidad(max) {
+    cantidadSelect.innerHTML = "";
+    const opciones = [10, 20, 50, 100];
+    opciones.forEach(c => {
+      if (c <= max) {
+        const opt = document.createElement("option");
+        opt.value = c;
+        opt.textContent = `${c} preguntas`;
+        cantidadSelect.appendChild(opt);
+      }
+    });
+    // Selecciona la primera opción disponible
+    if (cantidadSelect.options.length > 0) {
+      cantidadSelect.value = cantidadSelect.options[0].value;
     }
   }
 
