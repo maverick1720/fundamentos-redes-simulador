@@ -1,0 +1,1851 @@
+{
+  "total": 150,
+  "preguntas": [
+    {
+      "pregunta": "¿Qué es un sistema operativo?",
+      "opciones": [
+        "Una impresora conectada a la PC",
+        "Un programa que elimina virus",
+        "El programa más importante que gestiona el hardware y software",
+        "Una aplicación de ofimática"
+      ],
+      "correcta": 2
+    },
+    {
+      "pregunta": "¿Qué tipo de sistema operativo permite múltiples usuarios?",
+      "opciones": [
+        "Monousuario",
+        "Multiusuario",
+        "Monotarea",
+        "GUI"
+      ],
+      "correcta": 1
+    },
+    {
+      "pregunta": "¿Qué tipo de tareas permite realizar un sistema operativo multitarea?",
+      "opciones": [
+        "Solo una tarea",
+        "Múltiples tareas a la vez",
+        "Solo tareas gráficas",
+        "Solo tareas en segundo plano"
+      ],
+      "correcta": 1
+    },
+    {
+      "pregunta": "¿Qué tipo de sistema operativo permite usar los recursos de una sola computadora?",
+      "opciones": [
+        "Distribuido",
+        "Centralizado",
+        "Multiusuario",
+        "Virtualizado"
+      ],
+      "correcta": 1
+    },
+    {
+      "pregunta": "¿Cuál es la interfaz más común para los usuarios?",
+      "opciones": [
+        "CLI",
+        "BIOS",
+        "GUI",
+        "Terminal"
+      ],
+      "correcta": 2
+    },
+    {
+      "pregunta": "¿Qué versión de Windows Server no incluye interfaz gráfica?",
+      "opciones": [
+        "a) Server Core",
+        "b) Server GUI",
+        "c) Server Pro",
+        "d) Server Classic"
+      ],
+      "correcta": 0
+    },
+    {
+      "pregunta": "¿Cuáles son las opciones para organizar las ventanas en Windows 10?",
+      "opciones": [
+        "cascada, apiladas, en paralelo, mostrar el escritorio",
+        "cascada, apiñadas, en paralelo, mostrar el escritorio",
+        "panel vista previa, panel de detalles, panel de navegación",
+        "iconos grandes, pequeños, medianos, muy grandes"
+      ],
+      "correcta": 0
+    },
+    {
+      "pregunta": "¿Cuál es la última versión del sistema operativo Windows para escritorio?",
+      "opciones": [
+        "Windows XP",
+        "Windows 10",
+        "Windows 8",
+        "Windows 11"
+      ],
+      "correcta": 3
+    },
+    {
+      "pregunta": "¿Qué componente del sistema operativo interactúa directamente con el hardware?",
+      "opciones": [
+        "GUI",
+        "Kernel",
+        "Aplicación",
+        "BIOS"
+      ],
+      "correcta": 1
+    },
+    {
+      "pregunta": "¿Cuál es una característica visual de Windows 11?",
+      "opciones": [
+        "Escritorio en 3D",
+        "Menú de inicio centrado",
+        "Menú clásico",
+        "Barra lateral flotante"
+      ],
+      "correcta": 1
+    },
+    {
+      "pregunta": "¿Cuál es un requisito mínimo para instalar Windows Server Core 2022?",
+      "opciones": [
+        "1 GB de RAM",
+        "Procesador de 32 bits",
+        "512 MB de RAM",
+        "SSD de 64 GB"
+      ],
+      "correcta": 2
+    },
+    {
+      "pregunta": "¿Qué edición de Windows Server 2019 es ideal para empresas pequeñas con hasta 25 usuarios?",
+      "opciones": [
+        "Datacenter",
+        "Standard",
+        "Essentials",
+        "Azure Datacenter"
+      ],
+      "correcta": 2
+    },
+    {
+      "pregunta": "¿Qué comando se usa para abrir la herramienta \"Información del Sistema\"?",
+      "opciones": [
+        "devmgmt.msc",
+        "dxdiag",
+        "msinfo32",
+        "taskmgr"
+      ],
+      "correcta": 2
+    },
+    {
+      "pregunta": "¿Qué función tiene la herramienta \"Liberador de Disco\"?",
+      "opciones": [
+        "Desfragmentar el disco",
+        "Analizar virus",
+        "Eliminar archivos innecesarios",
+        "Optimizar la memoria RAM"
+      ],
+      "correcta": 2
+    },
+    {
+      "pregunta": "¿Qué comando abre la restauración del sistema?",
+      "opciones": [
+        "sfc /scannow",
+        "msconfig",
+        "rstrui.exe",
+        "diskpart"
+      ],
+      "correcta": 2
+    },
+    {
+      "pregunta": "¿Qué opción se usa para cambiar configuraciones del sistema?",
+      "opciones": [
+        "BIOS",
+        "Panel de Control",
+        "Windows Update",
+        "CMD"
+      ],
+      "correcta": 1
+    },
+    {
+      "pregunta": "¿Qué herramienta permite regresar el sistema a un estado anterior?",
+      "opciones": [
+        "Disk Cleanup",
+        "Task Manager",
+        "System Restore",
+        "BleachBit"
+      ],
+      "correcta": 2
+    },
+    {
+      "pregunta": "¿Qué objetivo tienen las políticas de seguridad informática?",
+      "opciones": [
+        "Aumentar el costo de los equipos",
+        "Proteger los activos informáticos y garantizar un uso seguro",
+        "Eliminar todos los riesgos de internet"
+      ],
+      "correcta": 1
+    },
+    {
+      "pregunta": "¿Qué tipo de política se enfoca en acciones que los empleados deben realizar para mantener la seguridad?",
+      "opciones": [
+        "Políticas de riesgos informáticos",
+        "Políticas de bloqueo total",
+        "Políticas de grupo",
+        "Políticas de buenas prácticas informáticas"
+      ],
+      "correcta": 3
+    },
+    {
+      "pregunta": "¿Qué es el phishing?",
+      "opciones": [
+        "Un tipo de pesca deportiva",
+        "Una técnica de suplantación de identidad para robar datos",
+        "Un método de copia de seguridad",
+        "Un método de restauración de backup"
+      ],
+      "correcta": 1
+    },
+    {
+      "pregunta": "¿Qué herramienta controla el tráfico de red entrante y saliente en un sistema?",
+      "opciones": [
+        "Antivirus",
+        "Editor de texto",
+        "Cortafuegos (firewall)",
+        "spam"
+      ],
+      "correcta": 2
+    },
+    {
+      "pregunta": "¿Qué tipo de malware se adjunta a programas legítimos para ejecutarse?",
+      "opciones": [
+        "Virus",
+        "Firewall",
+        "Backup",
+        "Ingeniería Social"
+      ],
+      "correcta": 0
+    },
+    {
+      "pregunta": "¿Qué es un grupo de trabajo en Windows Server?",
+      "opciones": [
+        "Un servidor central que gestiona todos los equipos",
+        "Un conjunto de computadoras que comparten recursos sin servidor central",
+        "Un tipo de virus informático",
+        "Un conjunto de personas"
+      ],
+      "correcta": 1
+    },
+    {
+      "pregunta": "¿Cuál es el límite recomendado de equipos en un grupo de trabajo?",
+      "opciones": [
+        "5",
+        "100",
+        "25",
+        "20"
+      ],
+      "correcta": 3
+    },
+    {
+      "pregunta": "¿Qué ventaja tiene un dominio sobre un grupo de trabajo?",
+      "opciones": [
+        "Gestión centralizada de usuarios y recursos",
+        "Menor costo de licencias",
+        "No requiere configuración de red",
+        "No Permite compartir archivos"
+      ],
+      "correcta": 0
+    },
+    {
+      "pregunta": "¿Qué se necesita para unir un equipo a un dominio?",
+      "opciones": [
+        "Una licencia especial y un servidor DNS",
+        "Solo una conexión a Internet",
+        "Un controlador de dominio y credenciales de administrador",
+        "Un servidor DHCP"
+      ],
+      "correcta": 2
+    },
+    {
+      "pregunta": "¿Qué desventaja tiene un grupo de trabajo en una empresa grande?",
+      "opciones": [
+        "No permite compartir archivos",
+        "Requiere gestión manual en cada equipo",
+        "Es más caro que un dominio",
+        "Solo una conexión a internet"
+      ],
+      "correcta": 1
+    },
+    {
+      "pregunta": "¿Qué es Active Directory (AD)?",
+      "opciones": [
+        "Un antivirus de Microsoft",
+        "Un programa de edición de imágenes",
+        "Un programa para editar imágenes",
+        "Un servicio de directorio para gestionar usuarios y recursos en una red"
+      ],
+      "correcta": 3
+    },
+    {
+      "pregunta": "¿Qué función principal tiene un controlador de dominio?",
+      "opciones": [
+        "Almacenar archivos compartidos",
+        "Ejecutar aplicaciones web",
+        "Gestionar autenticación y autorización de usuarios",
+        "Requiere gestión manual en cada equipo"
+      ],
+      "correcta": 2
+    },
+    {
+      "pregunta": "¿Qué es una Unidad Organizativa (OU) en AD?",
+      "opciones": [
+        "Un tipo de licencia",
+        "Una agrupación lógica para aplicar políticas de grupo",
+        "Un tipo de servidor",
+        "Un protocolo de red"
+      ],
+      "correcta": 1
+    },
+    {
+      "pregunta": "¿Qué herramienta se usa para crear usuarios en AD?",
+      "opciones": [
+        "Usuarios y Equipos de Active Directory",
+        "Administrador de dispositivos",
+        "PowerShell sin módulos",
+        "Kerberos"
+      ],
+      "correcta": 0
+    },
+    {
+      "pregunta": "¿Administra la asignación de direcciones IP de América Latina y algunas islas del Caribe?",
+      "opciones": [
+        "AfriNIC",
+        "APNIC",
+        "LACNIC",
+        "RIPE NCC"
+      ],
+      "correcta": 2
+    },
+    {
+      "pregunta": "¿Qué significa DNS?",
+      "opciones": [
+        "Dynamic Network Service",
+        "Data Naming Service",
+        "Domain Name System",
+        "Distributed Name Server"
+      ],
+      "correcta": 2
+    },
+    {
+      "pregunta": "¿Cuál es la función principal del DNS?",
+      "opciones": [
+        "Convertir nombres de dominio en direcciones IP",
+        "Encriptar datos en la red",
+        "Gestionar contraseñas de usuarios",
+        "Gestionar base de datos"
+      ],
+      "correcta": 0
+    },
+    {
+      "pregunta": "¿Qué comando se usa para verificar la resolución DNS en Windows?",
+      "opciones": [
+        "ping",
+        "nslookup",
+        "ipconfig",
+        "ipconfig /release"
+      ],
+      "correcta": 1
+    },
+    {
+      "pregunta": "¿Qué tipo de registro DNS asocia un nombre de dominio a una dirección IPv6?",
+      "opciones": [
+        "Registro AAAA",
+        "Registro NS",
+        "Registro TXT",
+        "Registro MX"
+      ],
+      "correcta": 0
+    },
+    {
+      "pregunta": "¿Qué organización regula los nombres de dominio a nivel mundial?",
+      "opciones": [
+        "IEEE",
+        "ICANN",
+        "ISO",
+        "IANA"
+      ],
+      "correcta": 1
+    },
+    {
+      "pregunta": "¿Qué significa DHCP?",
+      "opciones": [
+        "Dynamic Host Configuration Protocol",
+        "Direct Host Communication Protocol",
+        "Distributed Hardware Control Protocol",
+        "Digital Host Connection Protocol"
+      ],
+      "correcta": 0
+    },
+    {
+      "pregunta": "¿Cuál es la función principal de DHCP?",
+      "opciones": [
+        "Autenticar usuarios",
+        "Crear dominios",
+        "Permitir a los clientes obtener parámetros de configuración automáticamente",
+        "Gestionar archivos"
+      ],
+      "correcta": 2
+    },
+    {
+      "pregunta": "¿Qué significa IP en direccionamiento de redes?",
+      "opciones": [
+        "a) Internet Protocol",
+        "b) Internal Process",
+        "c) Information Protocol",
+        "d) Integrated Platform"
+      ],
+      "correcta": 0
+    },
+    {
+      "pregunta": "¿Cuáles son las dos versiones principales de direcciones IP?",
+      "opciones": [
+        "IPv2 e IPv3",
+        "IPv4 e IPv6",
+        "IPv1 e IPv5",
+        "IPv3 e IPv4"
+      ],
+      "correcta": 1
+    },
+    {
+      "pregunta": "¿Cuál es la dirección IP de loopback más común?",
+      "opciones": [
+        "a) 192.168.1.1",
+        "b) 10.0.0.1",
+        "c) 127.0.0.1",
+        "d) 172.16.0.1"
+      ],
+      "correcta": 2
+    },
+    {
+      "pregunta": "¿Qué es un File Server?",
+      "opciones": [
+        "Un servidor que ejecuta videojuegos.",
+        "Un servidor central que gestiona archivos en red.",
+        "Un programa antivirus.",
+        "Un sistema operativo de red."
+      ],
+      "correcta": 1
+    },
+    {
+      "pregunta": "¿Qué función principal cumple un File Server?",
+      "opciones": [
+        "Ejecutar programas de ofimática.",
+        "Servir como almacenamiento centralizado de archivos.",
+        "Controlar dispositivos de red.",
+        "Gestionar impresoras compartidas."
+      ],
+      "correcta": 1
+    },
+    {
+      "pregunta": "¿Quién determina los derechos archivos en un File Server?",
+      "opciones": [
+        "El proveedor de internet.",
+        "El administrador del servidor.",
+        "Los usuarios finales.",
+        "El sistema operativo por defecto."
+      ],
+      "correcta": 1
+    },
+    {
+      "pregunta": "¿Qué protocolo de red es más común en los servidores de archivos LAN?",
+      "opciones": [
+        "HTTP",
+        "SMB",
+        "DHCP",
+        "ICMP"
+      ],
+      "correcta": 1
+    },
+    {
+      "pregunta": "¿Cuál de los siguientes protocolos sirve para transferir archivos por internet?",
+      "opciones": [
+        "FTP",
+        "SMTP",
+        "SNMP",
+        "DHCP"
+      ],
+      "correcta": 0
+    },
+    {
+      "pregunta": "¿Cuál es uno de los aspectos fundamentales que el personal de TI debe tener en cuenta con respecto a los servidores?",
+      "opciones": [
+        "Aumentar la velocidad de procesamiento.",
+        "Mantenerlos actualizados y tener respaldo de los mismos.",
+        "Reducir el consumo de energía.",
+        "Instalar nuevos programas de forma continua."
+      ],
+      "correcta": 1
+    },
+    {
+      "pregunta": "¿Cuál de las siguientes es una razón para crear un respaldo del servidor?",
+      "opciones": [
+        "Para aumentar el espacio de almacenamiento del disco duro.",
+        "Mejorar la velocidad de la red.",
+        "Cortes abruptos de luz que afectan el servidor.",
+        "Reducir la necesidad de mantenimiento de hardware."
+      ],
+      "correcta": 2
+    },
+    {
+      "pregunta": "¿Qué opción se selecciona para instalar la herramienta de respaldo en el Asistente para agregar roles y características?",
+      "opciones": [
+        "Servicios de archivos y almacenamiento.",
+        "Marco de biometría de Windows.",
+        "Windows Server Backup.",
+        "Servicios de dominio de Active Directory."
+      ],
+      "correcta": 2
+    },
+    {
+      "pregunta": "¿Cuál de estos es un ejemplo de sistema operativo para servidores?",
+      "opciones": [
+        "MS-DOS",
+        "Windows 95",
+        "Windows Server",
+        "Paint"
+      ],
+      "correcta": 2
+    },
+    {
+      "pregunta": "¿Qué es el malware?",
+      "opciones": [
+        "Un tipo de hardware dañino",
+        "Software malicioso diseñado para dañar sistemas o datos",
+        "Un sistema operativo alternativo",
+        "Un programa de ofimática"
+      ],
+      "correcta": 1
+    },
+    {
+      "pregunta": "¿Qué configuración inicial es esencial para un servidor?",
+      "opciones": [
+        "Dirección IP dinámica",
+        "Dirección IP estática",
+        "Sin configuración de red",
+        "Dirección IP temporal"
+      ],
+      "correcta": 1
+    },
+    {
+      "pregunta": "¿Qué tipo de red es más adecuada para una pequeña oficina con 10 equipos?",
+      "opciones": [
+        "Dominio",
+        "Grupo de trabajo",
+        "Red P2P sin configuración",
+        "GPO"
+      ],
+      "correcta": 1
+    },
+    {
+      "pregunta": "¿Qué herramienta se usa para editar GPOs?",
+      "opciones": [
+        "Editor del Registro",
+        "Editor de Directivas de Grupo (gpedit.ms",
+        "Administrador de Dispositivos",
+        "msconfig"
+      ],
+      "correcta": 1
+    },
+    {
+      "pregunta": "¿Qué GPO se aplica por defecto a todos los dominios?",
+      "opciones": [
+        "GPO \"Default Domain Policy\"",
+        "GPO \"Bloqueo Automático Terminal\"",
+        "GPO \"Deshabilitar Firewall\"",
+        "GPO “Fondo de pantalla”"
+      ],
+      "correcta": 0
+    },
+    {
+      "pregunta": "¿Qué es un FQDN?",
+      "opciones": [
+        "Un nombre de dominio completo (ej: www.ejemplo.com)",
+        "Una dirección IP privada",
+        "Un protocolo de red",
+        "Una dirección IP pública"
+      ],
+      "correcta": 0
+    },
+    {
+      "pregunta": "¿Qué organización internacional asigna las direcciones IP?",
+      "opciones": [
+        "Microsoft",
+        "Google",
+        "IANA (Internet Assigned Numbers Authority)",
+        "IBM"
+      ],
+      "correcta": 2
+    },
+    {
+      "pregunta": "¿Qué tipo de dirección IP se configura manualmente?",
+      "opciones": [
+        "Dirección IP dinámica",
+        "Dirección IP estática",
+        "Dirección IP privada",
+        "Dirección IP pública"
+      ],
+      "correcta": 1
+    },
+    {
+      "pregunta": "¿Qué significa APIPA y cuál es su rango?",
+      "opciones": [
+        "Automatic Private IP Addressing, 169.254.0.0/16",
+        "Advanced Private IP Assignment, 192.168.0.0/16",
+        "Automatic Public IP Addressing, 10.0.0.0/8",
+        "Advanced Public IP Assignment, 172.16.0.0/12"
+      ],
+      "correcta": 0
+    },
+    {
+      "pregunta": "¿Qué rango de direcciones pertenece a la Clase A?",
+      "opciones": [
+        "128.0.0.0 a 191.255.255.255",
+        "192.0.0.0 a 223.255.255.255",
+        "0.0.0.0 a 127.255.255.255",
+        "224.0.0.0 a 239.255.255.255"
+      ],
+      "correcta": 2
+    },
+    {
+      "pregunta": "¿En qué clase de red se utilizan los dos primeros bytes para la red y los dos últimos para el host?",
+      "opciones": [
+        "Clase A",
+        "Clase B",
+        "Clase C",
+        "Clase D"
+      ],
+      "correcta": 1
+    },
+    {
+      "pregunta": "¿Qué tipo de protocolo de red es DHCP?",
+      "opciones": [
+        "Punto a punto",
+        "Cliente/Servidor",
+        "Par a par",
+        "Basado en web"
+      ],
+      "correcta": 1
+    },
+    {
+      "pregunta": "¿Cuál de los siguientes atajos de teclado permite abrir el Explorador de Windows en Windows 10?",
+      "opciones": [
+        "Win + R",
+        "Win + E",
+        "Ctrl + E",
+        "Alt + Tab"
+      ],
+      "correcta": 1
+    },
+    {
+      "pregunta": "¿Qué tipo de tareas permite realizar un sistema operativo multitarea?",
+      "opciones": [
+        "Solo una tarea gráfica",
+        "Múltiples tareas a la vez",
+        "Solo tareas gráficas",
+        "Solo tareas gráficas en segundo plano"
+      ],
+      "correcta": 1
+    },
+    {
+      "pregunta": "¿Cuál es una ventaja del servidor de archivos?",
+      "opciones": [
+        "Alta capacidad y bajo costo.",
+        "No requiere administración.",
+        "No necesita copias de seguridad.",
+        "No se puede personalizar."
+      ],
+      "correcta": 0
+    },
+    {
+      "pregunta": "¿Cuál es una desventaja del servidor de archivos?",
+      "opciones": [
+        "Costo elevado.",
+        "Necesita administración y seguridad.",
+        "Solo funciona con Windows.",
+        "No almacena datos."
+      ],
+      "correcta": 1
+    },
+    {
+    
+      "pregunta": "Coloca Verdadero (V) o Falso (F) Falso según corresponda, La IP 126.8.156.0 pertenece a la Clase A (  )",
+      "opciones": [
+        "Verdadero",
+        "Falso"
+      ],
+      "correcta": 0
+    },
+    {
+    
+      "pregunta":  "Coloca Verdadero (V) o Falso (F) Falso según corresponda,La IP 220.200.23.1. pertenece a la Clase B ( )",
+      "opciones": [
+        "Verdadero",
+        "Falso"
+      ],
+      "correcta": 1
+    },
+        {
+    
+      "pregunta":  "Coloca Verdadero (V) o Falso (F) Falso según corresponda,La IP 119.18.45.0 pertenece a la Clase A ( )",
+      "opciones": [
+        "Verdadero",
+        "Falso"
+      ],
+      "correcta": 0
+    },
+      {
+    
+      "pregunta":  "Coloca Verdadero (V) o Falso (F) Falso según corresponda,La IP 158.98.80.0 pertenece a la Clase B ( )",
+      "opciones": [
+        "Verdadero",
+        "Falso"
+      ],
+      "correcta": 0
+    },
+        {
+    
+      "pregunta":  "Coloca Verdadero (V) o Falso (F) Falso según corresponda,La IP 177.100.18.4 su máscara de Subred es 255.255.0.0 ( )",
+      "opciones": [
+        "Verdadero",
+        "Falso"
+      ],
+      "correcta": 0
+    },
+           {
+    
+      "pregunta":  "Coloca Verdadero (V) o Falso (F) Falso según corresponda,La IP 119.18.45.0. su máscara de Subred es 255.0.0.0 (  )",
+      "opciones": [
+        "Verdadero",
+        "Falso"
+      ],
+      "correcta": 0
+    },
+             {
+    
+      "pregunta":  "Coloca Verdadero (V) o Falso (F) Falso según corresponda,La IP 192.12.35.105 su máscara de Subred es 255.0.0.0 (   )",
+      "opciones": [
+        "Verdadero",
+        "Falso"
+      ],
+      "correcta": 1
+    },
+              {
+    
+      "pregunta":  "Coloca Verdadero (V) o Falso (F) Falso según corresponda,La IP 189.210.50.1 su máscara de Subred es 255.255.255.0 (  )",
+      "opciones": [
+        "Verdadero",
+        "Falso"
+      ],
+      "correcta": 1
+    },
+             {
+    
+      "pregunta":  "Coloca Verdadero (V) o Falso (F) Falso según corresponda,La IP 177.100.18.4 tiene 3 ID de red ( )",
+      "opciones": [
+        "Verdadero",
+        "Falso"
+      ],
+      "correcta": 1
+    },
+              {
+    
+      "pregunta":  "Coloca Verdadero (V) o Falso (F) Falso según corresponda,La IP 119.18.45.0 tiene 1 ID de red (  )",
+      "opciones": [
+        "Verdadero",
+        "Falso"
+      ],
+      "correcta": 0
+    },
+             {
+    
+      "pregunta":  "Coloca Verdadero (V) o Falso (F) Falso según corresponda,La IP 209.240.80.78 tiene 3 ID de red ( )",
+      "opciones": [
+        "Verdadero",
+        "Falso"
+      ],
+      "correcta": 0
+    },
+           {
+    
+      "pregunta":  "Coloca Verdadero (V) o Falso (F) Falso según corresponda,La IP 33.0.0.0 tiene 2 ID de red ( )",
+      "opciones": [
+        "Verdadero",
+        "Falso"
+      ],
+      "correcta": 1
+    },
+                {
+    
+      "pregunta":  "A que Clase de Red pertenece la siguiente IP: I.- 150.10.15.0, II.- 192.14.2.0, III.- 148.17.9.1 IV.- 193.42.1.1",
+      "opciones": [
+        "B,C,B,C",
+        "A,B,C,A",
+        "B,C,B,B",
+        "C,B,C,B"
+      ],
+      "correcta": 0
+    },
+               {
+    
+      "pregunta":  "Coloca Verdadero (V) o Falso (F) Falso según corresponda,Los componentes del sistema operativo son 4 ( )",
+      "opciones": [
+        "Verdadero",
+        "Falso"
+      ],
+      "correcta": 0
+    },
+                   {
+    
+      "pregunta":  "Coloca Verdadero (V) o Falso (F) Falso según corresponda,La versión que introdujo el menú inicio en el centro de la pantalla es el Windows 10 (  )",
+      "opciones": [
+        "Verdadero",
+        "Falso"
+      ],
+      "correcta": 1
+    },
+                 {
+    
+      "pregunta":  "Coloca Verdadero (V) o Falso (F) Falso según corresponda,El atajo de teclado para abrir el menú ejecutar es Win+R (  )",
+      "opciones": [
+        "Verdadero",
+        "Falso"
+      ],
+      "correcta": 0
+    },
+                   {
+    
+      "pregunta":  "Coloca Verdadero (V) o Falso (F) Falso según corresponda,La edición de Windows 10 home está diseñada para empresas ( )",
+      "opciones": [
+        "Verdadero",
+        "Falso"
+      ],
+      "correcta": 1
+    },
+                {
+    
+      "pregunta":  "Coloca Verdadero (V) o Falso (F) Falso según corresponda,El Bitlocker es una característica de protección de datos (  )",
+      "opciones": [
+        "Verdadero",
+        "Falso"
+      ],
+      "correcta": 0
+    },
+                 {
+    
+      "pregunta":  "Coloca Verdadero (V) o Falso (F) Falso según corresponda,Un dominio es un conjunto de computadoras que comparten recursos ( )",
+      "opciones": [
+        "Verdadero",
+        "Falso"
+      ],
+      "correcta": 1
+    },
+                     {
+    
+      "pregunta":  "Coloca Verdadero (V) o Falso (F) Falso según corresponda,Uno de los protocolos básicos de Active Directory es LDAP ( )",
+      "opciones": [
+        "Verdadero",
+        "Falso"
+      ],
+      "correcta": 0
+    },
+                        {
+    
+      "pregunta":  "Coloca Verdadero (V) o Falso (F) Falso según corresponda,El Bitlocker funciona de manera óptima con equipos con chip TPM 1.2.(  )",
+      "opciones": [
+        "Verdadero",
+        "Falso"
+      ],
+      "correcta": 0
+    },
+                        {
+    
+      "pregunta":  "Coloca Verdadero (V) o Falso (F) Falso según corresponda,El registro que se usa en la zona de busca directa es A (  )",
+      "opciones": [
+        "Verdadero",
+        "Falso"
+      ],
+      "correcta": 0
+    },
+                         {
+    
+      "pregunta":  "Coloca Verdadero (V) o Falso (F) Falso según corresponda,En dominio de primer nivel es usualmente el nombre de la marca, organización o persona (  )",
+      "opciones": [
+        "Verdadero",
+        "Falso"
+      ],
+      "correcta": 1
+    },
+                         {
+    
+      "pregunta":  "Coloca Verdadero (V) o Falso (F) Falso según corresponda,En registro que se una en la zona de busca inversa es PTR (  )",
+      "opciones": [
+        "Verdadero",
+        "Falso"
+      ],
+      "correcta": 0
+    },
+                            {
+    
+      "pregunta":  "Coloca Verdadero (V) o Falso (F) Falso según corresponda,Un ejemplo de gTLD es .mx (  )",
+      "opciones": [
+        "Verdadero",
+        "Falso"
+      ],
+      "correcta": 1
+    },
+                                {
+    
+      "pregunta":  "Coloca Verdadero (V) o Falso (F) Falso según corresponda,De la IP 192.168.100.11 /24 la última IP válida es 192.168.100.254 (  )",
+      "opciones": [
+        "Verdadero",
+        "Falso"
+      ],
+      "correcta": 0
+    },
+                                  {
+    
+      "pregunta":  "Coloca Verdadero (V) o Falso (F) Falso según corresponda,De la IP 172.16.20.192 /16 la primera IP válida es 172.16.20.1 (  )",
+      "opciones": [
+        "Verdadero",
+        "Falso"
+      ],
+      "correcta": 1
+    },
+                                    {
+    
+      "pregunta":  "Coloca Verdadero (V) o Falso (F) Falso según corresponda,De la IP 10.66.23.195 /8 la última IP válida es 10.255.255.254 (  )",
+      "opciones": [
+        "Verdadero",
+        "Falso"
+      ],
+      "correcta": 0
+    },
+    {
+    "pregunta": "¿Qué ventaja ofrecen los sistemas distribuidos frente a los centralizados?",
+      "opciones": [
+     
+        "Menor costo de instalación",
+        "Mejor tolerancia a fallas",
+        "Mayor dependencia de un nodo",
+        "Son más lentos"
+      ],
+      "correcta": 1
+    },
+    {
+      "pregunta": "¿Qué tipo de sistema operativo es ideal para una red empresarial con varios usuarios?",
+      "opciones": [
+        "Monousuario",
+        "Centralizado",
+        "Multiusuario",
+        "GUI"
+      ],
+      "correcta": 2
+    },
+    {
+      "pregunta": "¿Qué versión de Windows Server 2022 permite máquinas virtuales ilimitadas?",
+      "opciones": [
+        "Essentials",
+        "Standard",
+        "Datacenter",
+        "Azure Fundamentals"
+      ],
+      "correcta": 2
+    },
+    {
+      "pregunta": "¿Cuál es el mínimo de espacio en disco requerido para Windows Server 2022 GUI?",
+      "opciones": [
+        "64 GB",
+        "16 GB",
+        "128 GB",
+        "32 GB"
+      ],
+      "correcta": 3
+    },
+    {
+      "pregunta": "¿Qué tipo de malware actúa como software legítimo pero oculta funciones maliciosas?",
+      "opciones": [
+        "Troyano",
+        "Firewall",
+        "VPN",
+        "Phishing"
+      ],
+      "correcta": 0
+    },
+    {
+      "pregunta": "¿Qué función cumple una lista blanca en el control de aplicaciones?",
+      "opciones": [
+        "Bloquear todas las aplicaciones",
+        "Permitir solo aplicaciones autorizadas y bloquear las demás",
+        "Eliminar automáticamente el software instalado",
+        "Proteger los activos informáticos"
+      ],
+      "correcta": 1
+    },
+    {
+      "pregunta": "¿Qué edición de Windows Server 2019 NO requiere CAL (Client Access License)?",
+      "opciones": [
+        "Datacenter",
+        "Standard",
+        "Essentials",
+        "Datacenter y Standard"
+      ],
+      "correcta": 2
+    },
+    {
+      "pregunta": "¿Qué herramienta en Windows Server 2019 centraliza la gestión de roles y características?",
+      "opciones": [
+        "Administrador de dispositivos",
+        "Administrador del servidor",
+        "PowerShell",
+        "Plataforma de aplicaciones"
+      ],
+      "correcta": 1
+    },
+    {
+      "pregunta": "¿Cuáles son los protocolos básicos de Active Directory?",
+      "opciones": [
+        "LDAP + Kerberos + DNS +DHCP",
+        "X.500 + Radius + WINS",
+        "LPAD + Kerberos+DNS+DHCP+IIS",
+        "Ninguno de los anteriores"
+      ],
+      "correcta": 0
+    },
+    {
+      "pregunta": "Hemos creado un usuario dentro de la unidad organizativa OUASI en nuestro dominio cierva.net. El usuario se llama Isidro López. ¿Cuál sería su Distinguish Name?",
+      "opciones": [
+        "cn=Isidro López, dn=cierva.net",
+        "cn=Isidro López, ou=OUASI, dc=cierva.net",
+        "cn=Isidro López, ou=Users, ou=OUASI, dc=cierva,dc=net",
+        "cn=Isidro López, ou=OUASI, dc=cierva,dc=net"
+      ],
+      "correcta": 3
+    },
+                                        {
+    
+      "pregunta":  "Coloca Verdadero (V) o Falso (F) Falso según corresponda,Al editar una política de grupo, la configuración se puede aplicar a la configuración del usuario y a la configuración del equipo. (  )",
+      "opciones": [
+        "Verdadero",
+        "Falso"
+      ],
+      "correcta": 0
+    },
+                                          {
+    
+      "pregunta":  "Coloca Verdadero (V) o Falso (F) Falso según corresponda,Las políticas de grupo (GPO)se vinculan a las unidades organizativas (UO) (  )",
+      "opciones": [
+        "Verdadero",
+        "Falso"
+      ],
+      "correcta": 0
+    },
+                                            {
+    
+      "pregunta":  "Coloca Verdadero (V) o Falso (F) Falso según corresponda,Los roles del servidor son los componentes independientes de las funciones del servidor (  )",
+      "opciones": [
+        "Verdadero",
+        "Falso"
+      ],
+      "correcta": 1
+    },
+                                             {
+    
+      "pregunta":  "Coloca Verdadero (V) o Falso (F) Falso según corresponda,Las características del servidor se utilizan para organizar la funcionalidad del sistema, designan las funciones principales del servidor (  )",
+      "opciones": [
+        "Verdadero",
+        "Falso"
+      ],
+      "correcta": 1
+    },
+    {
+      "pregunta": "¿Cuántas direcciones IP puede manejar aproximadamente una red Clase A?",
+      "opciones": [
+        "256 direcciones",
+        "65,536 direcciones",
+        "16 millones de direcciones",
+        "1,024 direcciones"
+      ],
+      "correcta": 2
+    },
+    {
+      "pregunta": "¿Cuál es la representación binaria de la máscara de subred 255.255.0.0?",
+      "opciones": [
+        "1111111.11111111.11111111.00000000",
+        "11111111.11111111.00000000.00000000",
+        "11111111.00000000.00000000.00000000",
+        "11111111.11111111.11111111.11111111"
+      ],
+      "correcta": 1
+    },
+    {
+      "pregunta": "Qué comando permite forzar la actualización de la directiva de grupo?",
+      "opciones": [
+        "ping /update",
+        "gpupdate /force",
+        "nslookup /refresh",
+        "ipconfig /flushdns"
+      ],
+      "correcta": 1
+    },
+    {
+      "pregunta": "¿Qué dominio se usa en zonas de búsqueda inversa para IPv4?",
+      "opciones": [
+        "in-addr.arpa",
+        "ip6.arpa",
+        "reverse-dns.org",
+        "ip4.arpa"
+      ],
+      "correcta": 0
+    },
+    {
+      "pregunta": "¿Qué parte de \"www.sitioweb.org.es\" es el SLD?",
+      "opciones": [
+        "\"sitioweb\"",
+        "\".org\"",
+        "\".es\"",
+        "\"www \""
+      ],
+      "correcta": 0
+    },
+    {
+      "pregunta": "¿Qué dominio usaría una empresa comercial en México?",
+      "opciones": [
+        ".org.mx",
+        ".com.mx",
+        ".edu",
+        ".mx"
+      ],
+      "correcta": 1
+    },
+    {
+      "pregunta": "¿Qué dominio usaría una universidad en España?",
+      "opciones": [
+        ".edu.es",
+        ".com.mx",
+        ".org",
+        ".edu.esp"
+      ],
+      "correcta": 0
+    },
+    {
+      "pregunta": "¿Cuál es la función principal de los \"Módulos de Contenido\" en IIS?",
+      "opciones": [
+        "Proteger el servidor contra ataques.",
+        "Generar y enviar contenido al usuario (estático o dinámico).",
+        "Monitorear el rendimiento del servidor.",
+        "Comprimir las respuestas del servidor."
+      ],
+      "correcta": 1
+    },
+    {
+      "pregunta": "En el contexto de DHCP, si un cliente se ha configurado una IP estática que ya estaba en uso por un equipo asignado por el servidor DHCP, ¿qué tipo de problema puede producirse?",
+      "opciones": [
+        "Problema de DNS",
+        "Conflicto con las direcciones IP",
+        "Error de asignación de DHCP",
+        "Caída del servidor DHCP"
+      ],
+      "correcta": 1
+    },
+    {
+      "pregunta": "Los registros AAAA en DNS se utilizan para mapear nombres de dominio a direcciones IPv6.",
+      "opciones": [
+        "Verdadero",
+        "Falso"
+      ],
+      "correcta": 0
+    },
+    {
+      "pregunta": "La zona de búsqueda inversa utiliza registros MX.",
+      "opciones": [
+        "Verdadero",
+        "Falso"
+      ],
+      "correcta": 1
+    },
+    {
+      "pregunta": "Los registros CNAME se utilizan para crear alias de nombres de dominio.",
+      "opciones": [
+        "Verdadero",
+        "Falso"
+      ],
+      "correcta": 0
+    },
+    {
+      "pregunta": "¿Cuál es el propósito específico de la Clase E de direcciones IP?",
+      "opciones": [
+        "Redes comerciales grandes",
+        "Redes domésticas",
+        "No se utiliza en equipos de uso normal (experimental)",
+        "Multicast exclusivamente"
+      ],
+      "correcta": 2
+    },
+    {
+      "pregunta": "¿Cuáles son los componentes del DNS?, I.- Cliente Fase 1,II.- Servidores DNS,III.- Zonas de autoridad IV.- Zona directa e inversa",
+      "opciones": [
+        "I,II",
+        "I, II, III",
+        "IV",
+        "I"
+      ],
+      "correcta": 1
+    },
+    {
+      "pregunta": "¿Por qué la Clase D no es de utilización común para usuarios normales?",
+      "opciones": [
+        "Es muy lenta",
+        "Es muy cara",
+        "Está destinada a uso experimental y grupos de máquinas específicos",
+        "Solo funciona en redes privadas"
+      ],
+      "correcta": 2
+    },
+    {
+      "pregunta": "¿Qué es un sistema de archivos distribuido?",
+      "opciones": [
+        "Un sistema que elimina archivos antiguos.",
+        "Un sistema que copia los datos en varios servidores para redundancia.",
+        "Un sistema exclusivo para Linux.",
+        "Un programa de respaldo automático."
+      ],
+      "correcta": 1
+    },
+    {
+      "pregunta": "¿Cuál es una buena práctica para proteger un servidor de archivos?",
+      "opciones": [
+        "Conectarlo directamente a internet.",
+        "Mantener copias de seguridad fuera de línea.",
+        "Eliminar las copias de seguridad cada semana.",
+        "Permitir permisos globales a todos los usuarios."
+      ],
+      "correcta": 1
+    },
+    {
+      "pregunta": "¿Por qué los servidores de archivos deben aislarse de internet?",
+      "opciones": [
+        "Para evitar sobrecarga de tráfico.",
+        "Porque son objetivos de alto valor para atacantes.",
+        "Para ahorrar energía.",
+        "Para mejorar la velocidad de conexión."
+      ],
+      "correcta": 1
+    },
+    {
+      "pregunta": "¿Qué medida permite detectar actividades extrañas en un File Server?",
+      "opciones": [
+        "Compresión de archivos.",
+        "Auditorías y alertas.",
+        "Desactivación de permisos.",
+        "Instalación de antivirus."
+      ],
+      "correcta": 1
+    },
+    {
+      "pregunta": "¿Qué diferencia principal existe entre una cuenta local y una de dominio?",
+      "opciones": [
+        "La local se administra en la nube y la de dominio en el equipo.",
+        "La local se gestiona en un solo equipo y la de dominio centralmente.",
+        "Ambas se gestionan igual.",
+        "Ninguna diferencia."
+      ],
+      "correcta": 1
+    },
+    {
+      "pregunta": "¿Qué tipo de acceso tienen las cuentas locales a la red?",
+      "opciones": [
+        "Completo.",
+        "Limitado a recursos locales.",
+        "Libre a toda la red.",
+        "Ninguno."
+      ],
+      "correcta": 1
+    },
+    {
+      "pregunta": "¿Cuál es la principal ventaja de las cuentas de dominio en entornos grandes?",
+      "opciones": [
+        "Requieren menos hardware.",
+        "Ofrecen administración centralizada y control de acceso.",
+        "No necesitan contraseñas.",
+        "No requieren conexión a la red."
+      ],
+      "correcta": 1
+    },
+    {
+      "pregunta": "¿Qué sucede si un usuario intenta iniciar sesión en el dominio con una cuenta local?",
+      "opciones": [
+        "Obtiene acceso completo.",
+        "No puede autenticarse.",
+        "Accede con permisos limitados.",
+        "Inicia sesión automáticamente."
+      ],
+      "correcta": 1
+    },
+    {
+      "pregunta": "¿Qué característica distingue a las cuentas intrínsecas?",
+      "opciones": [
+        "Las crea el usuario administrador.",
+        "Se crean automáticamente y no pueden eliminarse.",
+        "Pertenecen solo al dominio.",
+        "Son exclusivas de Linux."
+      ],
+      "correcta": 1
+    },
+    {
+      "pregunta": "¿Qué permite una cuenta de usuario?",
+      "opciones": [
+        "Instalar hardware.",
+        "Acceder a archivos, carpetas y configuraciones personales.",
+        "Formatear discos",
+        "Administrar impresoras de red."
+      ],
+      "correcta": 1
+    },
+    {
+      "pregunta": "¿Qué se necesita para acceder a una cuenta de usuario?",
+      "opciones": [
+        "Dirección IP.",
+        "Nombre de usuario y contraseña.",
+        "Licencia de Windows.",
+        "Token de seguridad externo."
+      ],
+      "correcta": 1
+    },
+    {
+      "pregunta": "¿Dónde se administra una cuenta local?",
+      "opciones": [
+        "En un servidor de dominio.",
+        "En una computadora individual.",
+        "En la nube.",
+        "En Active Directory."
+      ],
+      "correcta": 1
+    },
+    {
+      "pregunta": "¿Cuál es el alcance de una cuenta local?",
+      "opciones": [
+        "Acceder a cualquier equipo del dominio.",
+        "Solo al equipo donde fue creada.",
+        "A todos los recursos de red.",
+        "A los controladores de dominio."
+      ],
+      "correcta": 1
+    },
+    {
+      "pregunta": "¿Qué permite una cuenta de dominio?",
+      "opciones": [
+        "Iniciar sesión únicamente en el equipo local.",
+        "Iniciar sesión en cualquier computadora unida al dominio.",
+        "Administrar cuentas locales.",
+        "Desactivar políticas de grupo."
+      ],
+      "correcta": 1
+    },
+    {
+      "pregunta": "¿Qué tipo de cuenta crea Windows automáticamente durante la instalación?",
+      "opciones": [
+        "Local.",
+        "Intrínseca.",
+        "Temporal.",
+        "Remota."
+      ],
+      "correcta": 1
+    },
+    {
+      "pregunta": "¿Cuál de las siguientes es una cuenta intrínseca común?",
+      "opciones": [
+        "Administrador e Invitado.",
+        "Usuario estándar y root.",
+        "Operador y Supervisor.",
+        "Dominio y Local."
+      ],
+      "correcta": 0
+    },
+        {
+      "pregunta": "El protocolo de red más común en servidores es SMB (  )",
+      "opciones": [
+        "Verdadero",
+        "Falso"
+      ],
+      "correcta": 0
+    },
+        {
+      "pregunta": "El FTP sirve para transferir archivos por internet ( )",
+      "opciones": [
+        "Verdadero",
+        "Falso"
+      ],
+      "correcta": 0
+    },
+          {
+      "pregunta": "Edu.esp sería el dominio de una universidad de España ( )",
+      "opciones": [
+        "Verdadero",
+        "Falso"
+      ],
+      "correcta": 1
+    },
+              {
+      "pregunta": ".EU, sería el dominio de Estados Unidos ( )",
+      "opciones": [
+        "Verdadero",
+        "Falso"
+      ],
+      "correcta": 1
+    },
+               {
+      "pregunta": "8.8.8.8 es un dominio de Google (  )",
+      "opciones": [
+        "Verdadero",
+        "Falso"
+      ],
+      "correcta": 0
+    },
+                   {
+      "pregunta": "DHCP es un protocolo de configuración de host privado ( )",
+      "opciones": [
+        "Verdadero",
+        "Falso"
+      ],
+      "correcta": 1
+    },
+                       {
+      "pregunta": "Uno de los problemas comunes de red, puede ser el conflicto de direcciones IP (  )",
+      "opciones": [
+        "Verdadero",
+        "Falso"
+      ],
+      "correcta": 0
+    },
+                         {
+      "pregunta": "Los grupos de seguridad de Active Directory son 3 ( )",
+      "opciones": [
+        "Verdadero",
+        "Falso"
+      ],
+      "correcta": 1
+    },
+    {
+      "pregunta": "¿Qué dirección es la primera dirección válida para la red 172.16.20.192/16?",
+      "opciones": [
+        "172.16.0.1",
+        "172.16.255.254",
+        "172.16.255.255",
+        "172.15.255.255"
+      ],
+      "correcta": 0
+    },
+    {
+      "pregunta": "¿Qué dirección es la última dirección válida para la red 172.16.20.192/16?",
+      "opciones": [
+        "172.16.0.1",
+        "172.16.255.254",
+        "172.16.255.255",
+        "172.15.255.255"
+      ],
+      "correcta": 1
+    },
+    {
+      "pregunta": "¿Qué dirección es la primera dirección válida para la red 10.66.23.195/8?",
+      "opciones": [
+        "10.0.0.1",
+        "10.66.0.1",
+        "10.66.23.1",
+        "10.0.0.0"
+      ],
+      "correcta": 0
+    },
+    {
+      "pregunta": "¿Qué dirección es la última dirección válida para la red 10.66.23.195/8?",
+      "opciones": [
+        "10.0.0.254",
+        "10.255.255.255",
+        "10.255.255.254",
+        "10.66.255.254"
+      ],
+      "correcta": 2
+    },
+    {
+      "pregunta": "¿Qué dirección es la última dirección válida para la red 172.16.0.0/16?",
+      "opciones": [
+        "172.16.0.1",
+        "172.16.255.254",
+        "172.16.255.255",
+        "172.15.255.255"
+      ],
+      "correcta": 1
+    },
+    {
+      "pregunta": "¿Cuál es la dirección de broadcast para la IP 10.66.23.195/8?",
+      "opciones": [
+        "10.0.0.0",
+        "10.255.255.254",
+        "10.255.255.255",
+        "10.66.23.255"
+      ],
+      "correcta": 2
+    },
+    {
+      "pregunta": "¿Cuál de las siguientes no es una función de la gestión de recursos?",
+      "opciones": [
+        "Gestión de red",
+        "Gestión de memoria",
+        "Gestión de procesos",
+        "Gestión de almacenamiento"
+      ],
+      "correcta": 0
+    },
+    {
+      "pregunta": "¿Qué limitación tiene Windows Server Essentials?",
+      "opciones": [
+        "No admite usuarios",
+        "Máximo 25 usuarios y 50 dispositivos",
+        "Solo se instala en modo gráfico",
+        "No funciona en redes"
+      ],
+      "correcta": 1
+    },
+    {
+      "pregunta": "¿Qué tipo de ataque busca explotar vulnerabilidades antes de que se parcheen?",
+      "opciones": [
+        "Ataque de día cero (zero-day)",
+        "Spam",
+        "Phishing tradicional",
+        "Malware"
+      ],
+      "correcta": 0
+    },
+    {
+      "pregunta": "¿Qué tipo de malware secuestra datos y exige un rescate?",
+      "opciones": [
+        "Spyware",
+        "Ransomware",
+        "Adware",
+        "malware"
+      ],
+      "correcta": 1
+    },
+    {
+      "pregunta": "¿Cuáles son las máscaras de subred de las siguientes tipos de clases de red:, CLASE A ___________,CLASE B ______, CLASE C ______ ",
+      "opciones": [
+        "255.0.0.0 / 255.255.0.0 /255.255.255.0",
+        "255.255.0 / 255.0.0.0 /255.255.255.0",
+        "255.255.255.0 / 255.255.0.0 /255.0.0.0",
+        "255.255.255.255/255.255.0.0 /255.0.0.0"
+      ],
+      "correcta": 0
+    },
+    {
+      "pregunta": "¿Cúal es el Id de Red de las siguientes IP’S :, 170.100.18.4,119.18.45.0, 209.240.80.78, 199.155.77.56 ",
+      "opciones": [
+        "18.4 / 119 .18 / 209.240 / 199.155",
+        "170.100 / 119 / 209.240.80 / 199.155.77",
+        "170.100.18 / 18.45.0 /240.80.78 / 56",
+        "100.18.4 / 45.0 /240.80.78/155.77.56"
+      ],
+      "correcta": 1
+    },
+    {
+      "pregunta": "¿Qué ámbito de grupo puede contener miembros de cualquier dominio del bosque?",
+      "opciones": [
+        "Grupo local",
+        "Grupo global",
+        "Grupo universal",
+        "Grupo local de dominio"
+      ],
+      "correcta": 2
+    },
+    {
+      "pregunta": "¿Qué ámbito de grupo se usa para asignar permisos solo dentro de su dominio?",
+      "opciones": [
+        "Grupo local de dominio",
+        "Grupo global",
+        "Grupo universal",
+        "Grupo dominio"
+      ],
+      "correcta": 0
+    },
+    {
+      "pregunta": "¿Con qué frecuencia mínima se recomienda crear copias de seguridad para evitar problemas futuros?",
+      "opciones": [
+        "Cada 30 días.",
+        "Cada 15 días.",
+        "Una vez al mes.",
+        "Semanalmente."
+      ],
+      "correcta": 1
+    },
+    {
+      "pregunta": "¿Qué indica un dominio \".gob\"?",
+      "opciones": [
+        "Uso gubernamental",
+        "Uso educativo",
+        "Uso comercial",
+        "Uso nacional"
+      ],
+      "correcta": 0
+    },
+    {
+      "pregunta": "¿Qué tipo de TLD es \".asia\"?",
+      "opciones": [
+        "Geográfico regional",
+        "Genérico",
+        "De tercer nivel",
+        "De segundo nivel"
+      ],
+      "correcta": 0
+    },
+                          {
+      "pregunta": "El registro SOA (Start of Authority) contiene información administrativa sobre una zona DNS. (  )",
+      "opciones": [
+        "Verdadero",
+        "Falso"
+      ],
+      "correcta": 0
+    },
+                             {
+      "pregunta": "Los registros PTR mapean nombres de dominio a direcciones IP. (  )",
+      "opciones": [
+        "Verdadero",
+        "Falso"
+      ],
+      "correcta": 1
+    },
+                                {
+      "pregunta": "El comando ipconfig /flushdns en Windows borra la caché DNS local. ( )",
+      "opciones": [
+        "Verdadero",
+        "Falso"
+      ],
+      "correcta": 0
+    },
+                                   {
+      "pregunta": "El tiempo de concesión en que la dirección IP estará reservada para una MAC en concreto es de 10 dias (  )",
+      "opciones": [
+        "Verdadero",
+        "Falso"
+      ],
+      "correcta": 1
+    },
+    {
+      "pregunta": "¿Cuál de estos rangos corresponde a direcciones IP privadas?",
+      "opciones": [
+        "8.8.8.8 - 8.8.8.255",
+        "192.168.0.0 - 192.168.255.255",
+        "64.0.0.0 - 64.255.255.255",
+        "200.0.0.0 - 200.255.255.255"
+      ],
+      "correcta": 1
+    },
+    {
+      "pregunta": "¿Cuál es la dirección IP multicast más común?",
+      "opciones": [
+        "a) 192.168.1.1",
+        "b) 10.0.0.1",
+        "c) 127.0.0.1",
+        "d) 224.0.0.0"
+      ],
+      "correcta": 3
+    },
+    {
+      "pregunta": "¿Cuál es la función de la dirección de broadcast 255.255.255.255?",
+      "opciones": [
+        "Comunicación punto a punto",
+        "Enviar información a todos los dispositivos en una red local",
+        "Configuración automática",
+        "Pruebas de conectividad"
+      ],
+      "correcta": 1
+    },
+    {
+      "pregunta": "¿Cuál es la notación CIDR para la máscara de subred de Clase A?",
+      "opciones": [
+        "/24",
+        "/16",
+        "/8",
+        "/32"
+      ],
+      "correcta": 2
+    },
+    {
+      "pregunta": "¿Cuál es la relación entre SMB y Active Directory?",
+      "opciones": [
+        "SMB reemplaza a Active Directory.",
+        "SMB puede integrarse con la autenticación de Active Directory.",
+        "Active Directory no utiliza SMB.",
+        "SMB solo se usa en sistemas sin dominio."
+      ],
+      "correcta": 1
+    },
+    {
+      "pregunta": "¿Cuál es la principal diferencia entre FTP y SFTP?",
+      "opciones": [
+        "FTP usa cifrado y SFTP no.",
+        "SFTP utiliza un canal seguro, mientras que FTP no.",
+        "Ambos usan el mismo puerto.",
+        "FTP solo se usa en Linux."
+      ],
+      "correcta": 1
+    },
+    {
+      "pregunta": "¿Qué riesgo conlleva no auditar periódicamente los permisos del File Server?",
+      "opciones": [
+        "Disminución del rendimiento.",
+        "Pérdida de redundancia.",
+        "Exfiltración de archivos o cifrado por ransomware.",
+        "Incompatibilidad con SMB."
+      ],
+      "correcta": 2
+    },
+    {
+      "pregunta": "¿Cuál es la mejor forma de garantizar disponibilidad de datos ante un desastre?",
+      "opciones": [
+        "Mantener varias copias en diferentes ubicaciones físicas.",
+        "Hacer una copia semanal en el mismo disco",
+        "Usar solo un sistema RAID local.",
+        "Apagar el servidor cada noche."
+      ],
+      "correcta": 0
+    },
+    {
+      "pregunta": "¿Dónde se replican las cuentas de dominio dentro de la infraestructura de red?",
+      "opciones": [
+        "En todos los controladores de dominio.",
+        "Solo en el servidor principal.",
+        "En la base de datos local.",
+        "En el DNS."
+      ],
+      "correcta": 0
+    },
+    {
+      "pregunta": "¿Por qué las cuentas intrínsecas son necesarias en Windows?",
+      "opciones": [
+        "Porque permiten ejecutar tareas administrativas básicas del sistema.",
+        "Porque sirven como respaldo de cuentas eliminadas.",
+        "Porque son requeridas por el BIOS.",
+        "Porque mejoran la velocidad del sistema."
+      ],
+      "correcta": 0
+    },
+    {
+      "pregunta": "¿Qué tipo de red requiere el uso de cuentas de dominio?",
+      "opciones": [
+        "Red punto a punto.",
+        "Red cliente-servidor.",
+        "Red doméstica sin servidor.",
+        "Red LAN independiente."
+      ],
+      "correcta": 1
+    },
+    {
+      "pregunta": "¿Cuál es una buena práctica relacionada con las contraseñas de usuario?",
+      "opciones": [
+        "No usar contraseña para agilizar el acceso.",
+        "Mantener la misma contraseña en todos los equipos.",
+        "Establecer contraseñas seguras y actualizarlas periódicamente.",
+        "Compartir la contraseña con el administrador."
+      ],
+      "correcta": 2
+    },
+    {
+      "pregunta": "De la IP 192.168.100.11 /24 la última IP válida es 192.168.100.254",
+      "opciones": [
+        "Verdadero",
+        "Falso"
+      ],
+      "correcta": 0
+    },
+    {
+      "pregunta": "De la IP 172.16.20.192 /16 la primera IP válida es 172.16.20.1",
+      "opciones": [
+        "Verdadero",
+        "Falso"
+      ],
+      "correcta": 1
+    },
+    {
+      "pregunta": "De la IP 10.66.23.195 /8 la última IP válida es 10.255.255.254",
+      "opciones": [
+        "Verdadero",
+        "Falso"
+      ],
+      "correcta": 0
+    },
+    {
+      "pregunta": "De la IP 192.168.100.11 /24 la IP de broadcast es 192.168.100.255",
+      "opciones": [
+        "Verdadero",
+        "Falso"
+      ],
+      "correcta": 0
+    },
+    {
+      "pregunta": "De la IP 192.168.10.11 /24 la última IP válida es 192.168.100.254",
+      "opciones": [
+        "Verdadero",
+        "Falso"
+      ],
+      "correcta": 0
+    },
+    {
+      "pregunta": "De la IP 172.16.22.192 /16 la primera IP válida es 172.16.20.1",
+      "opciones": [
+        "Verdadero",
+        "Falso"
+      ],
+      "correcta": 1
+    },
+    {
+      "pregunta": "De la IP 10.66.23.195 /8 la última IP válida es 10.255.255.254",
+      "opciones": [
+        "Verdadero",
+        "Falso"
+      ],
+      "correcta": 0
+    },
+    {
+      "pregunta": "De la IP 192.168.100.11 /24 la IP de broadcast es 192.168.100.255",
+      "opciones": [
+        "Verdadero",
+        "Falso"
+      ],
+      "correcta": 0
+    },
+    {
+      "pregunta": "De la IP 192.168.110.11 /24 la última IP válida es 192.168.110.254",
+      "opciones": [
+        "Verdadero",
+        "Falso"
+      ],
+      "correcta": 0
+    },
+    {
+      "pregunta": "De la IP 172.16.20.192 /16 la primera IP válida es 172.16.20.1",
+      "opciones": [
+        "Verdadero",
+        "Falso"
+      ],
+      "correcta": 1
+    },
+    {
+      "pregunta": "De la IP 10.65.23.195 /8 la última IP válida es 10.255.255.254",
+      "opciones": [
+        "Verdadero",
+        "Falso"
+      ],
+      "correcta": 0
+    },
+    {
+      "pregunta": "De la IP 192.168.120.11 /24 la IP de broadcast es 192.168.120.255",
+      "opciones": [
+        "Verdadero",
+        "Falso"
+      ],
+      "correcta": 0
+    }
+  ]
+}
