@@ -1,8 +1,9 @@
+
 <!DOCTYPE html>
 <html lang="es">
 <head>
   <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Repaso CITEN — Selección de Curso</title>
   <style>
     body {
@@ -31,7 +32,11 @@
       box-shadow: 0 2px 6px rgba(0,0,0,0.1);
       margin-bottom: 20px;
     }
-    label { font-weight: 600; display: block; margin-top: 12px; }
+    label {
+      font-weight: 600;
+      display: block;
+      margin-top: 12px;
+    }
     select, input[type=number] {
       padding: 8px;
       width: 100%;
@@ -43,6 +48,7 @@
       display: flex;
       gap: 20px;
       margin-top: 10px;
+      flex-wrap: wrap;
     }
     .mode-group label {
       font-weight: normal;
@@ -52,9 +58,11 @@
       gap: 10px;
       margin-top: 12px;
       display: none;
+      flex-wrap: wrap;
     }
     .range-fields input {
-      width: 100px;
+      width: 100%;
+      max-width: 120px;
     }
     button {
       margin-top: 20px;
@@ -64,12 +72,40 @@
       color: white;
       border-radius: 6px;
       cursor: pointer;
+      width: 100%;
+      max-width: 300px;
     }
-    .barra { height: 8px; background: #e6eefc; border-radius: 8px; overflow: hidden; margin: 12px 0 }
-    .barra > span { display:block; height:100%; background: linear-gradient(90deg,#42a5f5,#1e88e5); width:0% }
-    .feedback { font-weight: 700; margin-top: 10px }
+    .barra {
+      height: 8px;
+      background: #e6eefc;
+      border-radius: 8px;
+      overflow: hidden;
+      margin: 12px 0;
+    }
+    .barra > span {
+      display: block;
+      height: 100%;
+      background: linear-gradient(90deg,#42a5f5,#1e88e5);
+      width: 0%;
+    }
+    .feedback {
+      font-weight: 700;
+      margin-top: 10px;
+    }
     .feedback.ok { color: #2e7d32; }
     .feedback.bad { color: #c62828; }
+
+    @media screen and (max-width: 600px) {
+      .mode-group,
+      .range-fields {
+        flex-direction: column;
+        align-items: stretch;
+      }
+
+      button {
+        width: 100%;
+      }
+    }
   </style>
 </head>
 <body>
@@ -109,11 +145,11 @@
       <select id="cantidadSelect"></select>
     </div>
 
-    <button onclick="cargarBanco()" id="btnIniciar" disabled>Iniciar Cuestionario</button>
+    <button onclick="iniciarCuestionario()" id="btnIniciar" disabled>Iniciar Cuestionario</button>
     <button onclick="reiniciarCuestionario()" id="btnReiniciar" style="display:none; margin-left:10px; background:#999;">Reiniciar</button>
   </div>
-<div class="barra"><span id="barraProgreso"></span></div>
-<div class="barra" style="position:fixed;bottom:0;left:0;width:100%;z-index:99;background:#fff;"><span id="barraProgresoGlobal"></span></div><span id="barraProgreso"></span></div>
+  <div class="barra"><span id="barraProgreso"></span></div>
+  <div class="barra" style="position:fixed;bottom:0;left:0;width:100%;z-index:99;background:#fff;"><span id="barraProgresoGlobal"></span></div>
 
   <div id="cuestionario" class="card"></div>
   <div id="resultado" class="card" style="display:none"></div>
@@ -135,6 +171,8 @@
     }
   }));
 
+  cursoSelect.addEventListener("change", cargarBanco);
+
   async function cargarBanco() {
     const archivo = cursoSelect.value;
     document.getElementById("btnIniciar").disabled = true;
@@ -150,49 +188,48 @@
     document.getElementById("barraProgresoGlobal").style.width = "0%";
     btnReiniciar.style.display = "none";
     if (!archivo) return;
-    document.getElementById("modoGroup").style.display = "none";
     try {
       const resp = await fetch(archivo);
       if (!resp.ok) throw new Error("No se pudo cargar el archivo " + archivo);
       const data = await resp.json();
-      bancoCompleto = data;
-      document.getElementById("cantidadGroup").insertAdjacentHTML("beforeend", `<div id='infoCantidad' style='margin-top:6px;font-size:0.9rem;color:#555'>Banco cargado con ${data.length} preguntas disponibles.</div>`);
+      bancoCompleto = Array.isArray(data) ? data : [];
+      document.getElementById("cantidadGroup").insertAdjacentHTML("beforeend", `<div id='infoCantidad' style='margin-top:6px;font-size:0.9rem;color:#555'>Banco cargado con ${bancoCompleto.length} preguntas disponibles.</div>`);
       document.getElementById("cantidadGroup").style.display = "block";
-      document.getElementById("btnIniciar").disabled = false;
       actualizarOpcionesCantidad(bancoCompleto.length);
-      document.getElementById("cantidadGroup").style.display = "block";
       document.getElementById("modoGroup").style.display = "block";
       document.getElementById("btnIniciar").disabled = false;
-
-      const inicio = parseInt(document.getElementById("inicio").value);
-      const fin = parseInt(document.getElementById("fin").value);
-      const modo = document.querySelector("input[name='modo']:checked")?.value || null;
-
-      if (modo) {
-        if (!Number.isInteger(inicio) || !Number.isInteger(fin) || inicio <= 0 || fin <= 0 || inicio > fin || fin > bancoCompleto.length) {
-          alert("Por favor, ingresa un rango válido de preguntas (inicio ≤ fin y dentro del tamaño del banco).");
-          return;
-        }
-        preguntas = bancoCompleto.slice(inicio - 1, fin);
-        if (modo === "aleatorio") preguntas = preguntas.sort(() => Math.random() - 0.5);
-      } else {
-        const cantidad = parseInt(cantidadSelect.value);
-        preguntas = bancoCompleto.slice(0, cantidad);
-      }
-
-      respuestas = Array(preguntas.length).fill(null);
-      mostrarPreguntas();
-      window.scrollTo({ top: document.getElementById("cuestionario").offsetTop - 20, behavior: 'smooth' });
-      btnReiniciar.style.display = "inline-block";
-      window.scrollTo({ top: document.getElementById("cuestionario").offsetTop - 20, behavior: 'smooth' });
     } catch (e) {
       alert(e.message);
     }
   }
 
+  function iniciarCuestionario() {
+    const inicio = parseInt(document.getElementById("inicio").value);
+    const fin = parseInt(document.getElementById("fin").value);
+    const modo = document.querySelector("input[name='modo']:checked")?.value || null;
+
+    if (modo) {
+      if (!Number.isInteger(inicio) || !Number.isInteger(fin) || inicio <= 0 || fin <= 0 || inicio > fin || fin > bancoCompleto.length) {
+        alert("Por favor, ingresa un rango válido de preguntas (inicio ≤ fin y dentro del tamaño del banco).");
+        return;
+      }
+      preguntas = bancoCompleto.slice(inicio - 1, fin);
+      if (modo === "aleatorio") preguntas = preguntas.sort(() => Math.random() - 0.5);
+    } else {
+      const cantidad = parseInt(cantidadSelect.value);
+      preguntas = bancoCompleto.slice(0, cantidad);
+    }
+
+    respuestas = Array(preguntas.length).fill(null);
+    mostrarPreguntas();
+    window.scrollTo({ top: document.getElementById("cuestionario").offsetTop - 20, behavior: 'smooth' });
+    btnReiniciar.style.display = "inline-block";
+  }
+
   function actualizarOpcionesCantidad(max) {
     cantidadSelect.innerHTML = "";
-    document.getElementById("infoCantidad")?.remove();    const opciones = [10, 20, 50, 100];
+    document.getElementById("infoCantidad")?.remove();
+    const opciones = [10, 20, 50, 100];
     opciones.forEach(c => {
       if (c <= max) {
         const opt = document.createElement("option");
@@ -201,7 +238,6 @@
         cantidadSelect.appendChild(opt);
       }
     });
-    // Selecciona la primera opción disponible
     if (cantidadSelect.options.length > 0) {
       cantidadSelect.value = cantidadSelect.options[0].value;
     }
