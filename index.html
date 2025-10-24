@@ -80,14 +80,17 @@
   <div class="card">
     <label for="cursoSelect">Selecciona el curso:</label>
     <select id="cursoSelect">
+      <option value="" selected disabled>Seleccionar curso</option>
       <option value="preguntas.json">FUNDAMENTOS DE REDES</option>
       <option value="banco_preguntas_SO.json">SISTEMAS OPERATIVOS</option>
     </select>
 
-    <label>Modo de estudio:</label>
-    <div class="mode-group">
-      <label><input type="radio" name="modo" value="secuencial"> Secuencial</label>
-      <label><input type="radio" name="modo" value="aleatorio"> Aleatorio</label>
+    <div id="modoGroup" style="margin-top:20px; display:none">
+      <label>Modo de estudio:</label>
+      <div class="mode-group">
+        <label><input type="radio" name="modo" value="secuencial"> Secuencial</label>
+        <label><input type="radio" name="modo" value="aleatorio"> Aleatorio</label>
+      </div>
     </div>
 
     <div class="range-fields" id="rangeFields">
@@ -101,8 +104,8 @@
       </div>
     </div>
 
-    <div id="cantidadGroup" style="margin-top: 14px;">
-      <label for="cantidadSelect">O selecciona cantidad de preguntas:</label>
+    <div id="cantidadGroup" style="margin-top: 14px; display: none;">
+      <label for="cantidadSelect">Selecciona cantidad de preguntas:</label>
       <select id="cantidadSelect"></select>
     </div>
 
@@ -134,6 +137,8 @@
 
   async function cargarBanco() {
     const archivo = cursoSelect.value;
+    if (!archivo) return;
+    document.getElementById("modoGroup").style.display = "none";
     try {
       const resp = await fetch(archivo);
       if (!resp.ok) throw new Error("No se pudo cargar el archivo " + archivo);
@@ -142,12 +147,18 @@
       document.getElementById("cantidadGroup").insertAdjacentHTML("beforeend", `<div id='infoCantidad' style='margin-top:6px;font-size:0.9rem;color:#555'>Banco cargado con ${data.length} preguntas disponibles.</div>`);
       document.getElementById("cantidadGroup").style.display = "block";
       actualizarOpcionesCantidad(bancoCompleto.length);
+      document.getElementById("cantidadGroup").style.display = "block";
+      document.getElementById("modoGroup").style.display = "block";
 
       const inicio = parseInt(document.getElementById("inicio").value);
       const fin = parseInt(document.getElementById("fin").value);
       const modo = document.querySelector("input[name='modo']:checked")?.value || null;
 
-      if (modo && inicio > 0 && fin > 0 && inicio <= fin && fin <= bancoCompleto.length) {
+      if (modo) {
+        if (!Number.isInteger(inicio) || !Number.isInteger(fin) || inicio <= 0 || fin <= 0 || inicio > fin || fin > bancoCompleto.length) {
+          alert("Por favor, ingresa un rango válido de preguntas (inicio ≤ fin y dentro del tamaño del banco).");
+          return;
+        }
         preguntas = bancoCompleto.slice(inicio - 1, fin);
         if (modo === "aleatorio") preguntas = preguntas.sort(() => Math.random() - 0.5);
       } else {
