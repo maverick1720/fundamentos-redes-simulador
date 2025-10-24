@@ -182,6 +182,7 @@
 
       respuestas = Array(preguntas.length).fill(null);
       mostrarPreguntas();
+      window.scrollTo({ top: document.getElementById("cuestionario").offsetTop - 20, behavior: 'smooth' });
       btnReiniciar.style.display = "inline-block";
     } catch (e) {
       alert(e.message);
