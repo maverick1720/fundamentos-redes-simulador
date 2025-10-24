@@ -80,17 +80,14 @@
   <div class="card">
     <label for="cursoSelect">Selecciona el curso:</label>
     <select id="cursoSelect">
-      <option value="" selected disabled>Seleccionar curso</option>
       <option value="preguntas.json">FUNDAMENTOS DE REDES</option>
       <option value="banco_preguntas_SO.json">SISTEMAS OPERATIVOS</option>
     </select>
 
-    <div id="modoGroup" style="margin-top:20px; display:none">
-      <label>Modo de estudio:</label>
-      <div class="mode-group">
-        <label><input type="radio" name="modo" value="secuencial"> Secuencial</label>
-        <label><input type="radio" name="modo" value="aleatorio"> Aleatorio</label>
-      </div>
+    <label>Modo de estudio:</label>
+    <div class="mode-group">
+      <label><input type="radio" name="modo" value="secuencial"> Secuencial</label>
+      <label><input type="radio" name="modo" value="aleatorio"> Aleatorio</label>
     </div>
 
     <div class="range-fields" id="rangeFields">
@@ -104,16 +101,16 @@
       </div>
     </div>
 
-    <div id="cantidadGroup" style="margin-top: 14px; display: none;">
-      <label for="cantidadSelect">Selecciona cantidad de preguntas:</label>
+    <div id="cantidadGroup" style="margin-top: 14px;">
+      <label for="cantidadSelect">O selecciona cantidad de preguntas:</label>
       <select id="cantidadSelect"></select>
     </div>
 
-    <button onclick="cargarBanco()" id="btnIniciar" disabled>Iniciar Cuestionario</button>
+    <button onclick="cargarBanco()">Iniciar Cuestionario</button>
     <button onclick="reiniciarCuestionario()" id="btnReiniciar" style="display:none; margin-left:10px; background:#999;">Reiniciar</button>
   </div>
-<div class="barra"><span id="barraProgreso"></span></div>
-<div class="barra" style="position:fixed;bottom:0;left:0;width:100%;z-index:99;background:#fff;"><span id="barraProgresoGlobal"></span></div><span id="barraProgreso"></span></div>
+
+  <div class="barra"><span id="barraProgreso"></span></div>
 
   <div id="cuestionario" class="card"></div>
   <div id="resultado" class="card" style="display:none"></div>
@@ -131,48 +128,24 @@
   radios.forEach(r => r.addEventListener('change', () => {
     if (document.querySelector('input[name="modo"]:checked')) {
       rangeFields.style.display = 'flex';
-      document.getElementById("cantidadGroup").style.display = "none";
     }
   }));
 
   async function cargarBanco() {
     const archivo = cursoSelect.value;
-    document.getElementById("btnIniciar").disabled = true;
-    document.getElementById("cantidadGroup").style.display = "none";
-    document.getElementById("modoGroup").style.display = "none";
-    document.getElementById("inicio").value = "";
-    document.getElementById("fin").value = "";
-    cantidadSelect.innerHTML = "";
-    document.getElementById("infoCantidad")?.remove();
-    document.getElementById("cuestionario").innerHTML = "";
-    document.getElementById("resultado").style.display = "none";
-    document.getElementById("barraProgreso").style.width = "0%";
-    document.getElementById("barraProgresoGlobal").style.width = "0%";
-    btnReiniciar.style.display = "none";
-    if (!archivo) return;
-    document.getElementById("modoGroup").style.display = "none";
     try {
       const resp = await fetch(archivo);
       if (!resp.ok) throw new Error("No se pudo cargar el archivo " + archivo);
       const data = await resp.json();
       bancoCompleto = data;
-      document.getElementById("cantidadGroup").insertAdjacentHTML("beforeend", `<div id='infoCantidad' style='margin-top:6px;font-size:0.9rem;color:#555'>Banco cargado con ${data.length} preguntas disponibles.</div>`);
-      document.getElementById("cantidadGroup").style.display = "block";
-      document.getElementById("btnIniciar").disabled = false;
+      document.getElementById("cantidadGroup").insertAdjacentHTML("beforeend", `<div style='margin-top:6px;font-size:0.9rem;color:#555'>Banco cargado con ${data.length} preguntas disponibles.</div>`);
       actualizarOpcionesCantidad(bancoCompleto.length);
-      document.getElementById("cantidadGroup").style.display = "block";
-      document.getElementById("modoGroup").style.display = "block";
-      document.getElementById("btnIniciar").disabled = false;
 
       const inicio = parseInt(document.getElementById("inicio").value);
       const fin = parseInt(document.getElementById("fin").value);
       const modo = document.querySelector("input[name='modo']:checked")?.value || null;
 
-      if (modo) {
-        if (!Number.isInteger(inicio) || !Number.isInteger(fin) || inicio <= 0 || fin <= 0 || inicio > fin || fin > bancoCompleto.length) {
-          alert("Por favor, ingresa un rango válido de preguntas (inicio ≤ fin y dentro del tamaño del banco).");
-          return;
-        }
+      if (modo && inicio > 0 && fin > 0 && inicio <= fin && fin <= bancoCompleto.length) {
         preguntas = bancoCompleto.slice(inicio - 1, fin);
         if (modo === "aleatorio") preguntas = preguntas.sort(() => Math.random() - 0.5);
       } else {
@@ -182,9 +155,7 @@
 
       respuestas = Array(preguntas.length).fill(null);
       mostrarPreguntas();
-      window.scrollTo({ top: document.getElementById("cuestionario").offsetTop - 20, behavior: 'smooth' });
       btnReiniciar.style.display = "inline-block";
-      window.scrollTo({ top: document.getElementById("cuestionario").offsetTop - 20, behavior: 'smooth' });
     } catch (e) {
       alert(e.message);
     }
@@ -192,7 +163,7 @@
 
   function actualizarOpcionesCantidad(max) {
     cantidadSelect.innerHTML = "";
-    document.getElementById("infoCantidad")?.remove();    const opciones = [10, 20, 50, 100];
+    const opciones = [10, 20, 50, 100];
     opciones.forEach(c => {
       if (c <= max) {
         const opt = document.createElement("option");
@@ -257,7 +228,6 @@
     const hechas = respuestas.filter(r => r !== null).length;
     const pct = total ? Math.round((hechas / total) * 100) : 0;
     document.getElementById("barraProgreso").style.width = pct + "%";
-    document.getElementById("barraProgresoGlobal").style.width = pct + "%";
   }
 
   function mostrarResultado() {
