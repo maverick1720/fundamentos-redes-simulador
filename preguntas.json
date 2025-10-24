@@ -1,4 +1,5 @@
-[
+ [
+  
       {
         "id": 1,
         "pregunta": "¿Qué es una red informática?",
@@ -8,7 +9,7 @@
           "Un software para procesar datos",
           "Un tipo de servidor"
         ],
-        "respuesta_correcta": "La interconexión de computadoras para compartir recursos e información"
+        "correcta": "La interconexión de computadoras para compartir recursos e información"
       },
       {
         "id": 2,
@@ -19,7 +20,7 @@
           "set console",
           "enable console"
         ],
-        "respuesta_correcta": "line console 0"
+        "correcta": "line console 0"
       },
       {
         "id": 3,
@@ -30,7 +31,7 @@
           "Aumentar el tamaño del disco duro",
           "Reducir la memoria RAM"
         ],
-        "respuesta_correcta": "Compartir recursos y comunicarse entre sistemas"
+        "correcta": "Compartir recursos y comunicarse entre sistemas"
       },
       {
         "id": 4,
@@ -41,7 +42,7 @@
           "Microondas",
           "Infrarrojos"
         ],
-        "respuesta_correcta": "Fibra óptica"
+        "correcta": "Fibra óptica"
       },
       {
         "id": 5,
@@ -52,7 +53,7 @@
           "Firewall",
           "Módem"
         ],
-        "respuesta_correcta": "Switch"
+        "correcta": "Switch"
       },
       {
         "id": 6,
@@ -63,7 +64,7 @@
           "password secure",
           "crypto password"
         ],
-        "respuesta_correcta": "service password encryption"
+        "correcta": "service password encryption"
       },
       {
         "id": 7,
@@ -74,7 +75,7 @@
           "Un software de comunicación",
           "Un sistema operativo"
         ],
-        "respuesta_correcta": "Un conjunto de equipos conectados para compartir recursos e información"
+        "correcta": "Un conjunto de equipos conectados para compartir recursos e información"
       },
       {
         "id": 8,
@@ -85,7 +86,7 @@
           "Telecom International Association",
           "Technical Information Alliance"
         ],
-        "respuesta_correcta": "Asociación de la Industria de las Telecomunicaciones y Alianza de Industrias Electrónicas"
+        "correcta": "Asociación de la Industria de las Telecomunicaciones y Alianza de Industrias Electrónicas"
       },
       {
         "id": 9,
@@ -96,7 +97,7 @@
           "Diseñar conectores de fibra óptica",
           "Mejorar la velocidad del Internet"
         ],
-        "respuesta_correcta": "Estandarizar el cableado estructurado"
+        "correcta": "Estandarizar el cableado estructurado"
       },
       {
         "id": 10,
@@ -107,7 +108,7 @@
           "RJ45",
           "RJ11"
         ],
-        "respuesta_correcta": "RJ45"
+        "correcta": "RJ45"
       },
       {
         "id": 11,
@@ -118,7 +119,7 @@
           "90 m",
           "120 m"
         ],
-        "respuesta_correcta": "90 m"
+        "correcta": "90 m"
       },
       {
         "id": 12,
@@ -129,7 +130,7 @@
           "Caballo de Troya",
           "Spyware"
         ],
-        "respuesta_correcta": "Caballo de Troya"
+        "correcta": "Caballo de Troya"
       },
       {
         "id": 13,
@@ -140,7 +141,7 @@
           "Pulsos de luz",
           "Señales infrarrojas"
         ],
-        "respuesta_correcta": "Pulsos de luz"
+        "correcta": "Pulsos de luz"
       },
       {
         "id": 14,
@@ -151,7 +152,7 @@
           "Estrella",
           "Malla"
         ],
-        "respuesta_correcta": "Estrella"
+        "correcta": "Estrella"
       },
       {
         "id": 15,
@@ -162,7 +163,7 @@
           "Man-in-the-middle",
           "Phishing"
         ],
-        "respuesta_correcta": "Man-in-the-middle"
+        "correcta": "Man-in-the-middle"
       },
       {
         "id": 16,
@@ -173,7 +174,7 @@
           "Un software antivirus",
           "Un tipo de malware"
         ],
-        "respuesta_correcta": "Un área de la red expuesta parcialmente al exterior"
+        "correcta": "Un área de la red expuesta parcialmente al exterior"
       },
       {
         "id": 17,
@@ -184,7 +185,7 @@
           "Módem",
           "Repetidor"
         ],
-        "respuesta_correcta": "Router"
+        "correcta": "Router"
       },
       {
         "id": 18,
@@ -195,7 +196,7 @@
           "/all",
           "/flushdns"
         ],
-        "respuesta_correcta": "/renew"
+        "correcta": "/renew"
       },
       {
         "id": 19,
@@ -206,7 +207,7 @@
           "Cables coaxiales y de audio",
           "Cables de alimentación eléctrica"
         ],
-        "respuesta_correcta": "Cables de cobre, fibra óptica o inalámbricos"
+        "correcta": "Cables de cobre, fibra óptica o inalámbricos"
       },
       {
         "id": 20,
@@ -217,7 +218,7 @@
           "Azul",
           "Marrón"
         ],
-        "respuesta_correcta": "Blanco/verde"
+        "correcta": "Blanco/verde"
       },
       {
         "id": 21,
@@ -228,7 +229,7 @@
           "Módem",
           "Repetidor"
         ],
-        "respuesta_correcta": "Módem"
+        "correcta": "Módem"
       },
       {
         "id": 22,
@@ -239,7 +240,7 @@
           "Antivirus",
           "DMZ"
         ],
-        "respuesta_correcta": "AAA (Autenticación, Autorización y Contabilización)"
+        "correcta": "AAA (Autenticación, Autorización y Contabilización)"
       },
       {
         "id": 23,
@@ -250,7 +251,7 @@
           "Las redes deben usarse de manera responsable para maximizar sus beneficios",
           "El uso de redes no tiene impacto en la interacción social"
         ],
-        "respuesta_correcta": "Las redes deben usarse de manera responsable para maximizar sus beneficios"
+        "correcta": "Las redes deben usarse de manera responsable para maximizar sus beneficios"
       },
       {
         "id": 24,
@@ -261,7 +262,7 @@
           "LAN",
           "PAN"
         ],
-        "respuesta_correcta": "LAN"
+        "correcta": "LAN"
       },
       {
         "id": 25,
@@ -272,7 +273,7 @@
           "Long Area Network",
           "Linked Access Network"
         ],
-        "respuesta_correcta": "Local Area Network"
+        "correcta": "Local Area Network"
       },
       {
         "id": 26,
@@ -283,7 +284,7 @@
           "PAN",
           "LAN"
         ],
-        "respuesta_correcta": "PAN"
+        "correcta": "PAN"
       },
       {
         "id": 27,
@@ -294,7 +295,7 @@
           "PAN",
           "WAN"
         ],
-        "respuesta_correcta": "MAN"
+        "correcta": "MAN"
       },
       {
         "id": 28,
@@ -305,7 +306,7 @@
           "WAN",
           "WLAN"
         ],
-        "respuesta_correcta": "WAN"
+        "correcta": "WAN"
       },
       {
         "id": 29,
@@ -316,7 +317,7 @@
           "Netstat",
           "Nslookup"
         ],
-        "respuesta_correcta": "Ping"
+        "correcta": "Ping"
       },
       {
         "id": 30,
@@ -327,7 +328,7 @@
           "tracert/traceroute",
           "nslookup"
         ],
-        "respuesta_correcta": "tracert/traceroute"
+        "correcta": "tracert/traceroute"
       },
       {
         "id": 31,
@@ -338,18 +339,18 @@
           "HTTP",
           "DNS"
         ],
-        "respuesta_correcta": "HTTP"
+        "correcta": "HTTP"
       },
       {
         "id": 32,
-        "pregunta": "Marca la respuesta correcta sobre la asignación de direcciones IP por región:",
+        "pregunta": "Marca la respuesta correcta:",
         "opciones": [
-          "APNIC administra la región ÁFRICA, ARIN administra AMÉRICA DEL NORTE, LACNIC administra EUROPA/MEDIO ORIENTE/ASIA CENTRAL, RIPE NCC administra AMÉRICA LATINA",
-          "APNIC administra la región ASIA-PACÍFICO, ARIN administra AMÉRICA DEL NORTE, LACNIC administra AMÉRICA LATINA, RIPE NCC administra EUROPA/MEDIO ORIENTE",
-          "APNIC administra la región EUROPA, ARIN administra AMÉRICA LATINA, LACNIC administra AMÉRICA DEL NORTE, RIPE NCC administra ÁFRICA",
-          "APNIC administra la región AMÉRICA DEL NORTE, ARIN administra ASIA, LACNIC administra ÁFRICA, RIPE NCC administra EUROPA"
+          "FVFF",
+          "VFVF",
+          "FFFV",
+          "VVFF"
         ],
-        "respuesta_correcta": "APNIC administra la región ASIA-PACÍFICO, ARIN administra AMÉRICA DEL NORTE, LACNIC administra AMÉRICA LATINA, RIPE NCC administra EUROPA/MEDIO ORIENTE"
+        "correcta": "FVFF"
       },
       {
         "id": 33,
@@ -360,7 +361,7 @@
           "Bajo rendimiento",
           "Congestión de red"
         ],
-        "respuesta_correcta": "Direcciones IP duplicadas"
+        "correcta": "Direcciones IP duplicadas"
       },
       {
         "id": 34,
@@ -371,7 +372,7 @@
           "Nslookup",
           "netstat"
         ],
-        "respuesta_correcta": "Nslookup"
+        "correcta": "Nslookup"
       },
       {
         "id": 35,
@@ -382,7 +383,7 @@
           "Capa de red",
           "Capa de enlace de datos"
         ],
-        "respuesta_correcta": "Capa de aplicación"
+        "correcta": "Capa de aplicación"
       },
       {
         "id": 36,
@@ -393,7 +394,7 @@
           "FTP",
           "IP"
         ],
-        "respuesta_correcta": "SMTP"
+        "correcta": "SMTP"
       },
       {
         "id": 37,
@@ -404,7 +405,7 @@
           "Repetidor",
           "Módem"
         ],
-        "respuesta_correcta": "Repetidor"
+        "correcta": "Repetidor"
       },
       {
         "id": 38,
@@ -415,7 +416,7 @@
           "Amplificar la señal",
           "Convertir señales analógicas a digitales"
         ],
-        "respuesta_correcta": "Conectar dispositivos dentro de una misma red local"
+        "correcta": "Conectar dispositivos dentro de una misma red local"
       },
       {
         "id": 39,
@@ -426,7 +427,7 @@
           "Router",
           "Módem"
         ],
-        "respuesta_correcta": "Router"
+        "correcta": "Router"
       },
       {
         "id": 40,
@@ -437,7 +438,7 @@
           "Interferencia de otras redes",
           "Falta de conectividad"
         ],
-        "respuesta_correcta": "Retraso en la transmisión de datos"
+        "correcta": "Retraso en la transmisión de datos"
       },
       {
         "id": 41,
@@ -448,7 +449,7 @@
           "Aumentar el costo de infraestructura",
           "Eliminar la seguridad de la red"
         ],
-        "respuesta_correcta": "Acceder a los datos en cualquier momento y lugar"
+        "correcta": "Acceder a los datos en cualquier momento y lugar"
       },
       {
         "id": 42,
@@ -459,7 +460,7 @@
           "Sistema como Servicio",
           "Servidor como Sistema"
         ],
-        "respuesta_correcta": "Software como Servicio"
+        "correcta": "Software como Servicio"
       },
       {
         "id": 43,
@@ -470,7 +471,7 @@
           "Switches",
           "Routers"
         ],
-        "respuesta_correcta": "Amplificadores"
+        "correcta": "Amplificadores"
       },
       {
         "id": 44,
@@ -481,7 +482,7 @@
           "Capa física",
           "Capa de aplicación"
         ],
-        "respuesta_correcta": "Capa física"
+        "correcta": "Capa física"
       },
       {
         "id": 45,
@@ -492,7 +493,7 @@
           "128 bits",
           "16 bits"
         ],
-        "respuesta_correcta": "32 bits"
+        "correcta": "32 bits"
       },
       {
         "id": 46,
@@ -503,7 +504,7 @@
           "Clase C",
           "Clase D"
         ],
-        "respuesta_correcta": "Clase C"
+        "correcta": "Clase C"
       },
       {
         "id": 47,
@@ -514,7 +515,7 @@
           "DHCP",
           "HTTP"
         ],
-        "respuesta_correcta": "DHCP"
+        "correcta": "DHCP"
       },
       {
         "id": 48,
@@ -525,7 +526,7 @@
           "192.168.0.0",
           "169.254.0.0"
         ],
-        "respuesta_correcta": "192.168.0.0"
+        "correcta": "192.168.0.0"
       },
       {
         "id": 49,
@@ -536,7 +537,7 @@
           "RIR",
           "IEEE"
         ],
-        "respuesta_correcta": "IANA"
+        "correcta": "IANA"
       },
       {
         "id": 50,
@@ -547,7 +548,7 @@
           "255.255.255.0",
           "255.255.255.255"
         ],
-        "respuesta_correcta": "255.0.0.0"
+        "correcta": "255.0.0.0"
       },
       {
         "id": 51,
@@ -558,7 +559,7 @@
           "10.0.0.1",
           "172.16.0.1"
         ],
-        "respuesta_correcta": "127.0.0.1"
+        "correcta": "127.0.0.1"
       },
       {
         "id": 52,
@@ -569,18 +570,18 @@
           "Clase C",
           "Clase D"
         ],
-        "respuesta_correcta": "Clase D"
+        "correcta": "Clase D"
       },
       {
         "id": 53,
         "pregunta": "¿Cuál es el rango decimal del primer octeto para una dirección de clase B?",
         "opciones": [
-          "1 - 126",
-          "128 - 191",
-          "192 - 223",
+          "1 – 126",
+          "128 – 191",
+          "192 – 223",
           "224 - 239"
         ],
-        "respuesta_correcta": "128 - 191"
+        "correcta": "128 – 191"
       },
       {
         "id": 54,
@@ -591,7 +592,7 @@
           "3",
           "4"
         ],
-        "respuesta_correcta": "2"
+        "correcta": "2"
       },
       {
         "id": 55,
@@ -602,7 +603,7 @@
           "192.169.1.1",
           "10.0.0.1"
         ],
-        "respuesta_correcta": "10.0.0.1"
+        "correcta": "10.0.0.1"
       },
       {
         "id": 56,
@@ -613,7 +614,7 @@
           "El técnico local",
           "El programador"
         ],
-        "respuesta_correcta": "El proveedor del servicio en la nube"
+        "correcta": "El proveedor del servicio en la nube"
       },
       {
         "id": 57,
@@ -624,7 +625,7 @@
           "Un protocolo de correo electrónico",
           "Un tipo de cable de red"
         ],
-        "respuesta_correcta": "Una representación numérica que identifica una interfaz"
+        "correcta": "Una representación numérica que identifica una interfaz"
       },
       {
         "id": 58,
@@ -635,7 +636,7 @@
           "IaaS",
           "ITaaS"
         ],
-        "respuesta_correcta": "IaaS"
+        "correcta": "IaaS"
       },
       {
         "id": 59,
@@ -646,7 +647,7 @@
           "IP Estática",
           "IP Privada"
         ],
-        "respuesta_correcta": "IP Estática"
+        "correcta": "IP Estática"
       },
       {
         "id": 60,
@@ -657,7 +658,7 @@
           "DHCP",
           "FTP"
         ],
-        "respuesta_correcta": "DHCP"
+        "correcta": "DHCP"
       },
       {
         "id": 61,
@@ -668,7 +669,7 @@
           "Clase A",
           "Clase D"
         ],
-        "respuesta_correcta": "Clase A"
+        "correcta": "Clase A"
       },
       {
         "id": 62,
@@ -679,7 +680,7 @@
           "Subnet Mask",
           "DNS"
         ],
-        "respuesta_correcta": "NetworkID"
+        "correcta": "NetworkID"
       },
       {
         "id": 63,
@@ -690,7 +691,7 @@
           "Capa 3",
           "Capa 4"
         ],
-        "respuesta_correcta": "Capa 2"
+        "correcta": "Capa 2"
       },
       {
         "id": 64,
@@ -701,7 +702,7 @@
           "Automatic Public IP Addressing, 10.0.0.0/8",
           "Advanced Public IP Assignment, 172.16.0.0/12"
         ],
-        "respuesta_correcta": "Automatic Private IP Addressing, 169.254.0.0/16"
+        "correcta": "Automatic Private IP Addressing, 169.254.0.0/16"
       },
       {
         "id": 65,
@@ -712,7 +713,7 @@
           "0.0.0.0 a 127.255.255.255",
           "224.0.0.0 a 239.255.255.255"
         ],
-        "respuesta_correcta": "0.0.0.0 a 127.255.255.255"
+        "correcta": "0.0.0.0 a 127.255.255.255"
       },
       {
         "id": 66,
@@ -723,7 +724,7 @@
           "Clase C",
           "Clase D"
         ],
-        "respuesta_correcta": "Clase B"
+        "correcta": "Clase B"
       },
       {
         "id": 67,
@@ -734,7 +735,7 @@
           "Ondas de radio",
           "Señales magnéticas"
         ],
-        "respuesta_correcta": "Pulsos de luz"
+        "correcta": "Pulsos de luz"
       },
       {
         "id": 68,
@@ -745,7 +746,7 @@
           "Privada",
           "Híbrida"
         ],
-        "respuesta_correcta": "Privada"
+        "correcta": "Privada"
       },
       {
         "id": 69,
@@ -756,7 +757,7 @@
           "Transmisión de Comunicación por Internet",
           "Transferencia de Conexión de Protocolo"
         ],
-        "respuesta_correcta": "Protocolo de Control de Transmisión/Protocolo de Internet"
+        "correcta": "Protocolo de Control de Transmisión/Protocolo de Internet"
       },
       {
         "id": 70,
@@ -767,7 +768,7 @@
           "TCP",
           "DNS"
         ],
-        "respuesta_correcta": "TCP"
+        "correcta": "TCP"
       },
       {
         "id": 71,
@@ -778,7 +779,7 @@
           "UDP",
           "SMTP"
         ],
-        "respuesta_correcta": "UDP"
+        "correcta": "UDP"
       },
       {
         "id": 72,
@@ -789,7 +790,7 @@
           "FTP",
           "UDP"
         ],
-        "respuesta_correcta": "DNS"
+        "correcta": "DNS"
       },
       {
         "id": 73,
@@ -800,7 +801,7 @@
           "443",
           "53"
         ],
-        "respuesta_correcta": "80"
+        "correcta": "80"
       },
       {
         "id": 74,
@@ -811,7 +812,7 @@
           "21",
           "53"
         ],
-        "respuesta_correcta": "443"
+        "correcta": "443"
       },
       {
         "id": 75,
@@ -822,7 +823,7 @@
           "UDP",
           "FTP"
         ],
-        "respuesta_correcta": "UDP"
+        "correcta": "UDP"
       },
       {
         "id": 76,
@@ -833,7 +834,7 @@
           "DNS",
           "SMTP"
         ],
-        "respuesta_correcta": "FTP"
+        "correcta": "FTP"
       },
       {
         "id": 77,
@@ -844,29 +845,29 @@
           "La quinta capa",
           "La sexta capa"
         ],
-        "respuesta_correcta": "La quinta capa"
+        "correcta": "La quinta capa"
       },
       {
         "id": 78,
         "pregunta": "¿Qué tipo de conexión establece la Capa de Sesión entre las entidades de sesión?",
         "opciones": [
-          "Conexión de net",
+          "Conexión de red",
           "Conexión de transporte",
           "Una sesión",
           "Conexión física"
         ],
-        "respuesta_correcta": "Una sesión"
+        "correcta": "Una sesión"
       },
       {
         "id": 79,
         "pregunta": "¿Qué tecnología inalámbrica se limita a comunicaciones de baja velocidad y corto alcance, pero puede comunicarse con muchos dispositivos al mismo tiempo?",
         "opciones": [
-          "Wi-Fi",
-          "802.11n",
-          "Bluetooth",
-          "Ethernet"
+          "Wi-Fi.",
+          "802.11n.",
+          "Bluetooth.",
+          "Ethernet."
         ],
-        "respuesta_correcta": "Bluetooth"
+        "correcta": "Bluetooth."
       },
       {
         "id": 80,
@@ -877,7 +878,7 @@
           "HTTPS",
           "TFTP"
         ],
-        "respuesta_correcta": "HTTPS"
+        "correcta": "HTTPS"
       },
       {
         "id": 81,
@@ -885,10 +886,10 @@
         "opciones": [
           "Full-Duplex Mode",
           "Two-Way Simultaneous (TWS)",
-          "Half-Duplex Mode (Two-Way Alternate -- TWA)",
+          "Half-Duplex Mode (Two-Way Alternate – TW",
           "Conexión de difusión"
         ],
-        "respuesta_correcta": "Half-Duplex Mode (Two-Way Alternate -- TWA)"
+        "correcta": "Half-Duplex Mode (Two-Way Alternate – TW"
       },
       {
         "id": 82,
@@ -899,62 +900,63 @@
           "La Capa de Presentación",
           "La Capa de Aplicación"
         ],
-        "respuesta_correcta": "La Capa de Presentación"
+        "correcta": "La Capa de Presentación"
       },
       {
         "id": 83,
         "pregunta": "¿Cuál es el cableado más común utilizado en una LAN Ethernet, que consta de cuatro pares de hilos trenzados?",
         "opciones": [
-          "Cable coaxial",
-          "Cable de fibra óptica",
-          "Categoría 5e",
-          "Cable serial"
+          "Cable coaxial.",
+          "Cable de fibra óptica.",
+          "Categoría 5e.",
+          "Cable serial."
         ],
-        "respuesta_correcta": "Categoría 5e"
+        "correcta": "Categoría 5e."
       },
       {
         "id": 84,
         "pregunta": "¿Cuál es la sigla de Service Set Identifier (Identificador de Conjunto de Servicios)?",
         "opciones": [
-          "WLAN",
-          "AP",
-          "SSID",
-          "WAN"
+          "WLAN.",
+          "AP.",
+          "SSID.",
+          "WAN."
         ],
-        "respuesta_correcta": "SSID"
+        "correcta": "SSID."
       },
       {
         "id": 85,
         "pregunta": "¿Qué tecnología utiliza la banda de 2.4 GHz y se limita a comunicaciones de baja velocidad y corto rango?",
         "opciones": [
-          "802.11",
-          "Bluetooth",
-          "Fibra óptica",
-          "Ethernet"
+          "802.11.",
+          "Bluetooth.",
+          "Fibra óptica.",
+          "Ethernet."
         ],
-        "respuesta_correcta": "Bluetooth"
+        "correcta": "Bluetooth."
       },
       {
         "id": 86,
         "pregunta": "¿Cuál es el único puerto en la configuración predeterminada de un enrutador doméstico que está en una red diferente a la de los puertos de switch de la red LAN?",
         "opciones": [
-          "Puertos Ethernet",
-          "Puertos LAN",
-          "Puerto Internet",
-          "Puerto de consola"
+          "Puertos Ethernet.",
+          "Puertos LAN.",
+          "Puerto Internet.",
+          "Puerto de consola."
         ],
-        "respuesta_correcta": "Puerto Internet"
+        "correcta": "Puerto Internet."
       },
       {
         "id": 87,
         "pregunta": "¿Qué se requiere para que todos los dispositivos participen en una Red de Área Local Inalámbrica (WLAN)?",
         "opciones": [
-          "Estar conectados físicamente al puerto Internet",
-          "Tener diferentes modos de red",
-          "Tener el mismo Nombre de la red (SSID)",
-          "Configurar manualmente el Canal Estándar"
+          "Estar conectados físicamente al puerto Internet.",
+          "Tener diferentes modos de red.",
+          "Tener el mismo Nombre de la red (SSI",
+          ".",
+          "Configurar manualmente el Canal Estándar."
         ],
-        "respuesta_correcta": "Tener el mismo Nombre de la red (SSID)"
+        "correcta": "Tener el mismo Nombre de la red (SSI"
       },
       {
         "id": 88,
@@ -965,7 +967,7 @@
           "IEEE 802.5",
           "IEEE 802.15"
         ],
-        "respuesta_correcta": "IEEE 802.11"
+        "correcta": "IEEE 802.11"
       },
       {
         "id": 89,
@@ -976,7 +978,7 @@
           "Troyano",
           "Spoofing"
         ],
-        "respuesta_correcta": "DoS"
+        "correcta": "DoS"
       },
       {
         "id": 90,
@@ -987,7 +989,7 @@
           "Realizar copias de seguridad periódicas",
           "Desactivar el firewall"
         ],
-        "respuesta_correcta": "Realizar copias de seguridad periódicas"
+        "correcta": "Realizar copias de seguridad periódicas"
       },
       {
         "id": 91,
@@ -998,7 +1000,7 @@
           "Capa 7",
           "Capa 5"
         ],
-        "respuesta_correcta": "Capa 7"
+        "correcta": "Capa 7"
       },
       {
         "id": 92,
@@ -1009,7 +1011,7 @@
           "HTTP/HTTPS",
           "DNS"
         ],
-        "respuesta_correcta": "HTTP/HTTPS"
+        "correcta": "HTTP/HTTPS"
       },
       {
         "id": 93,
@@ -1020,7 +1022,7 @@
           "Confidencialidad",
           "Transparencia"
         ],
-        "respuesta_correcta": "Confidencialidad"
+        "correcta": "Confidencialidad"
       },
       {
         "id": 94,
@@ -1031,18 +1033,18 @@
           "Privacidad",
           "Seguridad"
         ],
-        "respuesta_correcta": "Integridad"
+        "correcta": "Integridad"
       },
       {
         "id": 95,
         "pregunta": "¿Cuál es la misión principal de la Capa de Presentación?",
         "opciones": [
-          "Gestionar el enrutamiento de paquetes",
-          "Establecer sesiones de comunicación",
-          "Asegurar que los datos transmitidos sean interpretables por el receptor",
-          "Optimizar el uso de la Capa de Red"
+          "Gestionar el enrutamiento de paquetes.",
+          "Establecer sesiones de comunicación.",
+          "Asegurar que los datos transmitidos sean interpretables por el receptor.",
+          "Optimizar el uso de la Capa de Red."
         ],
-        "respuesta_correcta": "Asegurar que los datos transmitidos sean interpretables por el receptor"
+        "correcta": "Asegurar que los datos transmitidos sean interpretables por el receptor."
       },
       {
         "id": 96,
@@ -1053,7 +1055,7 @@
           "UTF-8",
           "Base64"
         ],
-        "respuesta_correcta": "UTF-8"
+        "correcta": "UTF-8"
       },
       {
         "id": 97,
@@ -1064,7 +1066,7 @@
           "MPEG",
           "TLS"
         ],
-        "respuesta_correcta": "ASCII"
+        "correcta": "ASCII"
       },
       {
         "id": 98,
@@ -1075,7 +1077,7 @@
           "Mejorar la estética del sistema",
           "Compartir archivos"
         ],
-        "respuesta_correcta": "Proteger sistemas e información frente a ataques"
+        "correcta": "Proteger sistemas e información frente a ataques"
       },
       {
         "id": 99,
@@ -1086,7 +1088,7 @@
           "Servir como almacenamiento de datos",
           "Crear copias de seguridad"
         ],
-        "respuesta_correcta": "Controlar y filtrar el tráfico entre redes"
+        "correcta": "Controlar y filtrar el tráfico entre redes"
       },
       {
         "id": 100,
@@ -1097,7 +1099,7 @@
           "set name",
           "routername"
         ],
-        "respuesta_correcta": "Hostname"
+        "correcta": "Hostname"
       },
       {
         "id": 101,
@@ -1108,7 +1110,7 @@
           "Fibra óptica",
           "Telefonía IP"
         ],
-        "respuesta_correcta": "Telégrafo"
+        "correcta": "Telégrafo"
       },
       {
         "id": 102,
@@ -1119,7 +1121,7 @@
           "Dirigir tráfico dentro de la LAN",
           "Almacenar datos"
         ],
-        "respuesta_correcta": "Proteger la red de accesos no autorizados"
+        "correcta": "Proteger la red de accesos no autorizados"
       },
       {
         "id": 103,
@@ -1130,7 +1132,7 @@
           "La categoría de velocidad",
           "El tipo de conector"
         ],
-        "respuesta_correcta": "El orden de los colores"
+        "correcta": "El orden de los colores"
       },
       {
         "id": 104,
@@ -1141,18 +1143,18 @@
           "Malla",
           "Árbol"
         ],
-        "respuesta_correcta": "Malla"
+        "correcta": "Malla"
       },
       {
         "id": 105,
         "pregunta": "¿Qué categoría de cable permite velocidades de hasta 10 Gbps?",
         "opciones": [
           "Cat 5e",
-          "Cat 6a",
+          "Cat 6ª",
           "Cat 6",
           "Cat 7"
         ],
-        "respuesta_correcta": "Cat 6a"
+        "correcta": "Cat 6ª"
       },
       {
         "id": 106,
@@ -1163,7 +1165,7 @@
           "Mixta",
           "Reflectiva"
         ],
-        "respuesta_correcta": "Monomodo"
+        "correcta": "Monomodo"
       },
       {
         "id": 107,
@@ -1174,7 +1176,7 @@
           "Árbol",
           "Híbrida"
         ],
-        "respuesta_correcta": "Árbol"
+        "correcta": "Árbol"
       },
       {
         "id": 108,
@@ -1185,7 +1187,7 @@
           "Tipo de cableado de fibra",
           "Norma de coloración"
         ],
-        "respuesta_correcta": "Alimentación de equipos a través del cable de red"
+        "correcta": "Alimentación de equipos a través del cable de red"
       },
       {
         "id": 109,
@@ -1196,7 +1198,7 @@
           "Cifrar los datos",
           "Controlar la sesión"
         ],
-        "respuesta_correcta": "Dividir paquetes en tramas"
+        "correcta": "Dividir paquetes en tramas"
       },
       {
         "id": 110,
@@ -1207,7 +1209,7 @@
           "TIA",
           "IAB"
         ],
-        "respuesta_correcta": "ICANN"
+        "correcta": "ICANN"
       },
       {
         "id": 111,
@@ -1218,7 +1220,7 @@
           "Capa de sesión",
           "Capa física"
         ],
-        "respuesta_correcta": "Capa de presentación"
+        "correcta": "Capa de presentación"
       },
       {
         "id": 112,
@@ -1229,29 +1231,29 @@
           "Crear redes virtuales",
           "Gestionar direcciones IP"
         ],
-        "respuesta_correcta": "Transformar datos binarios en señales para transmitirlas"
+        "correcta": "Transformar datos binarios en señales para transmitirlas"
       },
       {
         "id": 113,
         "pregunta": "¿Cuál es la representación binaria de la máscara de subred 255.255.0.0?",
         "opciones": [
-          "11111111.11111111.11111111.00000000",
+          "1111111.11111111.11111111.00000000",
           "11111111.11111111.00000000.00000000",
           "11111111.00000000.00000000.00000000",
           "11111111.11111111.11111111.11111111"
         ],
-        "respuesta_correcta": "11111111.11111111.00000000.00000000"
+        "correcta": "11111111.11111111.00000000.00000000"
       },
       {
         "id": 114,
-        "pregunta": "Si una dirección IP es 2001:00B:ABCD:EF::1000, ¿a qué versión de IP corresponde?",
+        "pregunta": "Si una dirección IP es 200:L00B:ABCD:EF::1000, ¿a qué versión de IP corresponde?",
         "opciones": [
           "IPv4",
           "IPv6",
           "IP Clase E",
           "IP Multicast"
         ],
-        "respuesta_correcta": "IPv6"
+        "correcta": "IPv6"
       },
       {
         "id": 115,
@@ -1262,18 +1264,18 @@
           "192.0.0.0 - 223.255.255.255",
           "224.0.0.0 - 239.255.255.255"
         ],
-        "respuesta_correcta": "128.0.0.0 - 191.255.255.255"
+        "correcta": "128.0.0.0 - 191.255.255.255"
       },
       {
         "id": 116,
-        "pregunta": "¿Qué máscara de subred corresponde a la Clase C?",
+        "pregunta": ".¿Qué máscara de subred corresponde a la Clase C?",
         "opciones": [
           "255.0.0.0",
           "255.255.0.0",
           "255.255.255.0",
           "255.255.255.255"
         ],
-        "respuesta_correcta": "255.255.255.0"
+        "correcta": "255.255.255.0"
       },
       {
         "id": 117,
@@ -1281,10 +1283,10 @@
         "opciones": [
           "0.0.0.0 - 127.255.255.255",
           "128.0.0.0 - 191.255.255.255",
-          "192.0.0.0 - 223.255.255.255",
+          "92.0.0.0 - 223.255.255.255",
           "224.0.0.0 - 239.255.255.255"
         ],
-        "respuesta_correcta": "128.0.0.0 - 191.255.255.255"
+        "correcta": "128.0.0.0 - 191.255.255.255"
       },
       {
         "id": 118,
@@ -1295,7 +1297,7 @@
           "Router",
           "Repetidor"
         ],
-        "respuesta_correcta": "Router"
+        "correcta": "Router"
       },
       {
         "id": 119,
@@ -1306,7 +1308,7 @@
           "La configuración de direcciones IP",
           "La gestión de contraseñas"
         ],
-        "respuesta_correcta": "La representación de unos y ceros en la red"
+        "correcta": "La representación de unos y ceros en la red"
       },
       {
         "id": 120,
@@ -1317,40 +1319,40 @@
           "Libro y página",
           "Auto y carretera"
         ],
-        "respuesta_correcta": "Teléfono y número telefónico"
+        "correcta": "Teléfono y número telefónico"
       },
       {
         "id": 121,
         "pregunta": "¿Cuál es el propósito del Puerto Internet en un enrutador doméstico?",
         "opciones": [
-          "Conectar dispositivos a la misma red local",
-          "Conectarse a la parte del conmutador interno del enrutador",
-          "Conectar el enrutador a una red diferente a la de los puertos Ethernet, como un módem para acceder a Internet",
-          "Conectar una impresora compartida"
+          "Conectar dispositivos a la misma red local.",
+          "Conectarse a la parte del conmutador interno del enrutador.",
+          "Conectar el enrutador a una red diferente a la de los puertos Ethernet, como un módem para acceder a Internet.",
+          "Conectar una impresora compartida."
         ],
-        "respuesta_correcta": "Conectar el enrutador a una red diferente a la de los puertos Ethernet, como un módem para acceder a Internet"
+        "correcta": "Conectar el enrutador a una red diferente a la de los puertos Ethernet, como un módem para acceder a Internet."
       },
       {
         "id": 122,
-        "pregunta": "Indica a qué tipo de Clase de Red pertenecen las siguientes IP's: I. 10.250.1.1, II. 150.10.15.0, III. 192.14.2.0",
+        "pregunta": "Indica a que tipo de Clase de Red pertenecen las siguientes IP’s:  I. 10.250.1.1, II. 150.10.15.0, III. 192.14.2.0",
         "opciones": [
           "A,B,C",
           "C,B,A",
           "A,B,C",
           "A,C,B"
         ],
-        "respuesta_correcta": "A,B,C"
+        "correcta": "A,B,C"
       },
       {
         "id": 123,
         "pregunta": "¿Qué tipo de medio de cableado se describe como vidrio o plástico con un diámetro similar al de un cabello humano, capaz de transmitir información digital a velocidades muy rápidas a través de grandes distancias y con un ancho de banda muy alto?",
         "opciones": [
-          "Categoría 5e",
-          "Cables de fibra óptica",
-          "Cable coaxial",
-          "Cable trenzado"
+          "Categoría 5e.",
+          "Cables de fibra óptica.",
+          "Cable coaxial.",
+          "Cable trenzado."
         ],
-        "respuesta_correcta": "Cables de fibra óptica"
+        "correcta": "Cables de fibra óptica."
       },
       {
         "id": 124,
@@ -1361,7 +1363,7 @@
           "Coaxial",
           "USB"
         ],
-        "respuesta_correcta": "Coaxial"
+        "correcta": "Coaxial"
       },
       {
         "id": 125,
@@ -1372,7 +1374,7 @@
           "ISO",
           "ITU"
         ],
-        "respuesta_correcta": "WiFi Alliance"
+        "correcta": "WiFi Alliance"
       },
       {
         "id": 126,
@@ -1383,7 +1385,7 @@
           "Phishing",
           "Spoofing"
         ],
-        "respuesta_correcta": "DDoS"
+        "correcta": "DDoS"
       },
       {
         "id": 127,
@@ -1394,7 +1396,7 @@
           "Ransomware",
           "Troyano"
         ],
-        "respuesta_correcta": "Ransomware"
+        "correcta": "Ransomware"
       },
       {
         "id": 128,
@@ -1405,7 +1407,7 @@
           "Phisher",
           "Rootkit"
         ],
-        "respuesta_correcta": "Troyano"
+        "correcta": "Troyano"
       },
       {
         "id": 129,
@@ -1416,7 +1418,7 @@
           "Spoofing",
           "DDoS"
         ],
-        "respuesta_correcta": "Vishing"
+        "correcta": "Vishing"
       },
       {
         "id": 130,
@@ -1427,7 +1429,7 @@
           "Adware",
           "Troyano"
         ],
-        "respuesta_correcta": "Adware"
+        "correcta": "Adware"
       },
       {
         "id": 131,
@@ -1438,7 +1440,7 @@
           "POP3/IMAP",
           "DNS"
         ],
-        "respuesta_correcta": "POP3/IMAP"
+        "correcta": "POP3/IMAP"
       },
       {
         "id": 132,
@@ -1449,7 +1451,7 @@
           "587",
           "143"
         ],
-        "respuesta_correcta": "587"
+        "correcta": "587"
       },
       {
         "id": 133,
@@ -1460,7 +1462,7 @@
           "Enrutar paquetes entre redes",
           "Establecer conexiones extremo a extremo"
         ],
-        "respuesta_correcta": "Proporcionar servicios de red directamente a las aplicaciones de usuario"
+        "correcta": "Proporcionar servicios de red directamente a las aplicaciones de usuario"
       },
       {
         "id": 134,
@@ -1471,7 +1473,7 @@
           "Usar protocolos seguros como HTTPS",
           "Deshabilitar todos los servicios de red"
         ],
-        "respuesta_correcta": "Usar protocolos seguros como HTTPS"
+        "correcta": "Usar protocolos seguros como HTTPS"
       },
       {
         "id": 135,
@@ -1482,18 +1484,18 @@
           "SMTP no seguro",
           "HTTP"
         ],
-        "respuesta_correcta": "SMTP no seguro"
+        "correcta": "SMTP no seguro"
       },
       {
         "id": 136,
         "pregunta": "¿Qué protocolos de seguridad se recomienda usar para proteger las comunicaciones sensibles, según las buenas prácticas?",
         "opciones": [
-          "SSL",
-          "TLS 1.2 o TLS 1.3",
-          "HTTP",
-          "EBCDIC"
+          "SSL.",
+          "TLS 1.2 o TLS 1.3.",
+          "HTTP.",
+          "EBCDIC."
         ],
-        "respuesta_correcta": "TLS 1.2 o TLS 1.3"
+        "correcta": "TLS 1.2 o TLS 1.3."
       },
       {
         "id": 137,
@@ -1504,7 +1506,7 @@
           "Antivirus",
           "Cifrado"
         ],
-        "respuesta_correcta": "Monitor de tráfico"
+        "correcta": "Monitor de tráfico"
       },
       {
         "id": 138,
@@ -1515,7 +1517,7 @@
           "Cifrado",
           "Firewall"
         ],
-        "respuesta_correcta": "IDS/IPS"
+        "correcta": "IDS/IPS"
       },
       {
         "id": 139,
@@ -1526,7 +1528,7 @@
           "Usar redes abiertas",
           "Desactivar el firewall"
         ],
-        "respuesta_correcta": "Realizar copias de seguridad periódicas"
+        "correcta": "Realizar copias de seguridad periódicas"
       },
       {
         "id": 140,
@@ -1537,7 +1539,7 @@
           "Compartirlos en redes sociales",
           "Desactivarlos"
         ],
-        "respuesta_correcta": "Instalarlos periódicamente"
+        "correcta": "Instalarlos periódicamente"
       },
       {
         "id": 141,
@@ -1548,7 +1550,7 @@
           "show running-config",
           "show startup-config"
         ],
-        "respuesta_correcta": "show ip route"
+        "correcta": "show ip route"
       },
       {
         "id": 142,
@@ -1559,7 +1561,7 @@
           "address ip <dirección>",
           "define ip <dirección>"
         ],
-        "respuesta_correcta": "ip address <dirección> <máscara>"
+        "correcta": "ip address <dirección> <máscara>"
       },
       {
         "id": 143,
@@ -1570,7 +1572,7 @@
           "show running-config",
           "show protocols"
         ],
-        "respuesta_correcta": "show interfaces"
+        "correcta": "show interfaces"
       },
       {
         "id": 144,
@@ -1581,7 +1583,7 @@
           "Filtrado de URL",
           "Inspección con estado"
         ],
-        "respuesta_correcta": "Filtrado de paquetes"
+        "correcta": "Filtrado de paquetes"
       },
       {
         "id": 145,
@@ -1592,7 +1594,7 @@
           "Cambiar la IP del router",
           "Usar DHCP dinámico"
         ],
-        "respuesta_correcta": "Instalar actualizaciones y parches de seguridad"
+        "correcta": "Instalar actualizaciones y parches de seguridad"
       },
       {
         "id": 146,
@@ -1603,7 +1605,7 @@
           "8 o más caracteres",
           "20 caracteres"
         ],
-        "respuesta_correcta": "8 o más caracteres"
+        "correcta": "8 o más caracteres"
       },
       {
         "id": 147,
@@ -1614,7 +1616,7 @@
           "Nagios",
           "Uptrends"
         ],
-        "respuesta_correcta": "Wireshark"
+        "correcta": "Wireshark"
       },
       {
         "id": 148,
@@ -1625,7 +1627,7 @@
           "Tracert",
           "nslookup"
         ],
-        "respuesta_correcta": "Route"
+        "correcta": "Route"
       },
       {
         "id": 149,
@@ -1636,7 +1638,7 @@
           "Time Transmission Latency",
           "Technical Transfer Layer"
         ],
-        "respuesta_correcta": "Time To Live (Tiempo de Vida)"
+        "correcta": "Time To Live (Tiempo de Vida)"
       },
       {
         "id": 150,
@@ -1647,7 +1649,7 @@
           "Nagios",
           "Datadog"
         ],
-        "respuesta_correcta": "Nmap"
+        "correcta": "Nmap"
       },
       {
         "id": 151,
@@ -1658,7 +1660,7 @@
           "Mixta",
           "Compartida"
         ],
-        "respuesta_correcta": "Híbrida"
+        "correcta": "Híbrida"
       },
       {
         "id": 152,
@@ -1669,7 +1671,7 @@
           "La nube pública es menos segura",
           "La nube comunitaria usa redes privadas exclusivamente"
         ],
-        "respuesta_correcta": "La nube comunitaria está adaptada a necesidades específicas de un grupo"
+        "correcta": "La nube comunitaria está adaptada a necesidades específicas de un grupo"
       },
       {
         "id": 153,
@@ -1680,7 +1682,7 @@
           "Servir como respaldo físico únicamente",
           "Proveer energía a los servidores"
         ],
-        "respuesta_correcta": "Alojar servicios y recursos basados en la nube"
+        "correcta": "Alojar servicios y recursos basados en la nube"
       },
       {
         "id": 154,
@@ -1691,7 +1693,7 @@
           "Acceso ilimitado a todos los usuarios",
           "Acceso exclusivamente local"
         ],
-        "respuesta_correcta": "Grados de acceso diferenciados según permisos del usuario"
+        "correcta": "Grados de acceso diferenciados según permisos del usuario"
       },
       {
         "id": 155,
@@ -1702,7 +1704,7 @@
           "16 millones de direcciones",
           "1,024 direcciones"
         ],
-        "respuesta_correcta": "16 millones de direcciones"
+        "correcta": "16 millones de direcciones"
       },
       {
         "id": 156,
@@ -1713,7 +1715,7 @@
           "No se utiliza en equipos de uso normal (experimental)",
           "Multicast exclusivamente"
         ],
-        "respuesta_correcta": "No se utiliza en equipos de uso normal (experimental)"
+        "correcta": "No se utiliza en equipos de uso normal (experimental)"
       },
       {
         "id": 157,
@@ -1724,7 +1726,7 @@
           "Está destinada a uso experimental y grupos de máquinas específicos",
           "Solo funciona en redes privadas"
         ],
-        "respuesta_correcta": "Está destinada a uso experimental y grupos de máquinas específicos"
+        "correcta": "Está destinada a uso experimental y grupos de máquinas específicos"
       },
       {
         "id": 158,
@@ -1735,18 +1737,18 @@
           "Reducción de costos",
           "Pérdida de compatibilidad"
         ],
-        "respuesta_correcta": "Exposición de datos confidenciales"
+        "correcta": "Exposición de datos confidenciales"
       },
       {
         "id": 159,
         "pregunta": "¿Qué capa del modelo OSI divide los datos en segmentos?",
         "opciones": [
-          "Capa de red",
-          "Capa de transporte",
-          "Capa de aplicación",
-          "Capa de presentación"
+          "a) Capa de red",
+          "b) Capa de transporte",
+          "c) Capa de aplicación",
+          "d) Capa de presentación"
         ],
-        "respuesta_correcta": "Capa de transporte"
+        "correcta": "b) Capa de transporte"
       },
       {
         "id": 160,
@@ -1757,7 +1759,7 @@
           "192.0.0.0 - 223.255.255.255",
           "224.0.0.0 - 239.255.255.255"
         ],
-        "respuesta_correcta": "224.0.0.0 - 239.255.255.255"
+        "correcta": "224.0.0.0 - 239.255.255.255"
       },
       {
         "id": 161,
@@ -1768,29 +1770,36 @@
           "169.254.1.1",
           "192.168.1.1"
         ],
-        "respuesta_correcta": "169.254.1.1"
+        "correcta": "169.254.1.1"
       },
       {
         "id": 162,
-        "pregunta": "¿Cuáles son las máscaras de subred de los siguientes tipos de clases de red: CLASE A, CLASE B, CLASE C?",
+        "pregunta": "¿Cuáles son las máscaras de subred de las siguientes tipos de clases de red:",
         "opciones": [
-          "255.0.0.0 / 255.255.0.0 / 255.255.255.0",
-          "255.255.0.0 / 255.0.0.0 / 255.255.255.0",
-          "255.255.255.0 / 255.255.0.0 / 255.0.0.0",
-          "255.255.255.255 / 255.255.0.0 / 255.0.0.0"
+          "CLASE A __________________",
+          "CLASE B ___________________",
+          "CLASE C ___________________",
+          "255.0.0.0 / 255.255.0.0 /255.255.255.0",
+          "255.255.0 / 255.0.0.0 /255.255.255.0",
+          "255.255.255.0 / 255.255.0.0 /255.0.0.0",
+          "255.255.255.255/255.255.0.0 /255.0.0.0"
         ],
-        "respuesta_correcta": "255.0.0.0 / 255.255.0.0 / 255.255.255.0"
+        "correcta": "CLASE A __________________"
       },
       {
         "id": 163,
-        "pregunta": "¿Cuál es el Id de Red de las siguientes IP's: I. 170.100.18.4, II. 119.18.45.0, III. 209.240.80.78, IV. 199.155.77.56?",
+        "pregunta": "¿Cúal es el Id de Red de las siguientes IP’S :",
         "opciones": [
+          "170.100.18.4",
+          "119.18.45.0",
+          "209.240.80.78",
+          "199.155.77.56",
           "18.4 / 119 .18 / 209.240 / 199.155",
           "170.100 / 119 / 209.240.80 / 199.155.77",
-          "170.100.18 / 18.45.0 / 240.80.78 / 56",
-          "100.18.4 / 45.0 / 240.80.78 / 155.77.56"
+          "170.100.18 / 18.45.0 /240.80.78 / 56",
+          "100.18.4 / 45.0 /240.80.78/155.77.56"
         ],
-        "respuesta_correcta": "170.100 / 119 / 209.240.80 / 199.155.77"
+        "correcta": "119.18.45.0"
       },
       {
         "id": 164,
@@ -1801,7 +1810,7 @@
           "Redes pequeñas",
           "Comunicación multicast"
         ],
-        "respuesta_correcta": "Uso experimental"
+        "correcta": "Uso experimental"
       },
       {
         "id": 165,
@@ -1812,7 +1821,7 @@
           "UDP",
           "FTP"
         ],
-        "respuesta_correcta": "UDP"
+        "correcta": "UDP"
       },
       {
         "id": 166,
@@ -1823,29 +1832,29 @@
           "IP",
           "FTP"
         ],
-        "respuesta_correcta": "IP"
+        "correcta": "IP"
       },
       {
         "id": 167,
         "pregunta": "¿Cuál es el rango de frecuencias en el que se encuentran las tecnologías inalámbricas usadas con más frecuencia en las redes domésticas, incluyendo tanto Bluetooth como las modernas tecnologías LAN inalámbricas IEEE 802.11?",
         "opciones": [
-          "Solamente 5 GHz",
-          "2.4 GHz y 5 GHz",
-          "Solamente 2.4 GHz",
-          "900 MHz y 1.8 GHz"
+          "Solamente 5 GHz.",
+          "2.4 GHz y 5 GHz.",
+          "Solamente 2.4 GHz.",
+          "900 MHz y 1.8 GHz."
         ],
-        "respuesta_correcta": "2.4 GHz y 5 GHz"
+        "correcta": "2.4 GHz y 5 GHz."
       },
       {
         "id": 168,
         "pregunta": "¿Qué estándar rige el entorno WLAN y describe las características de los diferentes estándares para las comunicaciones inalámbricas, como las conocidas colectivamente como Wi-Fi?",
         "opciones": [
-          "Bluetooth",
-          "IEEE 802.3",
-          "IEEE 802.11",
-          "Categoría 5e"
+          "Bluetooth.",
+          "IEEE 802.3.",
+          "IEEE 802.11.",
+          "Categoría 5e."
         ],
-        "respuesta_correcta": "IEEE 802.11"
+        "correcta": "IEEE 802.11."
       },
       {
         "id": 169,
@@ -1856,7 +1865,7 @@
           "El gusano se replica automáticamente sin intervención",
           "El virus no afecta archivos"
         ],
-        "respuesta_correcta": "El gusano se replica automáticamente sin intervención"
+        "correcta": "El gusano se replica automáticamente sin intervención"
       },
       {
         "id": 170,
@@ -1867,7 +1876,7 @@
           "Educar a los usuarios sobre amenazas comunes",
           "Compartir credenciales"
         ],
-        "respuesta_correcta": "Educar a los usuarios sobre amenazas comunes"
+        "correcta": "Educar a los usuarios sobre amenazas comunes"
       },
       {
         "id": 171,
@@ -1878,7 +1887,7 @@
           "64.0.0.0 - 64.255.255.255",
           "200.0.0.0 - 200.255.255.255"
         ],
-        "respuesta_correcta": "192.168.0.0 - 192.168.255.255"
+        "correcta": "192.168.0.0 - 192.168.255.255"
       },
       {
         "id": 172,
@@ -1889,7 +1898,7 @@
           "127.0.0.1",
           "224.0.0.0"
         ],
-        "respuesta_correcta": "224.0.0.0"
+        "correcta": "224.0.0.0"
       },
       {
         "id": 173,
@@ -1900,7 +1909,7 @@
           "Configuración automática",
           "Pruebas de conectividad"
         ],
-        "respuesta_correcta": "Enviar información a todos los dispositivos en una red local"
+        "correcta": "Enviar información a todos los dispositivos en una red local"
       },
       {
         "id": 174,
@@ -1911,7 +1920,7 @@
           "/8",
           "/32"
         ],
-        "respuesta_correcta": "/8"
+        "correcta": "/8"
       },
       {
         "id": 175,
@@ -1922,18 +1931,18 @@
           "25 y 110",
           "80 y 443"
         ],
-        "respuesta_correcta": "20 y 21"
+        "correcta": "20 y 21"
       },
       {
         "id": 176,
         "pregunta": "¿Por qué se considera fundamental la Capa de Presentación en las comunicaciones entre aplicaciones?",
         "opciones": [
-          "Porque solo maneja la seguridad mediante SSL/TLS",
-          "Porque define el camino de los datos a través de la red",
-          "Porque facilita la interoperabilidad mediante transformación, compresión y cifrado",
-          "Porque se encarga de la gestión de la sesión"
+          "Porque solo maneja la seguridad mediante SSL/TLS.",
+          "Porque define el camino de los datos a través de la red.",
+          "Porque facilita la interoperabilidad mediante transformación, compresión y cifrado.",
+          "Porque se encarga de la gestión de la sesión."
         ],
-        "respuesta_correcta": "Porque facilita la interoperabilidad mediante transformación, compresión y cifrado"
+        "correcta": "Porque facilita la interoperabilidad mediante transformación, compresión y cifrado."
       },
       {
         "id": 177,
@@ -1944,7 +1953,7 @@
           "Antispyware",
           "Firewall"
         ],
-        "respuesta_correcta": "Herramienta de gestión de vulnerabilidades"
+        "correcta": "Herramienta de gestión de vulnerabilidades"
       },
       {
         "id": 178,
@@ -1955,29 +1964,29 @@
           "Para habilitar el acceso remoto",
           "Para reducir errores de comandos"
         ],
-        "respuesta_correcta": "Para evitar accesos no autorizados si alguien accede al archivo"
+        "correcta": "Para evitar accesos no autorizados si alguien accede al archivo"
       },
       {
         "id": 179,
-        "pregunta": "¿Qué representa el concepto de 'defensa en profundidad'?",
+        "pregunta": "¿Qué representa el concepto de “defensa en profundidad”?",
         "opciones": [
           "Proteger la red con múltiples capas de seguridad",
           "Instalar varios antivirus en el mismo sistema",
           "Filtrar todo el tráfico externo",
           "Monitorear solo los routers principales"
         ],
-        "respuesta_correcta": "Proteger la red con múltiples capas de seguridad"
+        "correcta": "Proteger la red con múltiples capas de seguridad"
       },
       {
         "id": 180,
         "pregunta": "¿Qué parámetro de ipconfig libera la configuración DHCP actual?",
         "opciones": [
           "/flushdns",
-          "/release",
+          "/reléase",
           "/renew",
           "/all"
         ],
-        "respuesta_correcta": "/release"
+        "correcta": "/reléase"
       },
       {
         "id": 181,
@@ -1988,7 +1997,7 @@
           "Bajo rendimiento",
           "Fallo de conexión a Internet"
         ],
-        "respuesta_correcta": "Agotamiento de direcciones IP"
+        "correcta": "Agotamiento de direcciones IP"
       },
       {
         "id": 182,
@@ -1999,7 +2008,7 @@
           "El centro de datos permite el pago por uso",
           "La nube requiere una infraestructura física en cada oficina"
         ],
-        "respuesta_correcta": "La nube está fuera de las instalaciones y es escalable bajo demanda"
+        "correcta": "La nube está fuera de las instalaciones y es escalable bajo demanda"
       },
       {
         "id": 183,
@@ -2010,7 +2019,7 @@
           "actualizar software",
           "controlar usuarios"
         ],
-        "respuesta_correcta": "resolver problemas de red"
+        "correcta": "resolver problemas de red"
       },
       {
         "id": 184,
@@ -2021,7 +2030,7 @@
           "Nagios",
           "Uptrends"
         ],
-        "respuesta_correcta": "Wireshark"
+        "correcta": "Wireshark"
       },
       {
         "id": 185,
@@ -2032,7 +2041,7 @@
           "Tracert",
           "nslookup"
         ],
-        "respuesta_correcta": "Ipconfig"
+        "correcta": "Ipconfig"
       },
       {
         "id": 186,
@@ -2043,7 +2052,7 @@
           "Ifconfig",
           "netstat"
         ],
-        "respuesta_correcta": "Ping"
+        "correcta": "Ping"
       },
       {
         "id": 187,
@@ -2054,7 +2063,7 @@
           "Tracert",
           "Nslookup"
         ],
-        "respuesta_correcta": "Tracert"
+        "correcta": "Tracert"
       },
       {
         "id": 188,
@@ -2065,7 +2074,7 @@
           "Netstat",
           "traceroute"
         ],
-        "respuesta_correcta": "Nslookup"
+        "correcta": "Nslookup"
       },
       {
         "id": 189,
@@ -2076,7 +2085,7 @@
           "Ipconfig",
           "Tracert"
         ],
-        "respuesta_correcta": "Route"
+        "correcta": "Route"
       },
       {
         "id": 190,
@@ -2087,7 +2096,7 @@
           "nslookup /dns",
           "ping /refresh"
         ],
-        "respuesta_correcta": "ipconfig /renew"
+        "correcta": "ipconfig /renew"
       },
       {
         "id": 191,
@@ -2098,18 +2107,18 @@
           "Cuarto paso",
           "Séptimo paso"
         ],
-        "respuesta_correcta": "Sexto paso"
+        "correcta": "Sexto paso"
       },
       {
         "id": 192,
         "pregunta": "¿Qué tipo de mensaje devuelve el comando ping cuando el host remoto está disponible?",
         "opciones": [
-          "Mensaje ICMP de 'no disponible'",
-          "Mensaje ICMP de 'sí, estoy aquí'",
+          "Mensaje ICMP de “no disponible”",
+          "Mensaje ICMP de “sí, estoy aquí”",
           "Respuesta DNS",
           "Solicitud DHCP"
         ],
-        "respuesta_correcta": "Mensaje ICMP de 'sí, estoy aquí'"
+        "correcta": "Mensaje ICMP de “sí, estoy aquí”"
       },
       {
         "id": 193,
@@ -2120,7 +2129,7 @@
           "Tracert",
           "Nslookup"
         ],
-        "respuesta_correcta": "Route"
+        "correcta": "Route"
       },
       {
         "id": 194,
@@ -2131,7 +2140,7 @@
           "Transmisión de Comunicación por Internet",
           "Transferencia de Conexión de Protocolo"
         ],
-        "respuesta_correcta": "Protocolo de Control de Transmisión/Protocolo de Internet"
+        "correcta": "Protocolo de Control de Transmisión/Protocolo de Internet"
       },
       {
         "id": 195,
@@ -2142,25 +2151,26 @@
           "Time Transmission Latency",
           "Technical Transfer Layer"
         ],
-        "respuesta_correcta": "Time To Live (Tiempo de Vida)"
+        "correcta": "Time To Live (Tiempo de Vida)"
       },
       {
         "id": 196,
-        "pregunta": "Los servicios principales de computación en la nube son: SaaS, PaaS, IaaS.",
+        "pregunta": "Los servicios principales de computación en la nube son: SaaS, PaaS, IafaS.",
         "opciones": [
           "Verdadero",
           "Falso"
         ],
-        "respuesta_correcta": "Verdadero"
+        "correcta": "Falso"
       },
       {
         "id": 197,
-        "pregunta": "Los modelos principales de computación en la nube son 4.",
+        "pregunta": "Los modelos principales de computación en la nube son 4",
         "opciones": [
           "Verdadero",
           "Falso"
         ],
-        "respuesta_correcta": "Verdadero"
+        "correcta": "Verdadero"
       }
- 
-]
+    ]
+  }
+}
