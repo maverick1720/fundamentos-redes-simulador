@@ -6,6 +6,15 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Repaso CITEN — Selección de Curso</title>
   <style>
+    
+    :root {
+      --azul: #002855;
+      --blanco: #ffffff;
+      --ok: #2e7d32;
+      --bad: #c62828;
+      --bg: #f4f7fb;
+      --card: #fff;
+    }
     body {
       font-family: "Segoe UI", sans-serif;
       margin: 0;
@@ -14,12 +23,48 @@
       color: #222;
     }
     header {
-      background: #002855;
-      color: white;
-      padding: 20px;
+      background: var(--azul);
+      color: var(--blanco);
+      display: flex;
+      flex-direction: column;
+      align-items: center;
       text-align: center;
+      padding: 18px 10px 10px 10px;
     }
-    header h1 { margin: 0; font-size: 1.3rem; }
+    header .top-row {
+      display:flex;
+      align-items:center;
+      gap:14px;
+      width:100%;
+      max-width:980px;
+      padding:0 14px;
+    }
+    header img {
+      width: 84px;
+      height: auto;
+      display:block;
+    }
+    header .titles {
+      flex:1;
+      text-align:left;
+      color:var(--blanco);
+    }
+    header h1 {
+      margin: 0;
+      font-size: 1.15rem;
+      font-weight: 700;
+      letter-spacing: 0.2px;
+    }
+    header h2 {
+      margin: 4px 0 0 0;
+      font-size: 0.98rem;
+      font-weight: 500;
+    }
+    header .creditos {
+      font-size: 0.85rem;
+      color: #d6e6ff;
+      margin-top:8px;
+    }
     .contenedor {
       max-width: 960px;
       margin: 20px auto;
@@ -110,7 +155,14 @@
 </head>
 <body>
 <header>
-  <h1>Repaso Interactivo CITEN</h1>
+  <div class="top-row">
+    <img src="citen-escudo.gif" alt="Escudo CITEN" />
+    <div class="titles">
+      <h1>Centro de Instrucción Técnica y Entrenamiento Naval – CITEN</h1>
+      <h2>Repaso — Fundamentos y Arquitectura de Redes</h2>
+      <div class="creditos">Elaborado por José Carlos Sosa Villamonte — Instituto de Educación Superior Tecnológico Público Naval</div>
+    </div>
+  </div>
 </header>
 <div class="contenedor">
   <div class="card">
