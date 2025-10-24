@@ -109,11 +109,11 @@
       <select id="cantidadSelect"></select>
     </div>
 
-    <button onclick="cargarBanco()">Iniciar Cuestionario</button>
+    <button onclick="cargarBanco()" id="btnIniciar" disabled>Iniciar Cuestionario</button>
     <button onclick="reiniciarCuestionario()" id="btnReiniciar" style="display:none; margin-left:10px; background:#999;">Reiniciar</button>
   </div>
-
-  <div class="barra"><span id="barraProgreso"></span></div>
+<div class="barra"><span id="barraProgreso"></span></div>
+<div class="barra" style="position:fixed;bottom:0;left:0;width:100%;z-index:99;background:#fff;"><span id="barraProgresoGlobal"></span></div><span id="barraProgreso"></span></div>
 
   <div id="cuestionario" class="card"></div>
   <div id="resultado" class="card" style="display:none"></div>
@@ -137,6 +137,18 @@
 
   async function cargarBanco() {
     const archivo = cursoSelect.value;
+    document.getElementById("btnIniciar").disabled = true;
+    document.getElementById("cantidadGroup").style.display = "none";
+    document.getElementById("modoGroup").style.display = "none";
+    document.getElementById("inicio").value = "";
+    document.getElementById("fin").value = "";
+    cantidadSelect.innerHTML = "";
+    document.getElementById("infoCantidad")?.remove();
+    document.getElementById("cuestionario").innerHTML = "";
+    document.getElementById("resultado").style.display = "none";
+    document.getElementById("barraProgreso").style.width = "0%";
+    document.getElementById("barraProgresoGlobal").style.width = "0%";
+    btnReiniciar.style.display = "none";
     if (!archivo) return;
     document.getElementById("modoGroup").style.display = "none";
     try {
@@ -146,9 +158,11 @@
       bancoCompleto = data;
       document.getElementById("cantidadGroup").insertAdjacentHTML("beforeend", `<div id='infoCantidad' style='margin-top:6px;font-size:0.9rem;color:#555'>Banco cargado con ${data.length} preguntas disponibles.</div>`);
       document.getElementById("cantidadGroup").style.display = "block";
+      document.getElementById("btnIniciar").disabled = false;
       actualizarOpcionesCantidad(bancoCompleto.length);
       document.getElementById("cantidadGroup").style.display = "block";
       document.getElementById("modoGroup").style.display = "block";
+      document.getElementById("btnIniciar").disabled = false;
 
       const inicio = parseInt(document.getElementById("inicio").value);
       const fin = parseInt(document.getElementById("fin").value);
@@ -241,6 +255,7 @@
     const hechas = respuestas.filter(r => r !== null).length;
     const pct = total ? Math.round((hechas / total) * 100) : 0;
     document.getElementById("barraProgreso").style.width = pct + "%";
+    document.getElementById("barraProgresoGlobal").style.width = pct + "%";
   }
 
   function mostrarResultado() {
