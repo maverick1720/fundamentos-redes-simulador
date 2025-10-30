@@ -343,7 +343,7 @@
       },
       {
         "id": 32,
-        "pregunta": "Marca la respuesta correcta: I. APNIC administra la asignación de direcciones IP de la región ÁFRICA II. ARIN administra la asignación de direcciones IP de la región AMÉRICA DEL NORTE III. LACNIC administra la asignación de direcciones IP de la región EUROPA, MEDIO ORIENTE Y ASIA CENTRAL IV. RIPE NCC administra la asignación de direcciones IP de la región AMÉRICA LATINA",
+        "pregunta": "Marca la respuesta correcta: \n I. APNIC administra la asignación de direcciones IP de la región ÁFRICA \n II. ARIN administra la asignación de direcciones IP de la región AMÉRICA DEL NORTE \n III. LACNIC administra la asignación de direcciones IP de la región EUROPA, MEDIO ORIENTE Y ASIA CENTRAL \n IV. RIPE NCC administra la asignación de direcciones IP de la región AMÉRICA LATINA",
         "opciones": [
           "FVFF",
           "VFVF",
@@ -746,7 +746,7 @@
           "Privada",
           "Híbrida"
         ],
-        "correcta": 0
+        "correcta": 2
       },
       {
         "id": 69,
@@ -944,7 +944,7 @@
           "Puerto Internet.",
           "Puerto de consola."
         ],
-        "correcta": 0
+        "correcta": 2
       },
       {
         "id": 87,
