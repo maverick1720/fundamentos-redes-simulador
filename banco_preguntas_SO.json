@@ -539,6 +539,36 @@
     "correcta": 1
   },
   {
+    "pregunta": "La unidad principal de la estructura lógica del Directorio Activo es____",
+    "opciones": [
+      "bosque",
+      "sitio",
+      "dominio",
+      "árbol"
+    ],
+    "correcta": 2
+  },
+  {
+    "pregunta": "57.  Cuáles son los nombres de las siguientes siglas: GPO , DC, UO ",
+    "opciones": [
+      "Política Global, Controlador de Discos, Unidad de dominio",
+      "Política Universal, Controlador de universal, Unidad Organizativa",
+      "Dominio global, local, universal",
+      "Política de Grupo, Controlador de Dominio, Unidad Organizativa"
+    ],
+    "correcta": 3
+  },
+  {
+    "pregunta": "Es una agrupación de uno o más árboles independientes y están conectados por una relación de confianza bidireccional implícita ",
+    "opciones": [
+      "bosque",
+      "sitio",
+      "dominio",
+      "árbol"
+    ],
+    "correcta": 0
+  },
+  {
     "pregunta": "¿Qué herramienta se usa para editar GPOs?",
     "opciones": [
       "Editor del Registro",
@@ -637,6 +667,16 @@
       "Alt + Tab"
     ],
     "correcta": 1
+  },
+    {
+    "pregunta": "69.  Tipos de ámbito de grupo",
+    "opciones": [
+      "Dominio local, global, universal",
+      "Dominio universal, Dominio local",
+      "Dominio global, local, universal",
+      "árbol y bosque"
+    ],
+    "correcta": 0
   },
   {
     "pregunta": "¿Qué tipo de tareas permite realizar un sistema operativo multitarea?",
@@ -1117,6 +1157,14 @@
     "correcta": 1
   },
   {
+    "pregunta": "124. La zona de búsqueda directa se utiliza para resolver direcciones IP a nombres de dominio.",
+    "opciones": [
+      "Verdadero",
+      "Falso"
+    ],
+    "correcta": 1
+  },
+  {
     "pregunta": "Los registros AAAA en DNS se utilizan para mapear nombres de dominio a direcciones IPv6.",
     "opciones": [
       "Verdadero",
@@ -1541,6 +1589,16 @@
       "Cada 15 días.",
       "Una vez al mes.",
       "Semanalmente."
+    ],
+    "correcta": 1
+  },
+  {
+    "pregunta": "170. Discuta la importancia de tener copias de seguridad de los roles, usuarios, equipos y grupos en un controlador de dominio en Windows Server",
+    "opciones": [
+      "Es útil principalmente para liberar espacio en disco al eliminar datos antiguos",
+      "Es fundamental para la recuperación de la infraestructura de identidad y acceso de la red en caso de pérdida de datos o fallas del servidor.",
+      "Permite auditar el acceso de los usuarios en tiempo real.",
+      "Facilita la migración a sistemas operativos Linux."
     ],
     "correcta": 1
   },
