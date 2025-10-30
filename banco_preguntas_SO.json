@@ -549,7 +549,17 @@
     "correcta": 2
   },
   {
-    "pregunta": "57.  Cuáles son los nombres de las siguientes siglas: GPO , DC, UO ",
+    "pregunta": "Es una agrupación u organización jerárquica de uno o más dominios ",
+    "opciones": [
+      "bosque",
+      "sitio",
+      "dominio",
+      "árbol"
+    ],
+    "correcta": 3
+  },
+  {
+    "pregunta": "Cuáles son los nombres de las siguientes siglas: GPO , DC, UO ",
     "opciones": [
       "Política Global, Controlador de Discos, Unidad de dominio",
       "Política Universal, Controlador de universal, Unidad Organizativa",
